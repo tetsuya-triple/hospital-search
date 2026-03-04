@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>産婦人科検索 | Triple LLC</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', sans-serif;
+      background: #f5f7fa;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background: #1a1a2e;
+      color: white;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    header h1 { font-size: 18px; font-weight: 600; }
+    header span { font-size: 13px; color: #aaa; }
+    .list-btn {
+      margin-left: auto;
+      background: rgba(255,255,255,0.15);
+      color: white;
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 8px;
+      padding: 8px 16px;
+      font-size: 13px;
+      cursor: pointer;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .list-btn:hover { background: rgba(255,255,255,0.25); }
+    .chat-area {
+      flex: 1;
+      overflow-y: auto;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .message {
+      max-width: 800px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .message.user {
+      background: #1a1a2e;
+      color: white;
+      padding: 14px 18px;
+      border-radius: 12px 12px 4px 12px;
+      align-self: flex-end;
+      max-width: 600px;
+      margin-left: auto;
+    }
+    .message.assistant {
+      background: white;
+      border: 1px solid #e5e7eb;
+      padding: 18px 22px;
+      border-radius: 4px 12px 12px 12px;
+      line-height: 1.8;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    }
+    .message.assistant pre {
+      background: #f3f4f6;
+      padding: 12px;
+      border-radius: 6px;
+      overflow-x: auto;
+      font-size: 13px;
+      margin: 8px 0;
+    }
+    .message.assistant table {
+      border-collapse: collapse;
+      width: 100%;
+      font-size: 14px;
+      margin: 4px 0 10px;
+    }
+    .message.assistant th {
+      background: #f3f4f6;
+      padding: 8px 12px;
+      text-align: left;
+      border: 1px solid #ddd;
+    }
+    .message.assistant td {
+      padding: 8px 12px;
+      border: 1px solid #ddd;
+    }
+    .message.assistant tr:nth-child(even) td { background: #f9fafb; }
+    .hint {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 10px;
+      padding: 16px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .hint h3 { font-size: 14px; color: #1d4ed8; margin-bottom: 10px; }
+    .hint-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip {
+      background: white;
+      border: 1px solid #93c5fd;
+      color: #1d4ed8;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all .15s;
+    }
+    .chip:hover { background: #1d4ed8; color: white; }
+    .input-area {
+      background: white;
+      border-top: 1px solid #e5e7eb;
+      padding: 16px 24px;
+    }
+    .input-wrap {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      gap: 10px;
+    }
+    input[type="text"] {
+      flex: 1;
+      border: 2px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 12px 16px;
+      font-size: 15px;
+      outline: none;
+      transition: border-color .15s;
+    }
+    input[type="text"]:focus { border-color: #1a1a2e; }
+    button {
+      background: #1a1a2e;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 12px 24px;
+      font-size: 15px;
+      cursor: pointer;
+      transition: opacity .15s;
+      white-space: nowrap;
+    }
+    button:hover { opacity: .85; }
+    button:disabled { opacity: .5; cursor: not-allowed; }
+    .meta { font-size: 12px; color: #9ca3af; margin-top: 8px; }
+    .loading { display: flex; align-items: center; gap: 8px; color: #6b7280; }
+    .dot { width: 8px; height: 8px; background: #6b7280; border-radius: 50%; animation: bounce .8s infinite; }
+    .dot:nth-child(2) { animation-delay: .15s; }
+    .dot:nth-child(3) { animation-delay: .3s; }
+    @keyframes bounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-6px)} }
+
+    /* 施設選択UI */
+    .selection-label {
+      font-size: 14px;
+      color: #374151;
+      margin-bottom: 10px;
+    }
+    .facility-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .facility-card {
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 12px 16px;
+      cursor: pointer;
+      transition: all .15s;
+      background: #fafafa;
+    }
+    .facility-card:hover {
+      border-color: #1a1a2e;
+      background: #f0f0f8;
+    }
+    .facility-card-name {
+      font-weight: 600;
+      font-size: 14px;
+      color: #1a1a2e;
+    }
+    .facility-card-addr {
+      font-size: 12px;
+      color: #6b7280;
+      margin-top: 3px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>🏥 産婦人科 施設検索</h1>
+      <span>出産なび（全国2,096施設）× AI検索 | Triple LLC</span>
+    </div>
+    <a class="list-btn" href="/list.html">📋 施設一覧</a>
+  </header>
+
+  <div class="chat-area" id="chatArea">
+    <div class="hint">
+      <h3>💡 こんな質問ができます</h3>
+      <div class="hint-chips">
+        <span class="chip" onclick="setQ(this)">広島県で無痛分娩対応の施設は？</span>
+        <span class="chip" onclick="setQ(this)">神奈川県で費用が安い順に5件教えて</span>
+        <span class="chip" onclick="setQ(this)">東京都でNICUがある産婦人科は？</span>
+        <span class="chip" onclick="setQ(this)">大阪府で分娩件数500件以上の施設は？</span>
+        <span class="chip" onclick="setQ(this)">愛知県の産婦人科の平均費用は？</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="input-area">
+    <div class="input-wrap">
+      <input type="text" id="question" placeholder="例：東京都で無痛分娩対応の施設を教えて">
+      <button id="sendBtn" onclick="send()">検索</button>
+    </div>
+  </div>
+
+  <script>
+    const LEGAL_PREFIX = /^(医療法人|社会医療法人|学校法人|財団法人|社会福祉法人|宗教法人|特定医療法人|一般財団法人|公益財団法人)\s*/;
+
+    function cleanName(name) {
+      return name.replace(LEGAL_PREFIX, '').trim();
+    }
+
+    function escHtml(s) {
+      return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    function setQ(el) {
+      document.getElementById('question').value = el.textContent;
+      document.getElementById('question').focus();
+    }
+
+    function addMessage(role, content) {
+      const area = document.getElementById('chatArea');
+      const div = document.createElement('div');
+      div.className = `message ${role}`;
+      if (role === 'assistant') {
+        div.innerHTML = markdownToHtml(content);
+      } else {
+        div.textContent = content;
+      }
+      area.appendChild(div);
+      area.scrollTop = area.scrollHeight;
+      return div;
+    }
+
+    function markdownToHtml(text) {
+      text = text.replace(/\n{3,}/g, '\n\n');
+      return text
+        .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+        .replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')
+        .replace(/^### (.+)$/gm,'<h3 style="margin:10px 0 2px;font-size:15px;">$1</h3>')
+        .replace(/^## (.+)$/gm,'<h2 style="margin:12px 0 2px;font-size:16px;">$1</h2>')
+        .replace(/^# (.+)$/gm,'<h1 style="margin:14px 0 4px;font-size:18px;">$1</h1>')
+        .replace(/https?:\/\/[^\s<>&]+/g, url => `<a href="${url}" target="_blank" style="color:#1d4ed8;word-break:break-all;">${url}</a>`)
+        .replace(/^\|[\s\-:|]+\|$/gm, '')
+        .replace(/^\|(.+)$/gm, (line) => {
+          const cells = line.split('|').slice(1,-1).map(c => c.trim());
+          const isHeader = cells.length >= 2 && (cells[0] === '項目' || cells[0] === '施設名');
+          if (isHeader) return `<tr>${cells.map(c => `<th>${c}</th>`).join('')}</tr>`;
+          return `<tr>${cells.map(c => `<td>${c}</td>`).join('')}</tr>`;
+        })
+        .replace(/(<tr>.*<\/tr>\n?)+/gs, m => `<table>${m.replace(/\n/g,'')}</table>`)
+        .replace(/^- (.+)$/gm,'<li style="margin-left:20px;">$1</li>')
+        .replace(/(<li.*<\/li>\n?)+/gs, m => `<ul style="margin:8px 0;">${m}</ul>`)
+        .replace(/\n\n/g,'<br><br>')
+        .replace(/\n/g,'<br>')
+        .replace(/(<br>\s*){3,}/g,'<br><br>');
+    }
+
+    function renderSelection(facilities) {
+      window._selectionFacilities = facilities;
+      const cards = facilities.map((f, i) => {
+        const display = cleanName(f.name) || f.name;
+        return `<div class="facility-card" onclick="selectFacility(${i})">
+          <div class="facility-card-name">${escHtml(display)}</div>
+          <div class="facility-card-addr">${escHtml(f.address || '')}</div>
+        </div>`;
+      }).join('');
+      return `<div>
+        <p class="selection-label">複数の施設が見つかりました（<strong>${facilities.length}件</strong>）。調べたい施設をクリックしてください：</p>
+        <div class="facility-list">${cards}</div>
+      </div>`;
+    }
+
+    async function selectFacility(index) {
+      const f = window._selectionFacilities[index];
+      const display = cleanName(f.name) || f.name;
+      const btn = document.getElementById('sendBtn');
+
+      addMessage('user', display);
+      btn.disabled = true;
+
+      const loading = document.createElement('div');
+      loading.className = 'message assistant';
+      loading.innerHTML = '<div class="loading"><div class="dot"></div><div class="dot"></div><div class="dot"></div><span>検索中...</span></div>';
+      document.getElementById('chatArea').appendChild(loading);
+      loading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+      try {
+        const res = await fetch('/api/facility', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ url: f.url }),
+        });
+        const data = await res.json();
+        if (data.error) {
+          loading.innerHTML = `<span style="color:#ef4444">⚠️ ${escHtml(data.error)}</span>`;
+        } else {
+          loading.innerHTML = markdownToHtml(data.answer);
+        }
+      } catch (e) {
+        loading.innerHTML = '<span style="color:#ef4444">⚠️ サーバーエラーが発生しました</span>';
+      } finally {
+        btn.disabled = false;
+        loading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
+    async function send() {
+      const input = document.getElementById('question');
+      const btn = document.getElementById('sendBtn');
+      const q = input.value.trim();
+      if (!q) return;
+
+      addMessage('user', q);
+      input.value = '';
+      btn.disabled = true;
+
+      const loading = addMessage('assistant', '');
+      loading.innerHTML = '<div class="loading"><div class="dot"></div><div class="dot"></div><div class="dot"></div><span>検索中...</span></div>';
+
+      try {
+        const res = await fetch('/api/search', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ question: q }),
+        });
+        const data = await res.json();
+        if (data.type === 'selection') {
+          loading.innerHTML = renderSelection(data.facilities);
+        } else if (data.error) {
+          loading.innerHTML = `<span style="color:#ef4444">⚠️ ${escHtml(data.error)}</span>`;
+        } else {
+          const countBadge = data.count ? `<div style="font-size:12px;color:#6b7280;margin-bottom:6px;">検索結果: <strong>${data.count}件</strong></div>` : '';
+          loading.innerHTML = countBadge + markdownToHtml(data.answer);
+        }
+      } catch (e) {
+        loading.innerHTML = '<span style="color:#ef4444">⚠️ サーバーエラーが発生しました</span>';
+      } finally {
+        btn.disabled = false;
+        loading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  </script>
+</body>
+</html>

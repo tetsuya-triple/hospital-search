@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>施設一覧 | 産婦人科検索 | Triple LLC</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', sans-serif;
+      background: #f5f7fa;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background: #1a1a2e;
+      color: white;
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+    }
+    header h1 { font-size: 17px; font-weight: 600; }
+    header .subtitle { font-size: 12px; color: #aaa; margin-top: 2px; }
+    .back-btn {
+      color: white;
+      text-decoration: none;
+      font-size: 13px;
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 8px;
+      padding: 6px 14px;
+    }
+    .back-btn:hover { background: rgba(255,255,255,0.25); }
+
+    .controls {
+      background: white;
+      border-bottom: 1px solid #e5e7eb;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+      flex-wrap: wrap;
+    }
+    .ctrl-group { display: flex; align-items: center; gap: 6px; }
+    .ctrl-label { font-size: 12px; color: #6b7280; white-space: nowrap; }
+
+    input[type="search"] {
+      border: 2px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 7px 12px;
+      font-size: 13px;
+      outline: none;
+      width: 240px;
+    }
+    input[type="search"]:focus { border-color: #1a1a2e; }
+
+    /* 都道府県フィルタ */
+    .pref-wrap { position: relative; }
+    .pref-btn {
+      border: 2px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 7px 12px;
+      font-size: 13px;
+      background: white;
+      cursor: pointer;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .pref-btn.active { border-color: #1a1a2e; background: #eff6ff; color: #1a1a2e; }
+    .pref-dropdown {
+      display: none;
+      position: absolute;
+      top: calc(100% + 4px);
+      left: 0;
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      box-shadow: 0 8px 24px rgba(0,0,0,.12);
+      z-index: 100;
+      width: 480px;
+      padding: 10px;
+    }
+    .pref-dropdown.open { display: block; }
+    .pref-actions { display: flex; gap: 6px; margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid #f3f4f6; }
+    .pref-actions button {
+      border: 1px solid #e5e7eb;
+      background: white;
+      border-radius: 6px;
+      padding: 4px 10px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+    .pref-actions button:hover { background: #f3f4f6; }
+    .pref-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 4px;
+    }
+    .pref-item {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 12px;
+      cursor: pointer;
+      padding: 3px 4px;
+      border-radius: 4px;
+    }
+    .pref-item:hover { background: #f3f4f6; }
+    .pref-item input { cursor: pointer; margin: 0; }
+
+    /* 件数・ページャ */
+    .count-label { font-size: 13px; color: #6b7280; white-space: nowrap; }
+    .count-label strong { color: #1a1a2e; }
+
+    select.page-size-select {
+      border: 2px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 6px 10px;
+      font-size: 13px;
+      outline: none;
+      background: white;
+      cursor: pointer;
+    }
+    select.page-size-select:focus { border-color: #1a1a2e; }
+
+    .pager { display: flex; align-items: center; gap: 6px; margin-left: auto; }
+    .pager button {
+      border: 1px solid #e5e7eb;
+      background: white;
+      border-radius: 6px;
+      padding: 6px 12px;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .pager button:hover:not(:disabled) { background: #f3f4f6; }
+    .pager button:disabled { opacity: .4; cursor: not-allowed; }
+    .pager span { font-size: 13px; color: #374151; white-space: nowrap; }
+
+    .table-wrap { flex: 1; overflow: auto; }
+    table { border-collapse: collapse; font-size: 13px; white-space: nowrap; width: 100%; }
+    thead tr { position: sticky; top: 0; z-index: 10; }
+    th {
+      background: #1a1a2e;
+      color: white;
+      padding: 10px 14px;
+      text-align: left;
+      font-weight: 500;
+      cursor: pointer;
+      user-select: none;
+      border-right: 1px solid rgba(255,255,255,0.1);
+    }
+    th:hover { background: #2d2d4e; }
+    th.no-sort { cursor: default; }
+    th.sort-asc::after  { content: ' ▲'; font-size: 10px; }
+    th.sort-desc::after { content: ' ▼'; font-size: 10px; }
+    td {
+      padding: 8px 14px;
+      border-bottom: 1px solid #e5e7eb;
+      border-right: 1px solid #f3f4f6;
+      max-width: 280px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    tr:nth-child(even) td { background: #f9fafb; }
+    tr:hover td { background: #eff6ff !important; }
+    .link-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px; height: 28px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 15px;
+      background: #f3f4f6;
+      transition: background .15s;
+    }
+    .link-icon:hover { background: #e0e7ff; }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
+    .badge-yes { background: #d1fae5; color: #065f46; }
+    .badge-no  { background: #f3f4f6; color: #9ca3af; }
+    .loading-msg { display: flex; align-items: center; justify-content: center; height: 200px; font-size: 15px; color: #6b7280; }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="flex:1">
+      <h1>📋 産婦人科 施設一覧</h1>
+      <div class="subtitle">出産なび（全国2,096施設）× AI検索 | Triple LLC</div>
+    </div>
+    <a class="back-btn" href="/">← AI検索に戻る</a>
+  </header>
+
+  <div class="controls">
+    <!-- テキスト検索 -->
+    <div class="ctrl-group">
+      <input type="search" id="searchBox" placeholder="施設名・住所で絞り込み...">
+    </div>
+
+    <!-- 都道府県フィルタ -->
+    <div class="ctrl-group">
+      <div class="pref-wrap" id="prefWrap">
+        <button class="pref-btn" id="prefBtn" onclick="togglePrefDropdown(event)">都道府県 ▼</button>
+        <div class="pref-dropdown" id="prefDropdown">
+          <div class="pref-actions">
+            <button onclick="selectAllPrefs()">全選択</button>
+            <button onclick="clearPrefs()">クリア</button>
+          </div>
+          <div class="pref-grid" id="prefGrid"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 右グループ：件数＋表示件数＋ページャ -->
+    <div class="ctrl-group" style="margin-left:auto; gap:16px;">
+      <div class="count-label" id="countLabel">読み込み中...</div>
+      <div class="ctrl-group">
+        <span class="ctrl-label">表示件数：</span>
+        <select class="page-size-select" id="pageSizeSelect" onchange="changePageSize()">
+          <option value="100">100件</option>
+          <option value="500">500件</option>
+          <option value="1000">1000件</option>
+          <option value="all">全件</option>
+        </select>
+      </div>
+      <div class="pager" id="pagerArea">
+        <button id="prevBtn" onclick="changePage(-1)" disabled>‹ 前へ</button>
+        <span id="pageLabel"></span>
+        <button id="nextBtn" onclick="changePage(1)">次へ ›</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="table-wrap">
+    <div class="loading-msg" id="loadingMsg">データ読み込み中...</div>
+    <table id="facilityTable" style="display:none">
+      <thead>
+        <tr>
+          <th onclick="sortBy('_babystory')">BABYSTORY</th>
+          <th onclick="sortBy('name')">病院名</th>
+          <th onclick="sortBy('address')">住所</th>
+          <th onclick="sortBy('_total_deliveries')">年間分娩数合計</th>
+          <th class="no-sort">マップ</th>
+          <th class="no-sort">公式サイト</th>
+          <th class="no-sort">出産なび</th>
+          <th onclick="sortBy('phone')">電話番号</th>
+          <th onclick="sortBy('maternity_beds')">産科病床数</th>
+          <th onclick="sortBy('nicu_beds')">NICU病床数</th>
+          <th onclick="sortBy('obstetricians')">産科医師数</th>
+          <th onclick="sortBy('pediatricians')">小児科医師数</th>
+          <th onclick="sortBy('midwives')">助産師数</th>
+          <th onclick="sortBy('vaginal_deliveries')">年間経腟分娩</th>
+          <th onclick="sortBy('cesarean_deliveries')">年間帝王切開</th>
+          <th onclick="sortBy('cost_total_avg')">総費用平均</th>
+          <th onclick="sortBy('cost_total_median')">総費用中央値</th>
+          <th onclick="sortBy('cost_delivery_avg')">分娩費用平均</th>
+          <th onclick="sortBy('cost_delivery_median')">分娩費用中央値</th>
+          <th onclick="sortBy('painless_delivery')">無痛分娩</th>
+          <th onclick="sortBy('rooming_in')">母子同室</th>
+          <th onclick="sortBy('midwife_clinic')">助産師外来</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+  </div>
+
+  <script>
+    const PREFECTURE = {
+      1:'北海道',2:'青森県',3:'岩手県',4:'宮城県',5:'秋田県',6:'山形県',7:'福島県',
+      8:'茨城県',9:'栃木県',10:'群馬県',11:'埼玉県',12:'千葉県',13:'東京都',14:'神奈川県',
+      15:'新潟県',16:'富山県',17:'石川県',18:'福井県',19:'山梨県',20:'長野県',21:'岐阜県',
+      22:'静岡県',23:'愛知県',24:'三重県',25:'滋賀県',26:'京都府',27:'大阪府',28:'兵庫県',
+      29:'奈良県',30:'和歌山県',31:'鳥取県',32:'島根県',33:'岡山県',34:'広島県',35:'山口県',
+      36:'徳島県',37:'香川県',38:'愛媛県',39:'高知県',40:'福岡県',41:'佐賀県',42:'長崎県',
+      43:'熊本県',44:'大分県',45:'宮崎県',46:'鹿児島県',47:'沖縄県'
+    };
+
+    let allData = [];
+    let filtered = [];
+    let currentPage = 1;
+    let pageSize = 100;
+    let sortKey = 'name';
+    let sortDir = 1;
+    let selectedPrefs = new Set();
+
+    // --- ユーティリティ ---
+    function fmt(n) { return (n == null || n === '') ? '—' : Number(n).toLocaleString(); }
+    function badge(v) {
+      if (v === true  || v === 1) return '<span class="badge badge-yes">あり</span>';
+      if (v === false || v === 0) return '<span class="badge badge-no">なし</span>';
+      return '—';
+    }
+    function esc(s) {
+      return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    // 分娩数文字列から下限・上限を取得
+    function parseRange(str) {
+      if (!str || str === '—') return null;
+      const m = str.match(/(\d+)(?:[~〜～](\d+))?/);
+      if (!m) return null;
+      return { lo: parseInt(m[1]), hi: m[2] ? parseInt(m[2]) : parseInt(m[1]) };
+    }
+
+    // 経腟＋帝王切開の合計範囲を計算
+    function totalDeliveries(f) {
+      const v = parseRange(f.vaginal_deliveries);
+      const c = parseRange(f.cesarean_deliveries);
+      if (!v && !c) return { display: '—', value: 0 };
+      const lo = (v ? v.lo : 0) + (c ? c.lo : 0);
+      const hi = (v ? v.hi : 0) + (c ? c.hi : 0);
+      const display = lo === hi ? `${lo.toLocaleString()}件` : `${lo.toLocaleString()}〜${hi.toLocaleString()}件`;
+      return { display, value: lo };
+    }
+
+    // --- 都道府県フィルタ ---
+    function buildPrefGrid() {
+      const grid = document.getElementById('prefGrid');
+      grid.innerHTML = Object.entries(PREFECTURE).map(([id, name]) =>
+        `<label class="pref-item">
+          <input type="checkbox" value="${id}" onchange="onPrefChange(${id})"> ${name}
+        </label>`
+      ).join('');
+    }
+
+    function togglePrefDropdown(e) {
+      e.stopPropagation();
+      document.getElementById('prefDropdown').classList.toggle('open');
+    }
+
+    function onPrefChange(id) {
+      if (selectedPrefs.has(id)) selectedPrefs.delete(id);
+      else selectedPrefs.add(id);
+      updatePrefBtn();
+      applyFilter();
+    }
+
+    function selectAllPrefs() {
+      Object.keys(PREFECTURE).forEach(id => {
+        selectedPrefs.add(parseInt(id));
+        document.querySelector(`#prefGrid input[value="${id}"]`).checked = true;
+      });
+      updatePrefBtn();
+      applyFilter();
+    }
+
+    function clearPrefs() {
+      selectedPrefs.clear();
+      document.querySelectorAll('#prefGrid input').forEach(cb => cb.checked = false);
+      updatePrefBtn();
+      applyFilter();
+    }
+
+    function updatePrefBtn() {
+      const btn = document.getElementById('prefBtn');
+      if (selectedPrefs.size === 0) {
+        btn.textContent = '都道府県 ▼';
+        btn.classList.remove('active');
+      } else {
+        btn.textContent = `${selectedPrefs.size}件選択中 ▼`;
+        btn.classList.add('active');
+      }
+    }
+
+    // 外クリックで閉じる
+    document.addEventListener('click', e => {
+      if (!document.getElementById('prefWrap').contains(e.target)) {
+        document.getElementById('prefDropdown').classList.remove('open');
+      }
+    });
+
+    // --- 件数切り替え ---
+    function changePageSize() {
+      const val = document.getElementById('pageSizeSelect').value;
+      pageSize = val === 'all' ? Infinity : parseInt(val);
+      currentPage = 1;
+      renderRows();
+      updatePager();
+    }
+
+    // --- フィルタ ---
+    function applyFilter() {
+      const q = document.getElementById('searchBox').value.trim().toLowerCase();
+      filtered = allData.filter(f => {
+        // 都道府県フィルタ
+        if (selectedPrefs.size > 0 && !selectedPrefs.has(f.prefecture_id)) return false;
+        // テキストフィルタ
+        if (q) {
+          return (f.name||'').toLowerCase().includes(q) ||
+                 (f.address||'').toLowerCase().includes(q);
+        }
+        return true;
+      });
+      currentPage = 1;
+      renderRows();
+      updatePager();
+    }
+
+    // --- ソート ---
+    function sortBy(key) {
+      if (sortKey === key) sortDir *= -1;
+      else { sortKey = key; sortDir = 1; }
+      filtered.sort((a, b) => {
+        let av = key === '_total_deliveries' ? a._total_deliveries : a[key];
+        let bv = key === '_total_deliveries' ? b._total_deliveries : b[key];
+        av = av ?? '';
+        bv = bv ?? '';
+        if (typeof av === 'number' && typeof bv === 'number') return (av - bv) * sortDir;
+        return String(av).localeCompare(String(bv), 'ja') * sortDir;
+      });
+      // ヘッダーアイコン更新
+      const COLS = ['_babystory','name','address','_total_deliveries',null,null,null,'phone',
+        'maternity_beds','nicu_beds','obstetricians','pediatricians','midwives',
+        'vaginal_deliveries','cesarean_deliveries','cost_total_avg','cost_total_median',
+        'cost_delivery_avg','cost_delivery_median','painless_delivery','rooming_in','midwife_clinic'];
+      document.querySelectorAll('th').forEach((th, i) => {
+        th.classList.remove('sort-asc','sort-desc');
+        if (COLS[i] === key) th.classList.add(sortDir === 1 ? 'sort-asc' : 'sort-desc');
+      });
+      renderRows();
+    }
+
+    // --- 描画 ---
+    function renderRows() {
+      const start = (currentPage - 1) * (pageSize === Infinity ? filtered.length : pageSize);
+      const end   = pageSize === Infinity ? filtered.length : start + pageSize;
+      const rows  = filtered.slice(start, end);
+
+      document.getElementById('tableBody').innerHTML = rows.map(f => {
+        const td = f._total_display;
+        return `<tr>
+          <td style="text-align:center">${f._babystory ? '<span class="badge badge-yes">導入済</span>' : '—'}</td>
+          <td title="${esc(f.name)}">${esc(f.name)}</td>
+          <td title="${esc(f.address)}">${esc(f.address||'—')}</td>
+          <td style="text-align:right">${td}</td>
+          <td style="text-align:center">${f.google_maps_url ? `<a class="link-icon" href="${esc(f.google_maps_url)}" target="_blank" title="Googleマップ">🗺️</a>` : '—'}</td>
+          <td style="text-align:center">${f.website ? `<a class="link-icon" href="${esc(f.website)}" target="_blank" title="公式サイト">🌐</a>` : '—'}</td>
+          <td style="text-align:center">${f.url ? `<a class="link-icon" href="${esc(f.url)}" target="_blank" title="出産なび">📋</a>` : '—'}</td>
+          <td>${f.phone ? esc(f.phone) : '—'}</td>
+          <td style="text-align:right">${f.maternity_beds != null && f.maternity_beds !== '' ? f.maternity_beds+'床' : '—'}</td>
+          <td style="text-align:right">${f.nicu_beds != null && f.nicu_beds !== '' ? f.nicu_beds+'床' : '—'}</td>
+          <td style="text-align:right">${f.obstetricians != null && f.obstetricians !== '' ? f.obstetricians+'名' : '—'}</td>
+          <td style="text-align:right">${f.pediatricians != null && f.pediatricians !== '' ? f.pediatricians+'名' : '—'}</td>
+          <td style="text-align:right">${f.midwives != null && f.midwives !== '' ? f.midwives+'名' : '—'}</td>
+          <td>${esc(f.vaginal_deliveries||'—')}</td>
+          <td>${esc(f.cesarean_deliveries||'—')}</td>
+          <td style="text-align:right">${f.cost_total_avg ? fmt(f.cost_total_avg)+'円' : '—'}</td>
+          <td style="text-align:right">${f.cost_total_median ? fmt(f.cost_total_median)+'円' : '—'}</td>
+          <td style="text-align:right">${f.cost_delivery_avg ? fmt(f.cost_delivery_avg)+'円' : '—'}</td>
+          <td style="text-align:right">${f.cost_delivery_median ? fmt(f.cost_delivery_median)+'円' : '—'}</td>
+          <td style="text-align:center">${badge(f.painless_delivery)}</td>
+          <td style="text-align:center">${badge(f.rooming_in)}</td>
+          <td style="text-align:center">${badge(f.midwife_clinic)}</td>
+        </tr>`;
+      }).join('');
+    }
+
+    function updatePager() {
+      const total = pageSize === Infinity ? 1 : Math.ceil(filtered.length / pageSize);
+      document.getElementById('pageLabel').textContent = total <= 1 ? '' : `${currentPage} / ${total}ページ`;
+      document.getElementById('prevBtn').disabled = currentPage <= 1;
+      document.getElementById('nextBtn').disabled = currentPage >= total || total <= 1;
+      document.getElementById('countLabel').innerHTML =
+        `<strong>${filtered.length.toLocaleString()}件</strong> 表示中（全${allData.length.toLocaleString()}件）`;
+    }
+
+    function changePage(delta) {
+      const total = Math.ceil(filtered.length / pageSize);
+      currentPage = Math.max(1, Math.min(total, currentPage + delta));
+      renderRows();
+      updatePager();
+      document.querySelector('.table-wrap').scrollTop = 0;
+    }
+
+    // --- 初期化 ---
+    buildPrefGrid();
+    document.getElementById('searchBox').addEventListener('input', applyFilter);
+
+    Promise.all([
+      fetch('/api/facilities').then(r => r.json()),
+      fetch('/api/babystory').then(r => r.json()).catch(() => []),
+    ]).then(([data, babystoryUrls]) => {
+        const bsSet = new Set(babystoryUrls);
+        allData = data.map(f => {
+          const td = totalDeliveries(f);
+          f._total_deliveries = td.value;
+          f._total_display    = td.display;
+          f._babystory        = bsSet.has(f.url);
+          return f;
+        });
+        filtered = [...allData];
+        filtered.sort((a,b) => String(a.name||'').localeCompare(String(b.name||''),'ja'));
+        document.getElementById('loadingMsg').style.display = 'none';
+        document.getElementById('facilityTable').style.display = '';
+        renderRows();
+        updatePager();
+      })
+      .catch(() => {
+        document.getElementById('loadingMsg').textContent =
+          'データの読み込みに失敗しました。サーバーが起動しているか確認してください。';
+      });
+  </script>
+</body>
+</html>

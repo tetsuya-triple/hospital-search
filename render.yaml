@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: hospital-search
+    runtime: node
+    buildCommand: npm install
+    startCommand: node hospital-search/server.js
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false

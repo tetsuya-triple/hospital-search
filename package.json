@@ -1,0 +1,14 @@
+{
+  "name": "triple-llc-automation",
+  "version": "1.0.0",
+  "description": "Triple LLC ブラウザ自動化スクリプト",
+  "type": "module",
+  "scripts": {
+    "note-post": "node scripts/note-post.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
+    "express": "^5.2.1",
+    "playwright": "^1.58.2"
+  }
+}
