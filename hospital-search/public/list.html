@@ -34,6 +34,18 @@
       padding: 6px 14px;
     }
     .back-btn:hover { background: rgba(255,255,255,0.25); }
+    .source-banner {
+      background: #fffbea;
+      border-bottom: 1px solid #f6d860;
+      padding: 7px 24px;
+      font-size: 12px;
+      color: #6b5700;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+    .source-banner a { color: #6b5700; font-weight: 600; text-decoration: underline; }
 
     .controls {
       background: white;
@@ -193,10 +205,12 @@
     <div style="flex:1">
       <h1>📋 産婦人科 施設一覧</h1>
       <div class="subtitle">出産なび（全国2,096施設）× AI検索 | Triple LLC</div>
-      <div style="font-size:11px;color:rgba(255,255,255,0.6);margin-top:3px;">出典：厚生労働省 出産なび</div>
     </div>
     <a class="back-btn" href="/">← AI検索に戻る</a>
   </header>
+  <div class="source-banner">
+    📋 出典：<a href="https://www.mhlw.go.jp/stf/birth-navi.html" target="_blank" rel="noopener">厚生労働省 出産なび</a>（全国2,096施設・2024年時点のデータ）
+  </div>
 
   <div class="controls">
     <!-- テキスト検索 -->

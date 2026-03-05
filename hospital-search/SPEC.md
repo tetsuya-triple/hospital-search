@@ -182,6 +182,7 @@ cd /Users/mikitetsuya/triple-llc/automation && source .env && node hospital-sear
 | 2026/03/04 | v2.5 | 初版リリース・Renderデプロイ完了 | エーデル |
 | 2026/03/05 | v2.5.1 | RenderにANTHROPIC_API_KEY未設定→Render API経由で修正 | エーデル |
 | 2026/03/05 | v2.5.2 | 出産なびリンクの403エラー対応：直リンク→URLコピーボタン方式に変更・出典表記を追加 | エーデル |
+| 2026/03/06 | v2.5.3 | ヘッダー直下に「出典：厚生労働省 出産なび」バナーを両画面（AI検索・施設一覧）に設置 | エーデル |
 
 ---
 
