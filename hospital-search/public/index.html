@@ -232,15 +232,6 @@
   </div>
 
   <script>
-    function copyBirthNaviUrl(e, url) {
-      navigator.clipboard.writeText(url).then(() => {
-        const btn = e.currentTarget;
-        const orig = btn.innerHTML;
-        btn.innerHTML = '✅ コピーしました！';
-        setTimeout(() => { btn.innerHTML = orig; }, 1500);
-      });
-    }
-
     const LEGAL_PREFIX = /^(医療法人|社会医療法人|学校法人|財団法人|社会福祉法人|宗教法人|特定医療法人|一般財団法人|公益財団法人)\s*/;
 
     function cleanName(name) {
@@ -279,9 +270,6 @@
         .replace(/^## (.+)$/gm,'<h2 style="margin:12px 0 2px;font-size:16px;">$1</h2>')
         .replace(/^# (.+)$/gm,'<h1 style="margin:14px 0 4px;font-size:18px;">$1</h1>')
         .replace(/https?:\/\/[^\s<>&]+/g, url => {
-          if (url.includes('birth-navi.mhlw.go.jp')) {
-            return `<button onclick="copyBirthNaviUrl(event,'${url}')" style="background:#f3f4f6;border:1px solid #d1d5db;border-radius:6px;padding:3px 8px;font-size:13px;cursor:pointer;color:#374151;word-break:break-all;" title="クリックでURLをコピー">${url} 📋</button>`;
-          }
           return `<a href="${url}" target="_blank" rel="noreferrer" style="color:#1d4ed8;word-break:break-all;">${url}</a>`;
         })
         .replace(/^\|[\s\-:|]+\|$/gm, '')
