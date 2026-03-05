@@ -255,7 +255,7 @@
         .replace(/^### (.+)$/gm,'<h3 style="margin:10px 0 2px;font-size:15px;">$1</h3>')
         .replace(/^## (.+)$/gm,'<h2 style="margin:12px 0 2px;font-size:16px;">$1</h2>')
         .replace(/^# (.+)$/gm,'<h1 style="margin:14px 0 4px;font-size:18px;">$1</h1>')
-        .replace(/https?:\/\/[^\s<>&]+/g, url => `<a href="${url}" target="_blank" style="color:#1d4ed8;word-break:break-all;">${url}</a>`)
+        .replace(/https?:\/\/[^\s<>&]+/g, url => `<a href="${url}" target="_blank" rel="noreferrer" style="color:#1d4ed8;word-break:break-all;">${url}</a>`)
         .replace(/^\|[\s\-:|]+\|$/gm, '')
         .replace(/^\|(.+)$/gm, (line) => {
           const cells = line.split('|').slice(1,-1).map(c => c.trim());

@@ -440,7 +440,7 @@
           <td style="text-align:right">${td}</td>
           <td style="text-align:center">${f.google_maps_url ? `<a class="link-icon" href="${esc(f.google_maps_url)}" target="_blank" title="Googleマップ">🗺️</a>` : '—'}</td>
           <td style="text-align:center">${f.website ? `<a class="link-icon" href="${esc(f.website)}" target="_blank" title="公式サイト">🌐</a>` : '—'}</td>
-          <td style="text-align:center">${f.url ? `<a class="link-icon" href="${esc(f.url)}" target="_blank" title="出産なび">📋</a>` : '—'}</td>
+          <td style="text-align:center">${f.url ? `<a class="link-icon" href="${esc(f.url)}" target="_blank" rel="noreferrer" title="出産なび">📋</a>` : '—'}</td>
           <td>${f.phone ? esc(f.phone) : '—'}</td>
           <td style="text-align:right">${f.maternity_beds != null && f.maternity_beds !== '' ? f.maternity_beds+'床' : '—'}</td>
           <td style="text-align:right">${f.nicu_beds != null && f.nicu_beds !== '' ? f.nicu_beds+'床' : '—'}</td>
