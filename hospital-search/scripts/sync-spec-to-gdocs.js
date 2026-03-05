@@ -3,13 +3,16 @@
  * GitHub Actions から呼び出す
  *
  * 必要な環境変数:
- *   GOOGLE_CREDENTIALS : サービスアカウントの JSON キー（文字列）
+ *   GOOGLE_CREDENTIALS : application_default_credentials の JSON 文字列
  *   GOOGLE_DOC_ID      : 同期先 Google ドキュメントの ID
  */
 
-const { google } = require('googleapis');
-const { readFileSync } = require('fs');
-const { join } = require('path');
+import { google } from 'googleapis';
+import { readFileSync } from 'fs';
+import { join, dirname } from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 async function syncSpecToGoogleDocs() {
   const credentials = JSON.parse(process.env.GOOGLE_CREDENTIALS);
