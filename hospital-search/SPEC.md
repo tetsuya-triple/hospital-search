@@ -185,9 +185,15 @@ cd /Users/mikitetsuya/triple-llc/automation && source .env && node hospital-sear
 
 ---
 
-## 将来的な構想
+## 自動同期設定
 
-- **Google Docs自動同期**: このSPEC.mdの更新内容をtetsuya.miki@triple-inc.comのGoogle Docsに自動反映する仕組みを構築予定（Google Docs API + GitHub Actions or Claude Codeフックを検討）
+| 項目 | 内容 |
+|------|------|
+| 同期先 | [産婦人科検索システム仕様書（Google Docs）](https://docs.google.com/document/d/1KFDXrN9O2SZ5g276DK17S-nEisTPmR7vURHpFmfbthU/edit) |
+| トリガー | `hospital-search/SPEC.md` を main ブランチに push したとき |
+| 仕組み | GitHub Actions → googleapis → Google Docs API |
+| ワークフロー | `.github/workflows/sync-spec-gdocs.yml` |
+| 構築日 | 2026/03/06 |
 
 ---
 
