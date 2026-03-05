@@ -6,6 +6,7 @@ on:
       - 'hospital-search/SPEC.md'
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   sync:
