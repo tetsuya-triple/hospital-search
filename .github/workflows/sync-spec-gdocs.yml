@@ -3,7 +3,7 @@ name: SPEC.md → Google Docs 自動同期
 on:
   push:
     paths:
-      - 'SPEC.md'
+      - 'hospital-search/SPEC.md'
     branches:
       - main
 
@@ -27,4 +27,4 @@ jobs:
         env:
           GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
           GOOGLE_DOC_ID: ${{ secrets.GOOGLE_DOC_ID }}
-        run: node scripts/sync-spec-to-gdocs.js
+        run: node hospital-search/scripts/sync-spec-to-gdocs.js
