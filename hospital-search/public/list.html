@@ -181,6 +181,7 @@
       transition: background .15s;
     }
     .link-icon:hover { background: #e0e7ff; }
+    button.link-icon { border: none; cursor: pointer; padding: 0; }
     .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
     .badge-yes { background: #d1fae5; color: #065f46; }
     .badge-no  { background: #f3f4f6; color: #9ca3af; }
@@ -192,6 +193,7 @@
     <div style="flex:1">
       <h1>📋 産婦人科 施設一覧</h1>
       <div class="subtitle">出産なび（全国2,096施設）× AI検索 | Triple LLC</div>
+      <div style="font-size:11px;color:#888;margin-top:3px;">出典：厚生労働省 出産なび</div>
     </div>
     <a class="back-btn" href="/">← AI検索に戻る</a>
   </header>
@@ -440,7 +442,7 @@
           <td style="text-align:right">${td}</td>
           <td style="text-align:center">${f.google_maps_url ? `<a class="link-icon" href="${esc(f.google_maps_url)}" target="_blank" title="Googleマップ">🗺️</a>` : '—'}</td>
           <td style="text-align:center">${f.website ? `<a class="link-icon" href="${esc(f.website)}" target="_blank" title="公式サイト">🌐</a>` : '—'}</td>
-          <td style="text-align:center">${f.url ? `<a class="link-icon" href="${esc(f.url)}" target="_blank" rel="noreferrer" title="出産なび">📋</a>` : '—'}</td>
+          <td style="text-align:center">${f.url ? `<button class="link-icon" onclick="copyUrl(event,'${esc(f.url)}')" title="URLをコピー">📋</button>` : '—'}</td>
           <td>${f.phone ? esc(f.phone) : '—'}</td>
           <td style="text-align:right">${f.maternity_beds != null && f.maternity_beds !== '' ? f.maternity_beds+'床' : '—'}</td>
           <td style="text-align:right">${f.nicu_beds != null && f.nicu_beds !== '' ? f.nicu_beds+'床' : '—'}</td>
@@ -475,6 +477,16 @@
       renderRows();
       updatePager();
       document.querySelector('.table-wrap').scrollTop = 0;
+    }
+
+    // --- URLコピー ---
+    function copyUrl(e, url) {
+      navigator.clipboard.writeText(url).then(() => {
+        const btn = e.currentTarget;
+        btn.textContent = '✅';
+        btn.title = 'コピーしました！';
+        setTimeout(() => { btn.textContent = '📋'; btn.title = 'URLをコピー'; }, 1500);
+      });
     }
 
     // --- 初期化 ---

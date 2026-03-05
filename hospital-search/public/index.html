@@ -193,6 +193,7 @@
     <div>
       <h1>🏥 産婦人科 施設検索</h1>
       <span>出産なび（全国2,096施設）× AI検索 | Triple LLC</span>
+      <span style="font-size:11px;color:#888;margin-top:3px;display:block;">出典：厚生労働省 出産なび</span>
     </div>
     <a class="list-btn" href="/list.html">📋 施設一覧</a>
   </header>
@@ -218,6 +219,15 @@
   </div>
 
   <script>
+    function copyBirthNaviUrl(e, url) {
+      navigator.clipboard.writeText(url).then(() => {
+        const btn = e.currentTarget;
+        const orig = btn.innerHTML;
+        btn.innerHTML = '✅ コピーしました！';
+        setTimeout(() => { btn.innerHTML = orig; }, 1500);
+      });
+    }
+
     const LEGAL_PREFIX = /^(医療法人|社会医療法人|学校法人|財団法人|社会福祉法人|宗教法人|特定医療法人|一般財団法人|公益財団法人)\s*/;
 
     function cleanName(name) {
@@ -255,7 +265,12 @@
         .replace(/^### (.+)$/gm,'<h3 style="margin:10px 0 2px;font-size:15px;">$1</h3>')
         .replace(/^## (.+)$/gm,'<h2 style="margin:12px 0 2px;font-size:16px;">$1</h2>')
         .replace(/^# (.+)$/gm,'<h1 style="margin:14px 0 4px;font-size:18px;">$1</h1>')
-        .replace(/https?:\/\/[^\s<>&]+/g, url => `<a href="${url}" target="_blank" rel="noreferrer" style="color:#1d4ed8;word-break:break-all;">${url}</a>`)
+        .replace(/https?:\/\/[^\s<>&]+/g, url => {
+          if (url.includes('birth-navi.mhlw.go.jp')) {
+            return `<button onclick="copyBirthNaviUrl(event,'${url}')" style="background:#f3f4f6;border:1px solid #d1d5db;border-radius:6px;padding:3px 8px;font-size:13px;cursor:pointer;color:#374151;word-break:break-all;" title="クリックでURLをコピー">${url} 📋</button>`;
+          }
+          return `<a href="${url}" target="_blank" rel="noreferrer" style="color:#1d4ed8;word-break:break-all;">${url}</a>`;
+        })
         .replace(/^\|[\s\-:|]+\|$/gm, '')
         .replace(/^\|(.+)$/gm, (line) => {
           const cells = line.split('|').slice(1,-1).map(c => c.trim());
