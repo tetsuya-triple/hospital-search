@@ -1,0 +1,30 @@
+name: SPEC.md → Google Docs 自動同期
+
+on:
+  push:
+    paths:
+      - 'SPEC.md'
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: Node.js セットアップ
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: googleapis インストール
+        run: npm install googleapis
+
+      - name: SPEC.md を Google Docs に同期
+        env:
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+          GOOGLE_DOC_ID: ${{ secrets.GOOGLE_DOC_ID }}
+        run: node scripts/sync-spec-to-gdocs.js
