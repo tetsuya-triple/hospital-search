@@ -164,6 +164,28 @@
     .dot:nth-child(3) { animation-delay: .3s; }
     @keyframes bounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-6px)} }
 
+    /* スマホ最適化 */
+    @media (max-width: 768px) {
+      header { padding: 10px 14px; gap: 8px; }
+      header h1 { font-size: 15px; }
+      header span { font-size: 11px; }
+      .list-btn { padding: 6px 10px; font-size: 12px; }
+      .source-banner { padding: 6px 14px; font-size: 11px; }
+      .chat-area { padding: 14px 12px; gap: 14px; }
+      .message.user { padding: 10px 14px; max-width: 100%; }
+      .message.assistant { padding: 14px 16px; }
+      .message.assistant table { font-size: 12px; }
+      .message.assistant th,
+      .message.assistant td { padding: 6px 8px; }
+      .hint { padding: 12px 14px; }
+      .hint h3 { font-size: 13px; }
+      .chip { font-size: 12px; padding: 5px 12px; }
+      .input-area { padding: 10px 12px; }
+      .input-wrap { gap: 8px; }
+      input[type="text"] { font-size: 14px; padding: 10px 12px; }
+      button { font-size: 14px; padding: 10px 16px; }
+    }
+
     /* 施設選択UI */
     .selection-label {
       font-size: 14px;
