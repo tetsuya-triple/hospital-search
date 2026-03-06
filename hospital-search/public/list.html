@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>施設一覧 | 産婦人科検索 | Triple LLC</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -208,7 +211,16 @@
       .source-banner { padding: 6px 14px; font-size: 11px; }
       .controls { padding: 8px 12px; gap: 8px; }
       input[type="search"] { width: 100%; }
-      .pref-dropdown { width: min(480px, calc(100vw - 20px)); }
+      /* ドロップダウンを画面中央に固定表示 */
+      .pref-dropdown {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: calc(100vw - 32px);
+        max-height: 70vh;
+        overflow-y: auto;
+      }
       /* 右グループ（件数・表示件数・ページャ）を折り返して幅フル */
       .ctrl-group[style] { margin-left: 0 !important; width: 100%; flex-wrap: wrap; gap: 8px; }
       /* スマホ時に非表示にする列：小児科医師数・助産師数・年間経腟分娩・年間帝王切開・分娩費用平均・分娩費用中央値・助産師外来 */
