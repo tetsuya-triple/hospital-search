@@ -7,6 +7,7 @@
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -189,7 +190,7 @@
       button { font-size: 14px; padding: 10px 16px; }
     }
 
-    /* 施設選択UI */
+    /* 施設リスト・選択UI共通 */
     .selection-label {
       font-size: 14px;
       color: #374151;
@@ -198,15 +199,18 @@
     .facility-list {
       display: flex;
       flex-direction: column;
-      gap: 8px;
+      gap: 6px;
     }
     .facility-card {
       border: 1px solid #e5e7eb;
       border-radius: 8px;
-      padding: 12px 16px;
+      padding: 10px 16px;
       cursor: pointer;
       transition: all .15s;
       background: #fafafa;
+      display: flex;
+      align-items: center;
+      gap: 8px;
     }
     .facility-card:hover {
       border-color: #1a1a2e;
@@ -216,11 +220,46 @@
       font-weight: 600;
       font-size: 14px;
       color: #1a1a2e;
+      flex: 1;
     }
     .facility-card-addr {
       font-size: 12px;
       color: #6b7280;
-      margin-top: 3px;
+      margin-top: 2px;
+    }
+    .facility-card-arrow {
+      font-size: 12px;
+      color: #9ca3af;
+      flex-shrink: 0;
+    }
+    /* リストツールバー */
+    .list-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    .list-count { font-size: 14px; color: #374151; }
+    .list-count strong { color: #1a1a2e; }
+    .list-actions { display: flex; gap: 6px; flex-wrap: wrap; }
+    .action-btn {
+      background: #f3f4f6;
+      border: 1px solid #e5e7eb;
+      border-radius: 6px;
+      padding: 5px 10px;
+      font-size: 12px;
+      cursor: pointer;
+      color: #374151;
+      transition: all .15s;
+      white-space: nowrap;
+    }
+    .action-btn:hover { background: #e0e7ff; border-color: #a5b4fc; }
+    .action-btn.copied { background: #d1fae5; border-color: #6ee7b7; color: #065f46; }
+    @media (max-width: 768px) {
+      .list-actions { gap: 4px; }
+      .action-btn { font-size: 11px; padding: 5px 8px; }
     }
   </style>
 </head>
@@ -312,23 +351,88 @@
         .replace(/(<br>\s*){3,}/g,'<br><br>');
     }
 
-    function renderSelection(facilities) {
-      window._selectionFacilities = facilities;
+    function renderList(facilities, count) {
+      window._activeFacilities = facilities;
+      const toolbar = `
+        <div class="list-header">
+          <div class="list-count"><strong>${count}件</strong>が見つかりました。施設名をクリックすると詳細を表示します。</div>
+          <div class="list-actions">
+            <button class="action-btn" id="copyBtn" onclick="copyList()">📋 コピー</button>
+            <button class="action-btn" onclick="downloadCsv()">📥 CSV</button>
+            <button class="action-btn" onclick="downloadExcel()">📊 Excel</button>
+            <button class="action-btn" onclick="shareToLine()">💬 LINE</button>
+          </div>
+        </div>`;
       const cards = facilities.map((f, i) => {
         const display = cleanName(f.name) || f.name;
         return `<div class="facility-card" onclick="selectFacility(${i})">
-          <div class="facility-card-name">${escHtml(display)}</div>
-          <div class="facility-card-addr">${escHtml(f.address || '')}</div>
+          <div>
+            <div class="facility-card-name">${escHtml(display)}</div>
+            <div class="facility-card-addr">${escHtml(f.address || '')}</div>
+          </div>
+          <span class="facility-card-arrow">›</span>
         </div>`;
       }).join('');
-      return `<div>
-        <p class="selection-label">複数の施設が見つかりました（<strong>${facilities.length}件</strong>）。調べたい施設をクリックしてください：</p>
-        <div class="facility-list">${cards}</div>
-      </div>`;
+      return `<div>${toolbar}<div class="facility-list">${cards}</div></div>`;
+    }
+
+    function copyList() {
+      const text = (window._activeFacilities || [])
+        .map((f, i) => `${i + 1}. ${cleanName(f.name) || f.name}（${f.address || ''}）`)
+        .join('\n');
+      navigator.clipboard.writeText(text).then(() => {
+        const btn = document.getElementById('copyBtn');
+        if (btn) { btn.textContent = '✅ コピー済み'; btn.classList.add('copied'); setTimeout(() => { btn.textContent = '📋 コピー'; btn.classList.remove('copied'); }, 2000); }
+      });
+    }
+
+    function downloadCsv() {
+      const bom = '\uFEFF';
+      const header = ['施設名', '住所', '電話番号', '産科医師数', '助産師数', '産科病床数', 'NICU病床数', '無痛分娩', '総費用平均', 'Googleマップ', '公式サイト'];
+      const rows = (window._activeFacilities || []).map(f => [
+        f.name, f.address, f.phone, f.obstetricians, f.midwives,
+        f.maternity_beds, f.nicu_beds,
+        f.painless_delivery === true ? 'あり' : f.painless_delivery === false ? 'なし' : '',
+        f.cost_total_avg ? Number(f.cost_total_avg).toLocaleString() + '円' : '',
+        f.google_maps_url, f.website,
+      ]);
+      const csv = bom + [header, ...rows].map(r => r.map(v => `"${String(v || '').replace(/"/g, '""')}"`).join(',')).join('\n');
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8;' }));
+      a.download = '産婦人科施設リスト.csv';
+      a.click();
+    }
+
+    function downloadExcel() {
+      if (typeof XLSX === 'undefined') { alert('Excel機能を読み込み中です。少し待ってから再試行してください。'); return; }
+      const header = ['施設名', '住所', '電話番号', '産科医師数', '助産師数', '産科病床数', 'NICU病床数', '無痛分娩', '総費用平均', 'Googleマップ', '公式サイト'];
+      const rows = (window._activeFacilities || []).map(f => [
+        f.name, f.address, f.phone,
+        f.obstetricians !== '' ? Number(f.obstetricians) || f.obstetricians : '',
+        f.midwives !== '' ? Number(f.midwives) || f.midwives : '',
+        f.maternity_beds !== '' ? Number(f.maternity_beds) || f.maternity_beds : '',
+        f.nicu_beds !== '' ? Number(f.nicu_beds) || f.nicu_beds : '',
+        f.painless_delivery === true ? 'あり' : f.painless_delivery === false ? 'なし' : '',
+        f.cost_total_avg ? Number(f.cost_total_avg) : '',
+        f.google_maps_url, f.website,
+      ]);
+      const ws = XLSX.utils.aoa_to_sheet([header, ...rows]);
+      ws['!cols'] = [28, 40, 14, 10, 10, 10, 10, 8, 14, 40, 40].map(w => ({ wch: w }));
+      const wb = XLSX.utils.book_new();
+      XLSX.utils.book_append_sheet(wb, ws, '産婦人科施設');
+      XLSX.writeFile(wb, '産婦人科施設リスト.xlsx');
+    }
+
+    function shareToLine() {
+      const list = window._activeFacilities || [];
+      const preview = list.slice(0, 15).map((f, i) => `${i + 1}. ${cleanName(f.name) || f.name}`).join('\n');
+      const suffix = list.length > 15 ? `\n…他${list.length - 15}件` : '';
+      const text = `産婦人科施設リスト（${list.length}件）\n\n${preview}${suffix}`;
+      window.open('https://line.me/R/msg/text/?' + encodeURIComponent(text), '_blank');
     }
 
     async function selectFacility(index) {
-      const f = window._selectionFacilities[index];
+      const f = window._activeFacilities[index];
       const display = cleanName(f.name) || f.name;
       const btn = document.getElementById('sendBtn');
 
@@ -381,8 +485,8 @@
           body: JSON.stringify({ question: q }),
         });
         const data = await res.json();
-        if (data.type === 'selection') {
-          loading.innerHTML = renderSelection(data.facilities);
+        if (data.type === 'list') {
+          loading.innerHTML = renderList(data.facilities, data.count);
         } else if (data.error) {
           loading.innerHTML = `<span style="color:#ef4444">⚠️ ${escHtml(data.error)}</span>`;
         } else {

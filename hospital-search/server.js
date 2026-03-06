@@ -185,14 +185,29 @@ app.post('/api/search', async (req, res) => {
       return res.json({ answer: '条件に合う施設が見つかりませんでした。別のキーワードで試してみてください。', count: 0 });
     }
 
-    // 名前で複数ヒット → 選択UIを返す
-    if (nameMatch && matched.length > 1) {
+    // 複数ヒット → 構造化リストを返す（フルフィールド付き）
+    if (matched.length > 1) {
       return res.json({
-        type: 'selection',
+        type: 'list',
+        count: matched.length,
         facilities: matched.map(f => ({
           name: f.name,
           address: f.address || '',
-          url: f.url,
+          municipality: f.municipality || '',
+          phone: f.phone || '',
+          website: f.website || '',
+          google_maps_url: f.google_maps_url || '',
+          url: f.url || '',
+          obstetricians: f.obstetricians ?? '',
+          midwives: f.midwives ?? '',
+          maternity_beds: f.maternity_beds ?? '',
+          nicu_beds: f.nicu_beds ?? '',
+          vaginal_deliveries: f.vaginal_deliveries || '',
+          cesarean_deliveries: f.cesarean_deliveries || '',
+          cost_total_avg: f.cost_total_avg || '',
+          cost_total_median: f.cost_total_median || '',
+          painless_delivery: f.painless_delivery,
+          rooming_in: f.rooming_in,
         })),
       });
     }
