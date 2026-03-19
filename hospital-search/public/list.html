@@ -200,6 +200,27 @@
     .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
     .badge-yes { background: #d1fae5; color: #065f46; }
     .badge-no  { background: #f3f4f6; color: #9ca3af; }
+    .badge-type { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 10px; cursor: help; position: relative; }
+    .badge-type-1 { background: #dbeafe; color: #1e40af; }
+    .badge-type-2 { background: #fce7f3; color: #9d174d; }
+    .badge-type-4 { background: #e0e7ff; color: #4338ca; }
+    .badge-type-5 { background: #f3e8ff; color: #7c3aed; }
+    .badge-type-6 { background: #f3f4f6; color: #6b7280; }
+    /* ツールチップ */
+    .type-tip { position: relative; display: inline-block; }
+    .type-tip .tip-text {
+      visibility: hidden; opacity: 0;
+      position: absolute; bottom: calc(100% + 6px); left: 50%; transform: translateX(-50%);
+      background: #1f2937; color: white; font-size: 11px; font-weight: 400;
+      padding: 8px 12px; border-radius: 8px; white-space: nowrap; z-index: 50;
+      transition: opacity .15s;
+      pointer-events: none;
+    }
+    .type-tip .tip-text::after {
+      content: ''; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
+      border: 5px solid transparent; border-top-color: #1f2937;
+    }
+    .type-tip:hover .tip-text { visibility: visible; opacity: 1; }
     .loading-msg { display: flex; align-items: center; justify-content: center; height: 200px; font-size: 15px; color: #6b7280; }
 
     /* スマホ最適化 */
@@ -224,13 +245,13 @@
       /* 右グループ（件数・表示件数・ページャ）を折り返して幅フル */
       .ctrl-group[style] { margin-left: 0 !important; width: 100%; flex-wrap: wrap; gap: 8px; }
       /* スマホ時に非表示にする列：小児科医師数・助産師数・年間経腟分娩・年間帝王切開・分娩費用平均・分娩費用中央値・助産師外来 */
-      th:nth-child(11), td:nth-child(11),
       th:nth-child(12), td:nth-child(12),
       th:nth-child(13), td:nth-child(13),
       th:nth-child(14), td:nth-child(14),
-      th:nth-child(17), td:nth-child(17),
+      th:nth-child(15), td:nth-child(15),
       th:nth-child(18), td:nth-child(18),
-      th:nth-child(21), td:nth-child(21) { display: none; }
+      th:nth-child(19), td:nth-child(19),
+      th:nth-child(22), td:nth-child(22) { display: none; }
     }
   </style>
 </head>
@@ -293,6 +314,7 @@
         <tr>
           <th onclick="sortBy('_babystory')">BABYSTORY</th>
           <th onclick="sortBy('name')">病院名</th>
+          <th onclick="sortBy('facility_type')">タイプ</th>
           <th onclick="sortBy('address')">住所</th>
           <th onclick="sortBy('_total_deliveries')">年間分娩数合計</th>
           <th class="no-sort">マップ</th>
@@ -346,6 +368,19 @@
     }
     function esc(s) {
       return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    const FACILITY_TYPE_MAP = {
+      1: { label: '病院', tip: '病床数20床以上の医療機関（総合病院・大学病院等）' },
+      2: { label: '診療所', tip: '病床数19床以下の医療機関（クリニック・医院等）' },
+      4: { label: '助産所(入所)', tip: '助産師が開設する施設（入所設備あり）' },
+      5: { label: '助産所(出張)', tip: '助産師が開設する施設（出張専門・入所なし）' },
+      6: { label: '不明', tip: '施設区分が未分類' },
+    };
+    function typeBadge(t) {
+      const info = FACILITY_TYPE_MAP[t];
+      if (!info) return '—';
+      return `<span class="type-tip"><span class="badge badge-type badge-type-${t}">${info.label}</span><span class="tip-text">${info.tip}</span></span>`;
     }
 
     // 分娩数文字列から下限・上限を取得
@@ -463,7 +498,7 @@
         return String(av).localeCompare(String(bv), 'ja') * sortDir;
       });
       // ヘッダーアイコン更新
-      const COLS = ['_babystory','name','address','_total_deliveries',null,null,null,'phone',
+      const COLS = ['_babystory','name','facility_type','address','_total_deliveries',null,null,'phone',
         'maternity_beds','nicu_beds','obstetricians','pediatricians','midwives',
         'vaginal_deliveries','cesarean_deliveries','cost_total_avg','cost_total_median',
         'cost_delivery_avg','cost_delivery_median','painless_delivery','rooming_in','midwife_clinic'];
@@ -485,6 +520,7 @@
         return `<tr>
           <td style="text-align:center">${f._babystory ? '<span class="badge badge-yes">導入済</span>' : '—'}</td>
           <td title="${esc(f.name)}">${esc(f.name)}</td>
+          <td style="text-align:center">${typeBadge(f.facility_type)}</td>
           <td title="${esc(f.address)}">${esc(f.address||'—')}</td>
           <td style="text-align:right">${td}</td>
           <td style="text-align:center">${f.google_maps_url ? `<a class="link-icon" href="${esc(f.google_maps_url)}" target="_blank" title="Googleマップ">🗺️</a>` : '—'}</td>
