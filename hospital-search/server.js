@@ -275,6 +275,7 @@ app.get('/api/facilities', (req, res) => {
     painless_delivery: f.painless_delivery,
     rooming_in: f.rooming_in,
     midwife_clinic: f.midwife_clinic,
+    facility_type: f.facility_type,
   })));
 });
 
