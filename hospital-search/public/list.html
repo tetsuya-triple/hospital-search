@@ -244,14 +244,17 @@
       }
       /* 右グループ（件数・表示件数・ページャ）を折り返して幅フル */
       .ctrl-group[style] { margin-left: 0 !important; width: 100%; flex-wrap: wrap; gap: 8px; }
-      /* スマホ時に非表示にする列：小児科医師数・助産師数・年間経腟分娩・年間帝王切開・分娩費用平均・分娩費用中央値・助産師外来 */
+      /* スマホ時に非表示にする列：小児科医師数・助産師数・経腟分娩・帝王切開（出産なび）・ナビイ3列・分娩費用平均・分娩費用中央値・助産師外来 */
       th:nth-child(12), td:nth-child(12),
       th:nth-child(13), td:nth-child(13),
       th:nth-child(14), td:nth-child(14),
       th:nth-child(15), td:nth-child(15),
+      th:nth-child(16), td:nth-child(16),
+      th:nth-child(17), td:nth-child(17),
       th:nth-child(18), td:nth-child(18),
-      th:nth-child(19), td:nth-child(19),
-      th:nth-child(22), td:nth-child(22) { display: none; }
+      th:nth-child(21), td:nth-child(21),
+      th:nth-child(22), td:nth-child(22),
+      th:nth-child(25), td:nth-child(25) { display: none; }
     }
   </style>
 </head>
@@ -264,7 +267,7 @@
     <a class="back-btn" href="/">← AI検索に戻る</a>
   </header>
   <div class="source-banner">
-    📋 出典：<a href="https://www.mhlw.go.jp/stf/birth-navi.html" target="_blank" rel="noopener">厚生労働省 出産なび</a>（全国2,096施設・2024年時点のデータ）
+    📋 出典：<a href="https://www.mhlw.go.jp/stf/birth-navi.html" target="_blank" rel="noopener">厚生労働省 出産なび</a>（全国2,096施設・2024年時点）＋ <a href="https://www.iryou.teikyouseido.mhlw.go.jp/" target="_blank" rel="noopener">医療情報ネット（ナビイ）</a>（722施設・分娩実績）
   </div>
 
   <div class="controls">
@@ -339,8 +342,11 @@
           <th onclick="sortBy('obstetricians')">産科医師数</th>
           <th onclick="sortBy('pediatricians')">小児科医師数</th>
           <th onclick="sortBy('midwives')">助産師数</th>
-          <th onclick="sortBy('vaginal_deliveries')">年間経腟分娩</th>
-          <th onclick="sortBy('cesarean_deliveries')">年間帝王切開</th>
+          <th onclick="sortBy('vaginal_deliveries')">年間経腟分娩<br><small>（出産なび）</small></th>
+          <th onclick="sortBy('cesarean_deliveries')">年間帝王切開<br><small>（出産なび）</small></th>
+          <th onclick="sortBy('navii_normal_deliveries')">正常分娩<br><small>（ナビイ）</small></th>
+          <th onclick="sortBy('navii_elective_cesarean')">選択帝王切開<br><small>（ナビイ）</small></th>
+          <th onclick="sortBy('navii_emergency_cesarean')">緊急帝王切開<br><small>（ナビイ）</small></th>
           <th onclick="sortBy('cost_total_avg')">総費用平均</th>
           <th onclick="sortBy('cost_total_median')">総費用中央値</th>
           <th onclick="sortBy('cost_delivery_avg')">分娩費用平均</th>
@@ -405,8 +411,14 @@
       return { lo: parseInt(m[1]), hi: m[2] ? parseInt(m[2]) : parseInt(m[1]) };
     }
 
-    // 経腟＋帝王切開の合計範囲を計算
+    // 経腟＋帝王切開の合計範囲を計算（ナビイデータ優先）
     function totalDeliveries(f) {
+      // ナビイデータがあればそちらを優先
+      if (f.navii_data_available && f.navii_total_deliveries != null) {
+        const val = f.navii_total_deliveries;
+        return { display: val.toLocaleString() + '件', value: val };
+      }
+      // フォールバック: 出産なびの範囲データ
       const v = parseRange(f.vaginal_deliveries);
       const c = parseRange(f.cesarean_deliveries);
       if (!v && !c) return { display: '—', value: 0 };
@@ -574,7 +586,9 @@
       // ヘッダーアイコン更新
       const COLS = ['_babystory','name','facility_type','address','_total_deliveries',null,null,'phone',
         'maternity_beds','nicu_beds','obstetricians','pediatricians','midwives',
-        'vaginal_deliveries','cesarean_deliveries','cost_total_avg','cost_total_median',
+        'vaginal_deliveries','cesarean_deliveries',
+        'navii_normal_deliveries','navii_elective_cesarean','navii_emergency_cesarean',
+        'cost_total_avg','cost_total_median',
         'cost_delivery_avg','cost_delivery_median','painless_delivery','rooming_in','midwife_clinic'];
       document.querySelectorAll('th').forEach((th, i) => {
         th.classList.remove('sort-asc','sort-desc');
@@ -607,6 +621,9 @@
           <td style="text-align:right">${f.midwives != null && f.midwives !== '' ? f.midwives+'名' : '—'}</td>
           <td>${esc(f.vaginal_deliveries||'—')}</td>
           <td>${esc(f.cesarean_deliveries||'—')}</td>
+          <td style="text-align:right">${f.navii_normal_deliveries != null ? f.navii_normal_deliveries.toLocaleString()+'件' : '—'}</td>
+          <td style="text-align:right">${f.navii_elective_cesarean != null ? f.navii_elective_cesarean.toLocaleString()+'件' : '—'}</td>
+          <td style="text-align:right">${f.navii_emergency_cesarean != null ? f.navii_emergency_cesarean.toLocaleString()+'件' : '—'}</td>
           <td style="text-align:right">${f.cost_total_avg ? fmt(f.cost_total_avg)+'円' : '—'}</td>
           <td style="text-align:right">${f.cost_total_median ? fmt(f.cost_total_median)+'円' : '—'}</td>
           <td style="text-align:right">${f.cost_delivery_avg ? fmt(f.cost_delivery_avg)+'円' : '—'}</td>

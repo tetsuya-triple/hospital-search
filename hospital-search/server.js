@@ -132,8 +132,12 @@ async function generateAnswer(question, targetFacilities) {
     助産師数: f.midwives,
     産科病床数: f.maternity_beds,
     NICU病床数: f.nicu_beds,
-    年間経腟分娩: f.vaginal_deliveries,
-    年間帝王切開: f.cesarean_deliveries,
+    年間経腟分娩_出産なび: f.vaginal_deliveries,
+    年間帝王切開_出産なび: f.cesarean_deliveries,
+    正常分娩_ナビイ: f.navii_normal_deliveries,
+    選択帝王切開_ナビイ: f.navii_elective_cesarean,
+    緊急帝王切開_ナビイ: f.navii_emergency_cesarean,
+    年間分娩数合計_ナビイ: f.navii_total_deliveries,
     総費用平均: f.cost_total_avg ? `${Number(f.cost_total_avg).toLocaleString()}円` : null,
     総費用中央値: f.cost_total_median ? `${Number(f.cost_total_median).toLocaleString()}円` : null,
     無痛分娩: f.painless_delivery,
@@ -208,6 +212,10 @@ app.post('/api/search', async (req, res) => {
           cost_total_median: f.cost_total_median || '',
           painless_delivery: f.painless_delivery,
           rooming_in: f.rooming_in,
+          navii_normal_deliveries: f.navii_normal_deliveries,
+          navii_elective_cesarean: f.navii_elective_cesarean,
+          navii_emergency_cesarean: f.navii_emergency_cesarean,
+          navii_total_deliveries: f.navii_total_deliveries,
         })),
       });
     }
@@ -276,6 +284,12 @@ app.get('/api/facilities', (req, res) => {
     rooming_in: f.rooming_in,
     midwife_clinic: f.midwife_clinic,
     facility_type: f.facility_type,
+    navii_normal_deliveries: f.navii_normal_deliveries,
+    navii_elective_cesarean: f.navii_elective_cesarean,
+    navii_emergency_cesarean: f.navii_emergency_cesarean,
+    navii_total_deliveries: f.navii_total_deliveries,
+    navii_url: f.navii_url,
+    navii_data_available: f.navii_data_available,
   })));
 });
 

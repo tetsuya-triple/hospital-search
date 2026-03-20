@@ -1,0 +1,8647 @@
+[
+  {
+    "facility_id": "11336",
+    "name": "舛本産婦人科医院",
+    "address": "広島県広島市安佐南区相田２丁目7-22",
+    "prefecture_id": 34,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11360",
+    "name": "かわぐちレディースクリニック",
+    "address": "埼玉県川口市南前川２丁目４番２０号",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12181",
+    "name": "すずらんレディースクリニック",
+    "address": "山口県下関市大学町１－４－２４",
+    "prefecture_id": 35,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12216",
+    "name": "しんしろ助産所",
+    "address": "愛知県新城市長篠字日焼９－２",
+    "prefecture_id": 23,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "12215",
+    "name": "Amie助産院",
+    "address": "栃木県下野市仁良川１３３５－１",
+    "prefecture_id": 9,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "12214",
+    "name": "ひょうたんやま助産院",
+    "address": "大阪府東大阪市喜里川町2番18号",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "12191",
+    "name": "心和あおい助産院",
+    "address": "大阪府八尾市亀井町",
+    "prefecture_id": 27,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "12133",
+    "name": "とも助産院",
+    "address": "大阪府大阪市淀川区",
+    "prefecture_id": 27,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "12115",
+    "name": "ゆっこ助産院",
+    "address": "大阪府東大阪市御厨東",
+    "prefecture_id": 27,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11900",
+    "name": "助産院太陽と月",
+    "address": "静岡県静岡市清水区港町",
+    "prefecture_id": 22,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11924",
+    "name": "いかだい助産所",
+    "address": "東京都北区十条仲原",
+    "prefecture_id": 13,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11892",
+    "name": "助産院月天心",
+    "address": "北海道札幌市厚別区　　現在出張訪問のみ自宅出産のみ",
+    "prefecture_id": 1,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11889",
+    "name": "リラ助産院",
+    "address": "北海道旭川市神居七条六丁目",
+    "prefecture_id": 1,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11854",
+    "name": "さくら咲く助産院　出張専門",
+    "address": "千葉県千葉市美浜区高洲",
+    "prefecture_id": 12,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11839",
+    "name": "出張専門　向谷地幸子",
+    "address": "東京都世田谷区",
+    "prefecture_id": 13,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11835",
+    "name": "出張専門あいうみ助産院",
+    "address": "愛知県豊田市田中町",
+    "prefecture_id": 23,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11818",
+    "name": "宮﨑助産院",
+    "address": "神奈川県鎌倉市大町",
+    "prefecture_id": 14,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11793",
+    "name": "出張専門ゆずのき助産院",
+    "address": "茨城県坂東市小山",
+    "prefecture_id": 8,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11763",
+    "name": "中村助産院（出張専門）",
+    "address": "京都府京都市左京区下鴨中川原町",
+    "prefecture_id": 26,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11748",
+    "name": "出張専門助産所菅谷",
+    "address": "千葉県千葉市稲毛区",
+    "prefecture_id": 12,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "10003",
+    "name": "まつしま病院",
+    "address": "東京都江戸川区松島１－４１－２９",
+    "prefecture_id": 13,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10039",
+    "name": "昭和大学藤が丘病院",
+    "address": "神奈川県横浜市青葉区藤が丘１―３０",
+    "prefecture_id": 14,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10047",
+    "name": "札幌マタニティ・ウィメンズホスピタル",
+    "address": "北海道札幌市北区北１３条西４丁目２－２３",
+    "prefecture_id": 1,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10053",
+    "name": "医療法人社団秋月会　広島中央通り　香月産婦人科",
+    "address": "広島県広島市中区三川町７－１",
+    "prefecture_id": 34,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10069",
+    "name": "平竹クリニック",
+    "address": "愛知県名古屋市北区敷島町４８－１",
+    "prefecture_id": 23,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10090",
+    "name": "うえむら病院",
+    "address": "沖縄県中頭郡中城村字南上原８０３－３",
+    "prefecture_id": 47,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10130",
+    "name": "産科・婦人科・麻酔科　柿木産婦人科",
+    "address": "鹿児島県鹿児島市加治屋町１５ー３",
+    "prefecture_id": 46,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10141",
+    "name": "松隈産婦人科クリニック",
+    "address": "福岡県小郡市小郡１５０４ー８",
+    "prefecture_id": 40,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10157",
+    "name": "糸数病院",
+    "address": "沖縄県那覇市泊１－２８－１",
+    "prefecture_id": 47,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10161",
+    "name": "沖縄県立南部医療センター・こども医療センター",
+    "address": "沖縄県島尻郡南風原町字新川１１８－１",
+    "prefecture_id": 47,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10239",
+    "name": "北海道厚生連旭川厚生病院",
+    "address": "北海道旭川市１条通２４丁目１１１",
+    "prefecture_id": 1,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10263",
+    "name": "加賀市医療センター",
+    "address": "石川県加賀市作見町リ３６番地",
+    "prefecture_id": 17,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10286",
+    "name": "京都府立医科大学附属北部医療センター",
+    "address": "京都府与謝郡与謝野町字男山４８１",
+    "prefecture_id": 26,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10292",
+    "name": "沖縄県立北部病院",
+    "address": "沖縄県名護市大中２丁目１２－３",
+    "prefecture_id": 47,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10297",
+    "name": "半田市立半田病院",
+    "address": "愛知県半田市東洋町２丁目２９番地",
+    "prefecture_id": 23,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10301",
+    "name": "相模原協同病院",
+    "address": "神奈川県相模原市緑区橋本台４－３－１",
+    "prefecture_id": 14,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10335",
+    "name": "船橋二和病院",
+    "address": "千葉県船橋市二和東５－１－１",
+    "prefecture_id": 12,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10339",
+    "name": "上都賀総合病院",
+    "address": "栃木県鹿沼市下田町一丁目１０３３番",
+    "prefecture_id": 9,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10340",
+    "name": "医療法人竹山記念会　竹山病院",
+    "address": "新潟県新潟市中央区上大川前通り６番町１１８３",
+    "prefecture_id": 15,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10360",
+    "name": "江別市立病院",
+    "address": "北海道江別市若草町６番地",
+    "prefecture_id": 1,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10361",
+    "name": "信和会　明和病院",
+    "address": "兵庫県西宮市上鳴尾町４－３１",
+    "prefecture_id": 28,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10375",
+    "name": "名城病院",
+    "address": "沖縄県うるま市赤道１７５－３",
+    "prefecture_id": 47,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10423",
+    "name": "独立行政法人国立病院機構舞鶴医療センター",
+    "address": "京都府舞鶴市字行永2410番地",
+    "prefecture_id": 26,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10465",
+    "name": "医療法人社団豊徳会丸田病院",
+    "address": "宮崎県都城市八幡町４街区２号",
+    "prefecture_id": 45,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10472",
+    "name": "芳賀赤十字病院",
+    "address": "栃木県真岡市中郷２７１",
+    "prefecture_id": 9,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10486",
+    "name": "沖縄県立宮古病院",
+    "address": "沖縄県宮古島市平良下里４２７－１",
+    "prefecture_id": 47,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10525",
+    "name": "沖縄県立八重山病院",
+    "address": "沖縄県石垣市字真栄里５８４　１番地",
+    "prefecture_id": 47,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10548",
+    "name": "沖縄赤十字病院",
+    "address": "沖縄県那覇市与儀１－３－１",
+    "prefecture_id": 47,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10556",
+    "name": "山陰労災病院",
+    "address": "鳥取県米子市皆生新田１－８－１",
+    "prefecture_id": 31,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10593",
+    "name": "南部徳洲会病院",
+    "address": "沖縄県島尻郡八重瀬町字外間１７１－１",
+    "prefecture_id": 47,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10612",
+    "name": "横須賀市立総合医療センター",
+    "address": "神奈川県横須賀市神明町１番地８",
+    "prefecture_id": 14,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10614",
+    "name": "琉球大学病院",
+    "address": "沖縄県中頭郡西原町字上原２０７番地",
+    "prefecture_id": 47,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10620",
+    "name": "大和市立病院",
+    "address": "神奈川県大和市深見西８－３－６",
+    "prefecture_id": 14,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10626",
+    "name": "桜町病院",
+    "address": "東京都小金井市桜町１－２－２０",
+    "prefecture_id": 13,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10628",
+    "name": "医療法人藤森医療財団　小国病院",
+    "address": "兵庫県姫路市南条二丁目２３番地",
+    "prefecture_id": 28,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10641",
+    "name": "社会医療法人かりゆし会ハートライフ病院",
+    "address": "沖縄県中頭郡中城村伊集２０８番地",
+    "prefecture_id": 47,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10677",
+    "name": "県民健康プラザ鹿屋医療センター",
+    "address": "鹿児島県鹿屋市札元１丁目８番８号",
+    "prefecture_id": 46,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10678",
+    "name": "中頭病院",
+    "address": "沖縄県沖縄市字登川６１０番地",
+    "prefecture_id": 47,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10682",
+    "name": "沖縄県立中部病院",
+    "address": "沖縄県うるま市宮里２８１",
+    "prefecture_id": 47,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10683",
+    "name": "沖縄協同病院",
+    "address": "沖縄県那覇市古波蔵４丁目１０番５５号",
+    "prefecture_id": 47,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10702",
+    "name": "鹿児島県立薩南病院",
+    "address": "鹿児島県南さつま市加世田村原４丁目１１番",
+    "prefecture_id": 46,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10720",
+    "name": "大阪警察病院",
+    "address": "大阪府大阪市天王寺区北山町１０－３１",
+    "prefecture_id": 27,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10795",
+    "name": "市立釧路総合病院",
+    "address": "北海道釧路市春湖台１番１２号",
+    "prefecture_id": 1,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10812",
+    "name": "友愛医療センター",
+    "address": "沖縄県豊見城市字与根５０番地５",
+    "prefecture_id": 47,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10818",
+    "name": "菅間記念病院",
+    "address": "栃木県那須塩原市大黒町２－５",
+    "prefecture_id": 9,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10858",
+    "name": "日野市立病院",
+    "address": "東京都日野市多摩平4-3-1",
+    "prefecture_id": 13,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10867",
+    "name": "佐野厚生農業協同組合連合会 佐野厚生総合病院",
+    "address": "栃木県佐野市堀米町１７２８",
+    "prefecture_id": 9,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10868",
+    "name": "東葛病院",
+    "address": "千葉県流山市中１０２－１",
+    "prefecture_id": 12,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10883",
+    "name": "県立大島病院",
+    "address": "鹿児島県奄美市名瀬真名津町１８－１",
+    "prefecture_id": 46,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "10884",
+    "name": "ペルフェ滝山マタニティクリニック",
+    "address": "東京都東久留米市滝山五丁目３の６",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10885",
+    "name": "医療法人社団ファーティル　みやけウィメンズクリニック",
+    "address": "千葉県千葉市緑区おゆみ野中央１ー１８ー５",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10886",
+    "name": "高畑産婦人科",
+    "address": "大阪府大阪市東住吉区駒川１－７－３",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10887",
+    "name": "鶴川台ウィメンズクリニック",
+    "address": "東京都町田市鶴川２－１４－１１",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10889",
+    "name": "新クリニック",
+    "address": "東京都八王子市台町２－１６－８",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10890",
+    "name": "後藤産婦人科医院",
+    "address": "神奈川県横須賀市上町３の１２",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10892",
+    "name": "塩塚産婦人科",
+    "address": "神奈川県厚木市旭町２－１２－１５",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10893",
+    "name": "石原レディースクリニック",
+    "address": "東京都昭島市昭和町３－１８－２１",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10894",
+    "name": "医療法人五秀会末永産婦人科・麻酔科医院",
+    "address": "福岡県北九州市門司区港町６番１５号",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10895",
+    "name": "村岡産婦人科医院",
+    "address": "福島県いわき市小名浜岡小名４丁目７－１",
+    "prefecture_id": 7,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10896",
+    "name": "湘南鵠沼産婦人科",
+    "address": "神奈川県藤沢市鵠沼藤が谷１－７－１０",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10897",
+    "name": "荒川レディースクリニック",
+    "address": "新潟県新潟市西蒲区巻甲４６７０",
+    "prefecture_id": 15,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10898",
+    "name": "セントローズクリニック",
+    "address": "三重県津市新町１－５－１６",
+    "prefecture_id": 24,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10899",
+    "name": "医療法人社団順桜会　桜台マタニティクリニック",
+    "address": "東京都練馬区桜台４－３２－８",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10900",
+    "name": "岩宿クリニック",
+    "address": "群馬県みどり市笠懸町阿左美１５０６－３",
+    "prefecture_id": 10,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10901",
+    "name": "ヒルズレディースクリニック",
+    "address": "群馬県前橋市総社町総社３６０７",
+    "prefecture_id": 10,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10902",
+    "name": "岡崎バースクリニック",
+    "address": "福島県郡山市安積２－３３５",
+    "prefecture_id": 7,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10903",
+    "name": "タマル産婦人科",
+    "address": "兵庫県丹波篠山市東吹４０４−１",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10904",
+    "name": "山崎産婦人科小児科医院",
+    "address": "福岡県糟屋郡宇美町宇美中央１−２−１３",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10905",
+    "name": "エフ．クリニック",
+    "address": "青森県青森市浜田３－３－７",
+    "prefecture_id": 2,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10906",
+    "name": "医療法人社団直太会マムクリニック",
+    "address": "兵庫県神戸市北区有野町唐櫃３３８９番地",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10907",
+    "name": "赤井マタニティクリニック",
+    "address": "大阪府堺市南区深阪南１６７番地",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10908",
+    "name": "ソフィアクリニック",
+    "address": "大分県大分市牧３丁目１５０番地",
+    "prefecture_id": 44,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10909",
+    "name": "Ｔ’ｓレディースクリニック",
+    "address": "宮城県仙台市若林区荒井３－２６－１",
+    "prefecture_id": 4,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10910",
+    "name": "まなぶ産科婦人科クリニック",
+    "address": "石川県金沢市大桑２−３０７",
+    "prefecture_id": 17,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10911",
+    "name": "医療法人社団　青葉産婦人科クリニック",
+    "address": "北海道札幌市厚別区青葉町六丁目一番九号",
+    "prefecture_id": 1,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10912",
+    "name": "さくら産院",
+    "address": "栃木県さくら市氏家２１９０－５",
+    "prefecture_id": 9,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10913",
+    "name": "医療法人　さとう産婦人科",
+    "address": "福岡県小郡市津古１２１０",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10914",
+    "name": "さくらレディースクリニック田園町",
+    "address": "鳥取県鳥取市田園町２－１５５",
+    "prefecture_id": 31,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10915",
+    "name": "おとぎの森レディースクリニック",
+    "address": "富山県高岡市佐野１３１６－１",
+    "prefecture_id": 16,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10916",
+    "name": "サンマタニティクリニック",
+    "address": "神奈川県横浜市磯子区洋光台６－１－１０",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10917",
+    "name": "医療法人社団　吉本レディースクリニック",
+    "address": "富山県富山市羽根５１１",
+    "prefecture_id": 16,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10918",
+    "name": "医療法人聖和会　池田産婦人科クリニック",
+    "address": "秋田県湯沢市字両神１４２－３",
+    "prefecture_id": 5,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10920",
+    "name": "とくなが女性クリニック",
+    "address": "新潟県新潟市中央区長潟８３７－１",
+    "prefecture_id": 15,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10921",
+    "name": "マザリー産科婦人科医院",
+    "address": "島根県松江市西津田２−１２−３３",
+    "prefecture_id": 32,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10922",
+    "name": "芥川バースクリニック",
+    "address": "神奈川県川崎市麻生区上麻生５－４７－１",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10923",
+    "name": "濵口産婦人科クリニック",
+    "address": "福岡県北九州市小倉北区清水２－１４－２０",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10924",
+    "name": "愛生会　山中産婦人科医院",
+    "address": "宮崎県延岡市舟倉町１－２－２",
+    "prefecture_id": 45,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10925",
+    "name": "にしさこレディースクリニック",
+    "address": "神奈川県相模原市緑区原宿南２－３９－７",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10926",
+    "name": "まつお産科・婦人科クリニック",
+    "address": "長崎県長崎市石神町１－１９",
+    "prefecture_id": 42,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10927",
+    "name": "産科婦人科　上野レディスクリニック",
+    "address": "愛知県名古屋市北区大曽根１－２９－３３",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10928",
+    "name": "医療法人社団湘洋会　産婦人科吉田クリニック",
+    "address": "神奈川県藤沢市大庭５０６１－４",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10929",
+    "name": "ピュアレディースクリニック",
+    "address": "静岡県浜松市中央区志都呂２－１２－７",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10930",
+    "name": "いびレディースクリニック",
+    "address": "岐阜県揖斐郡揖斐川町三輪７１９－１",
+    "prefecture_id": 21,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10931",
+    "name": "等々力産婦人科",
+    "address": "東京都世田谷区等々力７－３－２０",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10932",
+    "name": "市原産婦人科医院",
+    "address": "熊本県上益城郡益城町惣領１４８７",
+    "prefecture_id": 43,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10933",
+    "name": "森下産婦人科医院",
+    "address": "福岡県福岡市博多区店屋町８番１０号",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10934",
+    "name": "医療法人社団立花内科産婦人科医院",
+    "address": "兵庫県尼崎市立花町４−３−２２",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10935",
+    "name": "いちごレディースクリニック",
+    "address": "山形県酒田市ゆたか２－７－４",
+    "prefecture_id": 6,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10936",
+    "name": "医療法人社団　佐野産婦人科",
+    "address": "千葉県市川市福栄１－１９－５",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10937",
+    "name": "産科婦人科ばらのいずみクリニック",
+    "address": "愛媛県松山市和泉南一丁目７番１０号",
+    "prefecture_id": 38,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10938",
+    "name": "医療法人伸和會　野崎クリニック",
+    "address": "愛知県名古屋市中川区大当郎１丁目１９０３",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10939",
+    "name": "内田クリニック",
+    "address": "愛知県豊田市喜多町４丁目５０番地１",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10940",
+    "name": "大鳥居医院",
+    "address": "東京都大田区西糀谷３－８－１６",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10941",
+    "name": "ウィメンズクリニック　グリーンヒル",
+    "address": "熊本県熊本市東区戸島西３－１－１００",
+    "prefecture_id": 43,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10942",
+    "name": "内野産婦人科",
+    "address": "佐賀県佐賀市水ヶ江２丁目４－２",
+    "prefecture_id": 41,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10943",
+    "name": "あかつきウィメンズクリニック",
+    "address": "群馬県伊勢崎市連取本町２０－９",
+    "prefecture_id": 10,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10944",
+    "name": "医療法人社団中村産婦人科",
+    "address": "兵庫県宝塚市中筋６丁目１５番７号",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10945",
+    "name": "おとめクリニック",
+    "address": "神奈川県横浜市都筑区茅ヶ崎中央６－１９",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10946",
+    "name": "医療法人荒牧産婦人科医院",
+    "address": "福岡県北九州市八幡西区本城東５丁目５－３",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10947",
+    "name": "北村医院",
+    "address": "神奈川県川崎市中原区木月２－１４－６",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10948",
+    "name": "いちかわクリニック",
+    "address": "福島県福島市南矢野目字鼓田６－１",
+    "prefecture_id": 7,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10949",
+    "name": "医療法人社団東壽会東峯婦人クリニック",
+    "address": "東京都江東区木場５－３－１０",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10950",
+    "name": "医療法人社団健志會　知産婦人科",
+    "address": "神奈川県横浜市青葉区美しが丘５－３－２",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10952",
+    "name": "さくら産婦人科医院",
+    "address": "大分県臼杵市大字野田２７８番地",
+    "prefecture_id": 44,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10954",
+    "name": "中村レディスクリニック",
+    "address": "埼玉県羽生市中岩瀬６１２",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10955",
+    "name": "田島産婦人科",
+    "address": "鹿児島県薩摩川内市平佐町１９５７ー７",
+    "prefecture_id": 46,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10956",
+    "name": "清水産婦人科医院",
+    "address": "長野県長野市川中島町原９０８－１",
+    "prefecture_id": 20,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10957",
+    "name": "ゆしまウィメンズクリニック",
+    "address": "東京都あきる野市牛沼１３１－３",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10958",
+    "name": "たて産婦人科",
+    "address": "千葉県千葉市若葉区都賀３－６－１８",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10959",
+    "name": "鎌沢マタニティークリニック",
+    "address": "鳥取県米子市熊党１４２－７",
+    "prefecture_id": 31,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10960",
+    "name": "エンゼルマザークリニック",
+    "address": "新潟県新潟市中央区出来島１－５－１５",
+    "prefecture_id": 15,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10961",
+    "name": "かんすいこうえんレディースクリニック",
+    "address": "富山県富山市下新町１８－３",
+    "prefecture_id": 16,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10962",
+    "name": "あかね・レディースクリニック",
+    "address": "大阪府貝塚市石才５５２番地",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10963",
+    "name": "おおひらレディスクリニック",
+    "address": "栃木県栃木市大平町下皆川７５３",
+    "prefecture_id": 9,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10964",
+    "name": "わかば・産婦人科",
+    "address": "兵庫県小野市敷地町１５００－５",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10965",
+    "name": "共立さわらぎ産婦人科",
+    "address": "大阪府箕面市粟生外院６－３－５",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10966",
+    "name": "あさか産婦人科",
+    "address": "埼玉県朝霞市溝沼５３７ー１",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10968",
+    "name": "産婦人科南ヶ丘クリニック",
+    "address": "佐賀県伊万里市立花町２２９４ー３",
+    "prefecture_id": 41,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10969",
+    "name": "島岡医院",
+    "address": "京都府京都市南区唐橋平垣町６８",
+    "prefecture_id": 26,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10970",
+    "name": "吉野産婦人科医院",
+    "address": "島根県出雲市斐川町上直江３０９１",
+    "prefecture_id": 32,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10971",
+    "name": "産科婦人科　すがのウィメンズクリニック",
+    "address": "大分県佐伯市鶴岡西町二丁目１１３番地",
+    "prefecture_id": 44,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10972",
+    "name": "かわばた産婦人科",
+    "address": "愛媛県大洲市東大洲２３０－２",
+    "prefecture_id": 38,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10973",
+    "name": "彩都レディースクリニック",
+    "address": "埼玉県春日部市大枝３６６",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10974",
+    "name": "医療法人社団花也会Ｗクリニックフォーマザーズ幕張",
+    "address": "千葉県千葉市花見川区幕張本郷２ー３７ー１７",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10975",
+    "name": "医療法人イワサクリニック",
+    "address": "大阪府枚方市香里園町９−２２",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10976",
+    "name": "奥村マタニティクリニック",
+    "address": "和歌山県橋本市東家４－１８－１３",
+    "prefecture_id": 30,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10977",
+    "name": "医療法人　井出産婦人科",
+    "address": "京都府京田辺市東西神屋４３番地",
+    "prefecture_id": 26,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10978",
+    "name": "杉浦ウィメンズクリニック",
+    "address": "東京都江戸川区南篠崎１－６－１１",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10980",
+    "name": "いこまともみレディースクリニック産科分院",
+    "address": "石川県白山市北安田西２丁目１６４番地",
+    "prefecture_id": 17,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10981",
+    "name": "成城マタニティクリニック",
+    "address": "東京都世田谷区成城１－１－２",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10982",
+    "name": "医療法人社団　日の浦会　佐々木産婦人科",
+    "address": "広島県広島市東区戸坂千足二丁目９番２５号",
+    "prefecture_id": 34,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10983",
+    "name": "今井産婦人科内科クリニック",
+    "address": "岩手県盛岡市下ノ橋町１ー５",
+    "prefecture_id": 3,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10984",
+    "name": "千歳産婦人科医院",
+    "address": "青森県青森市長島３―１２―６",
+    "prefecture_id": 2,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10986",
+    "name": "みうらレディースクリニック",
+    "address": "神奈川県茅ヶ崎市東海岸南４－１１－４１",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10987",
+    "name": "医療法人社団青木産婦人科医院",
+    "address": "東京都世田谷区赤堤５−３０−１５",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10988",
+    "name": "飯島医院",
+    "address": "埼玉県さいたま市浦和区駒場１－１２－１",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10989",
+    "name": "医療法人結想会　産婦人科ゆいクリニック",
+    "address": "沖縄県沖縄市登川２４４４－３",
+    "prefecture_id": 47,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10990",
+    "name": "医療法人恒心会　髙橋レディスクリニック",
+    "address": "栃木県宇都宮市東塙田１－５－１",
+    "prefecture_id": 9,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10991",
+    "name": "医療法人社団　白河産婦人科",
+    "address": "広島県福山市旭町８－３",
+    "prefecture_id": 34,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10992",
+    "name": "浜中産婦人科",
+    "address": "大阪府堺市南区赤坂台３丁１０番５号",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10993",
+    "name": "都賀レディースクリニック",
+    "address": "千葉県千葉市若葉区西都賀一丁目七番六号",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10994",
+    "name": "医療法人文生会井元産婦人科医院",
+    "address": "福井県越前市堀川町６－２５",
+    "prefecture_id": 18,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10995",
+    "name": "医療法人雅　横須賀マタニティクリニック",
+    "address": "神奈川県横須賀市衣笠町３－１",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10997",
+    "name": "くりやまレディースクリニック",
+    "address": "大分県杵築市杵築８６１番地１２",
+    "prefecture_id": 44,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "10998",
+    "name": "クリニックベル",
+    "address": "愛知県瀬戸市北浦町３丁目１６番地",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11000",
+    "name": "中澤ウィメンズライフクリニック",
+    "address": "長野県長野市若里６－３－６",
+    "prefecture_id": 20,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11001",
+    "name": "レディースクリニックむらた",
+    "address": "富山県射水市橋下条１４８３ー１",
+    "prefecture_id": 16,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11003",
+    "name": "三浦産婦人科",
+    "address": "長崎県西彼杵郡時津町野田郷２５番地１",
+    "prefecture_id": 42,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11004",
+    "name": "さとうウィメンズクリニック",
+    "address": "山形県天童市南小畑４ー１ー１",
+    "prefecture_id": 6,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11005",
+    "name": "医療法人　内山産婦人科医院",
+    "address": "佐賀県伊万里市東山代町長浜１２５０",
+    "prefecture_id": 41,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11006",
+    "name": "医療法人社団俊生会阿部産婦人科",
+    "address": "東京都東大和市中央２丁目１０４３－１４",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11007",
+    "name": "医療法人長田産婦人科クリニック",
+    "address": "山梨県甲府市相生二丁目１－７",
+    "prefecture_id": 19,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11008",
+    "name": "作永産婦人科",
+    "address": "千葉県茂原市高師町一丁目五番地五",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11009",
+    "name": "医療法人社団　なかしま産婦人科",
+    "address": "富山県富山市町村２丁目７０番地",
+    "prefecture_id": 16,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11010",
+    "name": "医療法人仁徳会　渡辺産婦人科",
+    "address": "宮崎県日向市大字平岩７１８番地",
+    "prefecture_id": 45,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11011",
+    "name": "あさもとクリニック産婦人科",
+    "address": "愛知県名古屋市昭和区菊園町四町目三十番地の一",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11012",
+    "name": "医療法人本原会産科婦人科本原クリニック",
+    "address": "熊本県天草市古川町１０－２５",
+    "prefecture_id": 43,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11013",
+    "name": "高知ファミリークリニック",
+    "address": "高知県高知市朝倉横町２３－７－１０",
+    "prefecture_id": 39,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11014",
+    "name": "医療法人社団　とおたけ産婦人科",
+    "address": "東京都葛飾区立石６－３４－１１",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11015",
+    "name": "池田医院",
+    "address": "茨城県猿島郡境町２１７４－１００",
+    "prefecture_id": 8,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11016",
+    "name": "医療法人社団慶水会　前田産婦人科",
+    "address": "神奈川県平塚市松風町１６－１６",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11017",
+    "name": "医療法人社団　益子産婦人科医院",
+    "address": "兵庫県神戸市須磨区戎町３丁目５番１５号",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11018",
+    "name": "医療法人宮原レディースクリニック",
+    "address": "大分県日田市大字十二町258番地１",
+    "prefecture_id": 44,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11019",
+    "name": "医療法人博優会　庄野真由美レディースクリニック",
+    "address": "佐賀県佐賀市兵庫北二丁目３０番２６号",
+    "prefecture_id": 41,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11020",
+    "name": "名古屋バースクリニック",
+    "address": "愛知県名古屋市名東区引山３－２０１",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11021",
+    "name": "医療法人善淳会　小川産婦人科小児科",
+    "address": "埼玉県坂戸市南町２４－１５",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11022",
+    "name": "（医）社団　康久会　中島産婦人科医院",
+    "address": "静岡県富士市青島町１６０",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11023",
+    "name": "医療法人双葉会ふたばクリニック",
+    "address": "愛知県半田市吉田町６の８２",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11024",
+    "name": "医療法人　森永産婦人科",
+    "address": "愛知県春日井市八事町３−４６",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11025",
+    "name": "医療法人實生会池田産婦人科",
+    "address": "佐賀県佐賀市諸富町諸富津４３１－４",
+    "prefecture_id": 41,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11026",
+    "name": "平野マタニティクリニック",
+    "address": "兵庫県宝塚市山本東３－１４－５",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11027",
+    "name": "仲地レディースクリニック",
+    "address": "沖縄県那覇市安謝１丁目２０番",
+    "prefecture_id": 47,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11029",
+    "name": "大正病院附属産婦人科クリニック",
+    "address": "大阪府大阪市大正区三軒家東４－６－８",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11030",
+    "name": "はまだ産婦人科",
+    "address": "和歌山県和歌山市島２３０－２",
+    "prefecture_id": 30,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11031",
+    "name": "産婦人科　水野クリニック",
+    "address": "愛知県名古屋市瑞穂区牧町２丁目１１番地",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11032",
+    "name": "医療法人飯藤産婦人科",
+    "address": "大阪府門真市末広町２－７",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11033",
+    "name": "徳永産婦人科",
+    "address": "鹿児島県鹿児島市田上２－２７－１７",
+    "prefecture_id": 46,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11034",
+    "name": "アイレディースクリニック",
+    "address": "千葉県野田市尾崎１４６４－１",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11035",
+    "name": "上田レディースクリニック",
+    "address": "新潟県上越市大豆１－１１－１１",
+    "prefecture_id": 15,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11036",
+    "name": "菅クリニック",
+    "address": "山形県東根市三日町４丁目",
+    "prefecture_id": 6,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11037",
+    "name": "松陽台佐藤クリニック",
+    "address": "島根県出雲市白枝町９８８－１",
+    "prefecture_id": 32,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11038",
+    "name": "医療法人社団　増田産婦人科",
+    "address": "千葉県匝瑳市八日市場イ２８３７",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11040",
+    "name": "いしかわレディースクリニック",
+    "address": "静岡県藤枝市平島７０番地の１",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11041",
+    "name": "医療法人　立野レディースクリニック",
+    "address": "福岡県行橋市中央１丁目　１２　１２",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11042",
+    "name": "平井産婦人科医院",
+    "address": "長崎県北松浦郡佐々町羽須和免７８０番地５",
+    "prefecture_id": 42,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11043",
+    "name": "医療法人橘井会　江川産婦人科医院",
+    "address": "大阪府茨木市総持寺２丁目１－５",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11044",
+    "name": "産科婦人科吉田医院",
+    "address": "岩手県盛岡市若園町十番四号",
+    "prefecture_id": 3,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11045",
+    "name": "メディカルパーク湘南",
+    "address": "神奈川県藤沢市湘南台１－１４－３",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11046",
+    "name": "お産の森いのちのもり産科婦人科篠﨑医院",
+    "address": "茨城県守谷市大柏１０６７－１",
+    "prefecture_id": 8,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11047",
+    "name": "エンゼルレディースクリニック",
+    "address": "愛知県小牧市中央二丁目２２番地",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11048",
+    "name": "医療法人愛育会花みずきレディースクリニック",
+    "address": "長崎県長崎市住吉町１３－１６",
+    "prefecture_id": 42,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11049",
+    "name": "医療法人　平針北クリニック",
+    "address": "愛知県日進市赤池町屋下３０６－２",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11051",
+    "name": "岩沢クリニック",
+    "address": "千葉県成田市飯田町１５４－８",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11052",
+    "name": "医療法人碧会　ヤナセクリニック",
+    "address": "三重県津市乙部　５－３",
+    "prefecture_id": 24,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11053",
+    "name": "医療法人　廣仁会　直原ウィメンズクリニック",
+    "address": "大阪府豊中市新千里南町２－１１－１",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11054",
+    "name": "佐藤レディースクリニック",
+    "address": "大分県宇佐市大字上田１０６０番地の２",
+    "prefecture_id": 44,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11055",
+    "name": "エルム女性クリニック",
+    "address": "青森県五所川原市中央４丁目９３",
+    "prefecture_id": 2,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11056",
+    "name": "はまだレディスクリニック",
+    "address": "宮崎県宮崎市大字島之内７２８４番地",
+    "prefecture_id": 45,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11057",
+    "name": "伊藤産婦人科",
+    "address": "群馬県太田市飯田町９６０",
+    "prefecture_id": 10,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11058",
+    "name": "藤盛医院",
+    "address": "青森県弘前市品川町２７−１",
+    "prefecture_id": 2,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11059",
+    "name": "医療法人　神谷産婦人科医院",
+    "address": "大阪府門真市本町２５番８号",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11060",
+    "name": "医療法人　あおい産婦人科",
+    "address": "大分県別府市石垣東８丁目２番３１号",
+    "prefecture_id": 44,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11061",
+    "name": "メディカルパーク入間",
+    "address": "埼玉県入間市久保稲荷１－２９－３",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11062",
+    "name": "かすがいマタニティクリニック",
+    "address": "愛知県春日井市前並町字東屋敷１０３番地",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11063",
+    "name": "岡山愛育クリニック",
+    "address": "岡山県岡山市中区倉田５０８－８",
+    "prefecture_id": 33,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11065",
+    "name": "医療法人　桂川レディースクリニック",
+    "address": "滋賀県大津市御殿浜２１－８",
+    "prefecture_id": 25,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11066",
+    "name": "はしもと産婦人科",
+    "address": "兵庫県神戸市灘区八幡町１－８－１５",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11067",
+    "name": "医療法人　矢野産婦人科",
+    "address": "愛媛県松山市昭和町７２－１",
+    "prefecture_id": 38,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11068",
+    "name": "本多レディースクリニック",
+    "address": "新潟県新潟市東区中野山８９１番地１",
+    "prefecture_id": 15,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11069",
+    "name": "代田産婦人科",
+    "address": "神奈川県座間市相武台１ー２０ー２１",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11070",
+    "name": "宗田マタニティクリニック",
+    "address": "千葉県市原市根田３２０ー７",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11071",
+    "name": "アルテミス宇都宮クリニック",
+    "address": "栃木県宇都宮市インターパーク５丁目１番地９",
+    "prefecture_id": 9,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11072",
+    "name": "医療法人社団ＳＪＳ　金子レディースクリニック",
+    "address": "東京都調布市調布ヶ丘３－１９－１３",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11073",
+    "name": "和田マタニティクリニック",
+    "address": "栃木県下野市小金井１−３０−６",
+    "prefecture_id": 9,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11074",
+    "name": "浮田クリニック",
+    "address": "滋賀県大津市本堅田６丁目３６番地１号",
+    "prefecture_id": 25,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11075",
+    "name": "医療法人悠育会　みやむらレディースクリニック",
+    "address": "大分県大分市田尻４２７―２",
+    "prefecture_id": 44,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11076",
+    "name": "河野産科婦人科医院",
+    "address": "宮崎県児湯郡高鍋町北高鍋２６０５",
+    "prefecture_id": 45,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11077",
+    "name": "医療法人藤田産科・婦人科医院",
+    "address": "京都府京都市伏見区銀座町２丁目３４２",
+    "prefecture_id": 26,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11078",
+    "name": "たがしらレディースクリニック",
+    "address": "島根県松江市浜乃木六丁目７－８",
+    "prefecture_id": 32,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11079",
+    "name": "にしじまクリニック",
+    "address": "埼玉県富士見市勝瀬１０３４－１",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11080",
+    "name": "医療法人社団福神会柴田産婦人科医院",
+    "address": "東京都八王子市横川町５１５",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11081",
+    "name": "愛育レディースクリニック",
+    "address": "千葉県船橋市習志野５－８－１６",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11082",
+    "name": "さとうレディースクリニック",
+    "address": "埼玉県川口市青木１－５－２５",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11083",
+    "name": "医療法人なかむらレディースクリニック",
+    "address": "山口県萩市熊谷町１０８番地",
+    "prefecture_id": 35,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11084",
+    "name": "しのはら産科婦人科医院",
+    "address": "静岡県島田市岸町６５８－１",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11085",
+    "name": "医療法人天信会あまがせ産婦人科",
+    "address": "福岡県大野城市東大利１丁目１４番６号",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11086",
+    "name": "依藤産婦人科医院",
+    "address": "静岡県静岡市葵区上足洗２－１－９",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11087",
+    "name": "医療法人　工藤医院",
+    "address": "岩手県花巻市一日市２－２７",
+    "prefecture_id": 3,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11088",
+    "name": "遠藤産婦人科医院",
+    "address": "茨城県筑西市八丁台６３",
+    "prefecture_id": 8,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11090",
+    "name": "医療法人社団浅岡医院",
+    "address": "栃木県足利市相生町３８７",
+    "prefecture_id": 9,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11091",
+    "name": "大脇産婦人科医院",
+    "address": "静岡県浜松市中央区曳馬３－３－２２",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11092",
+    "name": "医療法人愛生会セントラルレディースクリニック",
+    "address": "群馬県高崎市東町８０－７",
+    "prefecture_id": 10,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11093",
+    "name": "中村レディースクリニック",
+    "address": "鹿児島県鹿児島市上本町９ー１４",
+    "prefecture_id": 46,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11094",
+    "name": "神吉産婦人科",
+    "address": "大阪府大阪市旭区新森五丁目四番地十号",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11096",
+    "name": "河田産婦人科",
+    "address": "福岡県久留米市梅満町９５５－１",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11097",
+    "name": "医療法人紹応会　河田産婦人科医院",
+    "address": "広島県広島市佐伯区海老園１－２－１３",
+    "prefecture_id": 34,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11098",
+    "name": "医療法人社団みやもと産婦人科医院",
+    "address": "鳥取県鳥取市叶２９３ー７",
+    "prefecture_id": 31,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11099",
+    "name": "医療法人社団宮本レディースクリニック",
+    "address": "兵庫県西宮市樋之池町５－２２",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11100",
+    "name": "医療法人社団　渡辺産婦人科",
+    "address": "滋賀県栗東市野尻４３５",
+    "prefecture_id": 25,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11101",
+    "name": "医療法人社団関島産婦人科医院",
+    "address": "兵庫県加古川市加古川町粟津４６２−１",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11102",
+    "name": "ことみレディースクリニック",
+    "address": "静岡県浜松市浜名区東美薗６７８",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11103",
+    "name": "前田産婦人科クリニック",
+    "address": "鹿児島県霧島市国分中央１－３－２３",
+    "prefecture_id": 46,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11104",
+    "name": "医療法人　秀央会　もりレディースクラブクリニック",
+    "address": "岐阜県大垣市河間町１－１３",
+    "prefecture_id": 21,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11105",
+    "name": "医療法人安永産婦人科医院",
+    "address": "長崎県諫早市泉町１７番２２号",
+    "prefecture_id": 42,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11106",
+    "name": "医療法人社団緑星会国井クリニック",
+    "address": "山形県寒河江市大字中郷１４５０－１",
+    "prefecture_id": 6,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11107",
+    "name": "医療法人　守屋レディースクリニック",
+    "address": "三重県四日市市羽津４６６１",
+    "prefecture_id": 24,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11108",
+    "name": "富岡産婦人科医院",
+    "address": "千葉県松戸市小金原６－８－１１",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11109",
+    "name": "権丈産婦人科医院",
+    "address": "福岡県糟屋郡志免町志免３丁目２－１４",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11110",
+    "name": "あらかわレディースクリニック",
+    "address": "東京都荒川区町屋１丁目８番地８号",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11111",
+    "name": "八戸クリニック",
+    "address": "青森県八戸市柏崎１丁目８番３２号",
+    "prefecture_id": 2,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11112",
+    "name": "いしい産婦人科醫院",
+    "address": "大分県大分市下郡北３－４３４－２",
+    "prefecture_id": 44,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11113",
+    "name": "医療法人瓢成会　なかがわレディースクリニック",
+    "address": "大阪府大阪市住吉区長峡町５－５",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11114",
+    "name": "医療法人社団向仁会真島クリニック",
+    "address": "東京都足立区関原１－１４－１１",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11115",
+    "name": "宇井レディスクリニック",
+    "address": "埼玉県さいたま市見沼区御蔵７８９－１",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11116",
+    "name": "医療法人もみじの手　箕面レディースクリニック",
+    "address": "大阪府箕面市牧落３－３－３３",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11117",
+    "name": "医療法人社団マザー・キー　ファミール産院たてやま",
+    "address": "千葉県館山市北条２１８６ー１",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11118",
+    "name": "医療法人こいけレディスクリニック",
+    "address": "栃木県宇都宮市若松原３－１－２",
+    "prefecture_id": 9,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11119",
+    "name": "飯能産婦人科医院",
+    "address": "埼玉県飯能市双柳１３２２－１",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11120",
+    "name": "たむらウィメンズクリニック",
+    "address": "静岡県静岡市駿河区片山３－３",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11121",
+    "name": "きりんウィメンズクリニック武蔵野",
+    "address": "東京都武蔵野市中町２－４－５",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11122",
+    "name": "鈴木産婦人科医院",
+    "address": "茨城県水戸市東台１丁目１０番１９号",
+    "prefecture_id": 8,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11123",
+    "name": "産婦人科よしはらクリニック",
+    "address": "広島県尾道市山波町５５１ー１",
+    "prefecture_id": 34,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11124",
+    "name": "酒本産婦人科医院",
+    "address": "奈良県橿原市内膳町４－４－２６",
+    "prefecture_id": 29,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11125",
+    "name": "サンフラワーマタニティークリニック",
+    "address": "香川県高松市太田下町３０１７番地３",
+    "prefecture_id": 37,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11126",
+    "name": "高橋レディースクリニック",
+    "address": "埼玉県川口市朝日３－６－２２",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11127",
+    "name": "医療法人　加藤産婦人科クリニック",
+    "address": "大阪府三島郡島本町水無瀬１－１４－１３",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11128",
+    "name": "ジーアンドオーレディスクリニック",
+    "address": "愛知県刈谷市泉田町折戸６－２",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11129",
+    "name": "東京マザーズクリニック",
+    "address": "東京都世田谷区上用賀４－５－１",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11130",
+    "name": "福岡バースクリニック",
+    "address": "福岡県福岡市西区姪浜駅南３－１８－２１",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11131",
+    "name": "貴子ウィメンズクリニック",
+    "address": "愛知県津島市申塚町１丁目１２２番地",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11132",
+    "name": "マミィクリニック伊集院",
+    "address": "鹿児島県鹿児島市中山町２５８７－３",
+    "prefecture_id": 46,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11133",
+    "name": "まつお産婦人科",
+    "address": "長崎県東彼杵郡川棚町百津郷４５２",
+    "prefecture_id": 42,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11134",
+    "name": "医療法人　平野医院",
+    "address": "奈良県奈良市西大寺東町２－１－５２",
+    "prefecture_id": 29,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11135",
+    "name": "レディスクリニック　フォレスタヴェルデ",
+    "address": "神奈川県横浜市都筑区中川中央２－５－１１",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11136",
+    "name": "産科・婦人科井上クリニック",
+    "address": "福井県敦賀市木崎４９ー２４―１",
+    "prefecture_id": 18,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11137",
+    "name": "うめかげレディースクリニック",
+    "address": "大阪府豊中市服部元町１丁目１番７号",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11138",
+    "name": "医療法人英正会　関井レディースクリニック",
+    "address": "宮城県大崎市古川駅東２丁目１０－３１",
+    "prefecture_id": 4,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11139",
+    "name": "武田産婦人科医院",
+    "address": "静岡県富士市宮島３３０－７",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11140",
+    "name": "医療法人回生会　立花レディースクリニック",
+    "address": "福岡県柳川市三橋町藤吉５３０－１１",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11141",
+    "name": "髙橋産婦人科クリニック",
+    "address": "兵庫県西宮市六湛寺町１５−５",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11142",
+    "name": "木村産科・婦人科",
+    "address": "静岡県浜松市中央区東三方町９４の３",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11143",
+    "name": "医療法人社団こうのとり会　西川産婦人科",
+    "address": "兵庫県姫路市花田町一本松１６５－１",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11145",
+    "name": "めぐみクリニック　",
+    "address": "石川県金沢市近岡町３４５番１",
+    "prefecture_id": 17,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11146",
+    "name": "やびく産婦人科小児科",
+    "address": "沖縄県中頭郡北谷町砂辺３０６番地",
+    "prefecture_id": 47,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11147",
+    "name": "国見産婦人科",
+    "address": "高知県高知市本町４－２－３０",
+    "prefecture_id": 39,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11148",
+    "name": "大橋産婦人科クリニック",
+    "address": "愛知県津島市埋田町２－６３",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11149",
+    "name": "クララクリニック",
+    "address": "栃木県下都賀郡壬生町壬生甲３３１２－１",
+    "prefecture_id": 9,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11150",
+    "name": "産科婦人科渡辺レディースクリニック",
+    "address": "福岡県久留米市国分町２２４－１５",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11152",
+    "name": "よしもとレディースクリニック",
+    "address": "愛媛県大洲市東若宮１４−１４",
+    "prefecture_id": 38,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11153",
+    "name": "厚木産婦人科",
+    "address": "神奈川県厚木市中町３－９－３",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11154",
+    "name": "中西ウィメンズクリニック",
+    "address": "岐阜県多治見市大正町１−４５",
+    "prefecture_id": 21,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11155",
+    "name": "医療法人社団謙翠会　小田原マタニティクリニック",
+    "address": "神奈川県小田原市城山２－１－５",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11156",
+    "name": "まつばせレディースクリニック",
+    "address": "熊本県宇城市松橋町松橋６８９－１",
+    "prefecture_id": 43,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11157",
+    "name": "くさなぎマタニティクリニック",
+    "address": "静岡県静岡市駿河区聖一色４４１－１",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11158",
+    "name": "城北レディースクリニック",
+    "address": "新潟県上越市栄町５－１６",
+    "prefecture_id": 15,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11159",
+    "name": "医療法人　レディスクリニック　セントセシリア",
+    "address": "青森県青森市筒井八ッ橋９５－１２",
+    "prefecture_id": 2,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11161",
+    "name": "医療法人養真堂産婦人科筑紫クリニック",
+    "address": "福岡県糟屋郡志免町志免中央３丁目１番３０号",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11163",
+    "name": "長野産婦人科",
+    "address": "愛媛県宇和島市堀端町１－８",
+    "prefecture_id": 38,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11164",
+    "name": "とけレディースクリニック",
+    "address": "千葉県千葉市緑区あすみが丘３－４－３",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11165",
+    "name": "駒ケ根高原レディスクリニック",
+    "address": "長野県駒ヶ根市赤穂７５９－１９５",
+    "prefecture_id": 20,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11166",
+    "name": "おおたレディースクリニック",
+    "address": "兵庫県姫路市砥堀２２９－１",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11167",
+    "name": "マザーズ高田産医院",
+    "address": "神奈川県横浜市港北区高田西２－５－２７",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11168",
+    "name": "医療法人秀峰会　本多レディースクリニック",
+    "address": "福井県福井市宝永４丁目２番１８号",
+    "prefecture_id": 18,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11170",
+    "name": "医療法人　社団　政彬会　野田医院",
+    "address": "宮崎県都城市蔵原町９街区１８号",
+    "prefecture_id": 45,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11171",
+    "name": "横山産院",
+    "address": "岐阜県各務原市蘇原瑞穂町２－６０－１",
+    "prefecture_id": 21,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11172",
+    "name": "長岡産婦人科クリニック",
+    "address": "千葉県佐倉市王子台３－１６－１",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11173",
+    "name": "医療法人社団善方会　よしかた産婦人科",
+    "address": "神奈川県横浜市港北区小机町２４３０",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11176",
+    "name": "井町産婦人科医院",
+    "address": "山口県下関市秋根南町２－１－１８",
+    "prefecture_id": 35,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11177",
+    "name": "医療法人いわさクリニック",
+    "address": "福岡県北九州市門司区大里原町１０－１０",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11178",
+    "name": "産科・婦人科　大渕クリニック",
+    "address": "宮崎県宮崎市橘通東１丁目５－２０",
+    "prefecture_id": 45,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11179",
+    "name": "医療法人　はだ産婦人科クリニック",
+    "address": "北海道札幌市手稲区手稲本町二条五丁目３番１２号",
+    "prefecture_id": 1,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11180",
+    "name": "ながかわ産婦人科医院",
+    "address": "福岡県筑紫野市紫１－２５－５",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11181",
+    "name": "安達産婦人科",
+    "address": "大分県大分市大字宮崎９３７の４",
+    "prefecture_id": 44,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11182",
+    "name": "ももレディースクリニック",
+    "address": "岡山県岡山市北区西花尻１２００ー３",
+    "prefecture_id": 33,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11183",
+    "name": "いわさレディースクリニック",
+    "address": "東京都八王子市高倉町４６ー２",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11184",
+    "name": "梅岡レディースクリニック",
+    "address": "愛媛県松山市竹原町１丁目３番地５",
+    "prefecture_id": 38,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11185",
+    "name": "医療法人津田産婦人科クリニック",
+    "address": "広島県安芸郡海田町南幸町９－４３",
+    "prefecture_id": 34,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11187",
+    "name": "医療法人社団　杉四会　杉山産婦人科",
+    "address": "東京都世田谷区大原１－５３－１",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11188",
+    "name": "札幌みらいクリニック",
+    "address": "北海道札幌市清田区平岡１条５丁目３番８号",
+    "prefecture_id": 1,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11189",
+    "name": "医療法人財団順和会　山王バースセンター",
+    "address": "東京都港区赤坂８―１０―１６　２階及び３階",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11190",
+    "name": "医療法人社団　秋月会　香月産婦人科",
+    "address": "広島県広島市西区己斐本町２丁目１４－２４",
+    "prefecture_id": 34,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11191",
+    "name": "医療法人さくらクリニック",
+    "address": "山形県米沢市塩井町塩野１４９５番地５",
+    "prefecture_id": 6,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11192",
+    "name": "並木産婦人科クリニック",
+    "address": "神奈川県厚木市妻田西２－１７－１２",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11193",
+    "name": "医療法人社団　千房会　新中野女性クリニック",
+    "address": "東京都中野区本町４－４８－２３",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11194",
+    "name": "下村産婦人科医院",
+    "address": "宮崎県宮崎市青葉町１５１の１",
+    "prefecture_id": 45,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11195",
+    "name": "たから産婦人科",
+    "address": "沖縄県那覇市上間１７１番地",
+    "prefecture_id": 47,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11196",
+    "name": "大森産婦人科医院",
+    "address": "兵庫県高砂市伊保港町２－５－１７",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11197",
+    "name": "齋藤シーサイドレディースクリニック",
+    "address": "福岡県遠賀郡芦屋町大字山鹿８５２－５７",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11198",
+    "name": "医療法人社団　葉山産婦人科",
+    "address": "茨城県鹿嶋市宮中１９９５－２５",
+    "prefecture_id": 8,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11199",
+    "name": "野崎レディースクリニック",
+    "address": "大阪府堺市北区百舌鳥梅町３－３２－４",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11200",
+    "name": "青木医院",
+    "address": "茨城県水戸市本町三丁目四番七号",
+    "prefecture_id": 8,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11201",
+    "name": "葵ウィメンズクリニック",
+    "address": "埼玉県上尾市壱丁目東１４番地５号",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11202",
+    "name": "せきレディースクリニック",
+    "address": "岐阜県関市段下２８−２",
+    "prefecture_id": 21,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11203",
+    "name": "医療法人　愛生会　馬渡産婦人科医院",
+    "address": "福岡県糸島市前原１０３１番地",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11204",
+    "name": "三輪産婦人科",
+    "address": "愛知県稲沢市石橋２丁目１５０番地",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11205",
+    "name": "医療法人社団　重城産婦人科小児科",
+    "address": "千葉県木更津市万石３５８",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11207",
+    "name": "飯藤産婦人科",
+    "address": "大阪府吹田市泉町５丁目６－６",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11208",
+    "name": "医療法人　双葉会　富雄産婦人科",
+    "address": "奈良県奈良市三松４－８７８－１",
+    "prefecture_id": 29,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11209",
+    "name": "医療法人社団芳晴会　愛児レディースクリニック",
+    "address": "神奈川県藤沢市遠藤２９５７－１",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11210",
+    "name": "つきやま産婦人科",
+    "address": "長崎県佐世保市光月町１－２３",
+    "prefecture_id": 42,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11211",
+    "name": "医療法人サン・クリニック",
+    "address": "岡山県岡山市中区中井２丁目１５番１３号",
+    "prefecture_id": 33,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11212",
+    "name": "医療法人社団聖育会三枝産婦人科医院",
+    "address": "東京都江戸川区西葛西３－１８－１",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11213",
+    "name": "源川産婦人科クリニック",
+    "address": "新潟県新潟市東区松崎１丁目１８番１２号",
+    "prefecture_id": 15,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11214",
+    "name": "角田産婦人科医院",
+    "address": "長野県上田市上田１２１０－３",
+    "prefecture_id": 20,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11215",
+    "name": "医療法人社団　立岩産婦人科医院",
+    "address": "兵庫県姫路市飾磨区構４－１８９",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11216",
+    "name": "医療法人並木クリニック",
+    "address": "秋田県秋田市寺内堂の沢一丁目７番２８号",
+    "prefecture_id": 5,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11217",
+    "name": "やはたウイメンズクリニック",
+    "address": "神奈川県伊勢原市東大竹１５３９－１",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11218",
+    "name": "あわの産婦人科医院",
+    "address": "富山県下新川郡入善町入膳２２９－３",
+    "prefecture_id": 16,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11219",
+    "name": "レディスクリニック石黒",
+    "address": "新潟県三条市荒町２丁目２５番３３号",
+    "prefecture_id": 15,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11220",
+    "name": "フジハラレディースクリニック",
+    "address": "広島県広島市安佐南区祇󠄀園五丁目二番一号",
+    "prefecture_id": 34,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11221",
+    "name": "神尊（こうそ）産婦人科",
+    "address": "宮崎県宮崎市大字恒久５３０８－１",
+    "prefecture_id": 45,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11225",
+    "name": "メリーレディースクリニック",
+    "address": "宮城県仙台市青葉区落合６丁目１－４",
+    "prefecture_id": 4,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11226",
+    "name": "医療法人みのり会濱田クリニック",
+    "address": "滋賀県甲賀市水口町水口５９９２番地１",
+    "prefecture_id": 25,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11227",
+    "name": "花山ママクリニック",
+    "address": "和歌山県和歌山市秋月４８３",
+    "prefecture_id": 30,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11228",
+    "name": "医療法人社団明誠会　こじま産婦人科",
+    "address": "北海道函館市神山１丁目１２番９号",
+    "prefecture_id": 1,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11230",
+    "name": "はやしだ産婦人科医院",
+    "address": "埼玉県鴻巣市鴻巣１００５－２",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11231",
+    "name": "医療法人社団レディースクリニックＩＣＨＩＲＯ",
+    "address": "長崎県長崎市京泊３丁目１０－１５",
+    "prefecture_id": 42,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11232",
+    "name": "宮上クリニック",
+    "address": "宮城県柴田郡柴田町西船迫２丁目７番１",
+    "prefecture_id": 4,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11233",
+    "name": "医療法人たなかレディースクリニック",
+    "address": "福島県郡山市御前南５－２８",
+    "prefecture_id": 7,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11234",
+    "name": "かたふち産婦人科",
+    "address": "佐賀県杵島郡白石町大字廿治１０６５－１２",
+    "prefecture_id": 41,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11235",
+    "name": "中山産婦人科医院",
+    "address": "宮崎県都城市前田町１７街区３２号",
+    "prefecture_id": 45,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11236",
+    "name": "焼津バースクリニック",
+    "address": "静岡県焼津市小屋敷２１４−１",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11237",
+    "name": "医療法人社団寿恵会　津田産婦人科医院",
+    "address": "富山県砺波市杉木４丁目６９番地",
+    "prefecture_id": 16,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11238",
+    "name": "社会医療法人愛育会　菊陽レディースクリニック",
+    "address": "熊本県菊池郡菊陽町新山２丁目８番２３号",
+    "prefecture_id": 43,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11239",
+    "name": "わんや産婦人科医院",
+    "address": "宮城県大崎市古川駅南３丁目１１－２",
+    "prefecture_id": 4,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11240",
+    "name": "医療法人笠松産婦人科・小児科",
+    "address": "大阪府阪南市鳥取中１９２ー２",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11241",
+    "name": "医療法人おおくま産婦人科",
+    "address": "佐賀県佐賀市高木瀬西２丁目１０番５号",
+    "prefecture_id": 41,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11242",
+    "name": "エナレディースクリニック",
+    "address": "北海道石狩市花川南９条１丁目８６番地２",
+    "prefecture_id": 1,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11243",
+    "name": "医療法人社団　五の橋産婦人科",
+    "address": "東京都江東区亀戸６－１－６",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11244",
+    "name": "医療法人盛鳳会福田産婦人科",
+    "address": "岡山県津山市田町１０５",
+    "prefecture_id": 33,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11245",
+    "name": "医療法人社団菊川産婦人科",
+    "address": "三重県伊勢市一之木５－１５－５",
+    "prefecture_id": 24,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11246",
+    "name": "富田産科婦人科クリニック",
+    "address": "新潟県新発田市諏訪町１ー２ー１５",
+    "prefecture_id": 15,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11247",
+    "name": "なかにし産婦人科クリニック",
+    "address": "大阪府高槻市芝生町３丁目２１－１０",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11248",
+    "name": "医療法人慈生会岡村産婦人科",
+    "address": "奈良県奈良市西木辻町３０ー１０",
+    "prefecture_id": 29,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11249",
+    "name": "医療法人社団山縣産婦人科",
+    "address": "茨城県水戸市千波町３７１－４",
+    "prefecture_id": 8,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11250",
+    "name": "医療法人慈繁会付属トータルヘルスクリニック",
+    "address": "福島県郡山市字山崎１７１",
+    "prefecture_id": 7,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11251",
+    "name": "中江産婦人科",
+    "address": "鹿児島県鹿児島市中央町１３番地３",
+    "prefecture_id": 46,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11252",
+    "name": "小菅クリニック",
+    "address": "栃木県真岡市下高間木１−１−１",
+    "prefecture_id": 9,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11253",
+    "name": "亀森レディースクリニック",
+    "address": "栃木県日光市木和田島３０４６ー３",
+    "prefecture_id": 9,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11254",
+    "name": "ウイング土屋レディースクリニック",
+    "address": "千葉県成田市ウイング土屋１６３",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11255",
+    "name": "医療法人　茜草会　あかね医院",
+    "address": "愛知県豊田市栄生町４丁目１３－６",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11256",
+    "name": "医療法人社団和秀会　近藤産婦人科医院",
+    "address": "京都府長岡京市長岡　二丁目２－３２",
+    "prefecture_id": 26,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11257",
+    "name": "医療法人桜花会あきせウィメンズクリニック",
+    "address": "大阪府枚方市田宮本町９－４５",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11258",
+    "name": "竜王レディースクリニック",
+    "address": "山梨県甲斐市篠原２１９９",
+    "prefecture_id": 19,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11260",
+    "name": "医療法人　村尾産婦人科クリニック",
+    "address": "福岡県大牟田市古町１－２",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11261",
+    "name": "医療法人博山会山口産婦人科",
+    "address": "大阪府八尾市中田１丁目５２番地",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11262",
+    "name": "医療法人社団祥慶会渡辺記念クリニック",
+    "address": "新潟県新潟市中央区上大川前通８番町１２９１番地",
+    "prefecture_id": 15,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11263",
+    "name": "医療法人本田クリニック　本田クリニック産科婦人科",
+    "address": "福島県福島市大森字赤沢９７－６",
+    "prefecture_id": 7,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11264",
+    "name": "医療法人社団ＴＯＮＡＮ都南産婦人科",
+    "address": "東京都町田市中町４－１１－６",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11265",
+    "name": "国際貢献大学校メディカルクリニック",
+    "address": "岡山県新見市哲多町本郷１３３４－１",
+    "prefecture_id": 33,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11266",
+    "name": "おおばやしマタニティクリニック",
+    "address": "愛知県北名古屋市鹿田道下５０番地",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11267",
+    "name": "医療法人社団川添記念会　四谷川添産婦人科",
+    "address": "東京都新宿区左門町１８番地",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11268",
+    "name": "母と子の長田産科婦人科クリニック",
+    "address": "鳥取県米子市上後藤８丁目５番１号",
+    "prefecture_id": 31,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11269",
+    "name": "医療法人山育会　たかのす診療所",
+    "address": "群馬県桐生市川内町２－２８９－１",
+    "prefecture_id": 10,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11270",
+    "name": "野村産婦人科",
+    "address": "滋賀県湖南市柑子袋６１１",
+    "prefecture_id": 25,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11271",
+    "name": "なないろレディースクリニック",
+    "address": "茨城県つくば市西大沼６３６番１０",
+    "prefecture_id": 8,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11272",
+    "name": "かんの産婦人科クリニック",
+    "address": "茨城県取手市藤代1076",
+    "prefecture_id": 8,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11273",
+    "name": "こにしクリニック",
+    "address": "愛媛県新居浜市庄内町１ー１３ー３５",
+    "prefecture_id": 38,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11274",
+    "name": "医療法人　青葉会　イーリスウィメンズクリニック　アリス",
+    "address": "滋賀県彦根市八坂町２８８８番地１",
+    "prefecture_id": 25,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11276",
+    "name": "医療法人芽生会山口マタニティクリニック",
+    "address": "京都府亀岡市篠町馬堀駅前２丁目４番７号",
+    "prefecture_id": 26,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11277",
+    "name": "江田クリニック産婦人科",
+    "address": "島根県出雲市大津町２６０",
+    "prefecture_id": 32,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11278",
+    "name": "医療法人産婦人科・麻酔科　すどうクリニック",
+    "address": "福岡県飯塚市菰田西１丁目４番２２号",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11279",
+    "name": "なないろもあバースクリニック",
+    "address": "茨城県つくば市西大沼６３７番６",
+    "prefecture_id": 8,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11280",
+    "name": "おばたレディースクリニック",
+    "address": "三重県四日市市川島町６８４２－１",
+    "prefecture_id": 24,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11281",
+    "name": "おさむら産婦人科",
+    "address": "京都府八幡市男山泉１４－５",
+    "prefecture_id": 26,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11282",
+    "name": "花レディースクリニック",
+    "address": "愛知県みよし市福谷町細田１－３",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11283",
+    "name": "韮崎おはな産婦人科",
+    "address": "山梨県韮崎市富士見１丁目３の９",
+    "prefecture_id": 19,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11285",
+    "name": "医療法人波々伯部　ホーカベレディースクリニック",
+    "address": "福井県福井市左内町１０－１１",
+    "prefecture_id": 18,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11286",
+    "name": "大久保クリニック",
+    "address": "埼玉県吉川市中央３－１１－９",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11287",
+    "name": "医療法人育愛会　愛産婦人科",
+    "address": "北海道札幌市手稲区西宮の沢４条２丁目１番１号",
+    "prefecture_id": 1,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11288",
+    "name": "春ウイメンズクリニック",
+    "address": "宮城県名取市田高字南２７−１",
+    "prefecture_id": 4,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11289",
+    "name": "産科婦人科島貫医院",
+    "address": "山形県米沢市中央２丁目５番１２号",
+    "prefecture_id": 6,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11290",
+    "name": "医療法人小濱産婦人科医院",
+    "address": "長崎県長崎市丸山町１－５",
+    "prefecture_id": 42,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11292",
+    "name": "桑原母と子クリニック",
+    "address": "石川県七尾市国分町ラ部２番地１",
+    "prefecture_id": 17,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11293",
+    "name": "峰の坂産婦人科",
+    "address": "埼玉県所沢市宮本町２－１６－１０",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11294",
+    "name": "レディスクリニック結",
+    "address": "茨城県稲敷郡阿見町本郷１－１６－２",
+    "prefecture_id": 8,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11295",
+    "name": "医療法人ひまわりウィメンズクリニック",
+    "address": "大阪府豊中市少路２－９－２０",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11296",
+    "name": "医療法人社団ハシイ産婦人科",
+    "address": "京都府向日市寺戸町七ノ坪１７０",
+    "prefecture_id": 26,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11297",
+    "name": "登村レディスクリニック",
+    "address": "兵庫県神戸市東灘区御影本町４－１１－５",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11298",
+    "name": "すずきレディースクリニック",
+    "address": "福島県郡山市八山田５丁目２３番地",
+    "prefecture_id": 7,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11299",
+    "name": "医療法人社団関塚医院",
+    "address": "新潟県新発田市中田町２－１７－１５",
+    "prefecture_id": 15,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11300",
+    "name": "医療法人慧成会　産院いしがせの森",
+    "address": "愛知県大府市森岡町１丁目１９３番地",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11301",
+    "name": "ナラヤマレディースクリニック",
+    "address": "埼玉県上尾市本町１－１－７",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11302",
+    "name": "医）米本マタニティクリニック",
+    "address": "愛媛県松山市安城寺町　５３７−１",
+    "prefecture_id": 38,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11303",
+    "name": "医療法人社団マザー・キー　ファミール産院いちかわ",
+    "address": "千葉県市川市奉免町２０１－５",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11304",
+    "name": "前田産婦人科",
+    "address": "熊本県熊本市南区出仲間７丁目２−３２",
+    "prefecture_id": 43,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11305",
+    "name": "やまなかレディースクリニック",
+    "address": "栃木県小山市若木町２－１１－２０",
+    "prefecture_id": 9,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11306",
+    "name": "プラタナス産婦人科クリニックながつた",
+    "address": "神奈川県横浜市緑区長津田町３１６２",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11307",
+    "name": "医療法人社団アンジュレディースクリニック",
+    "address": "石川県金沢市三池栄町６６番地",
+    "prefecture_id": 17,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11308",
+    "name": "あおぞらレディス＆マタニティクリニック",
+    "address": "長野県諏訪市中洲５７６４－１",
+    "prefecture_id": 20,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11309",
+    "name": "医療法人たかばたけウィメンズクリニック",
+    "address": "大阪府大東市扇町４番１８号",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11310",
+    "name": "はるなウィメンズクリニック",
+    "address": "山口県岩国市平田１－２８－２７",
+    "prefecture_id": 35,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11311",
+    "name": "板倉レディースクリニック",
+    "address": "長野県長野市稲里町中央１－１２－１２",
+    "prefecture_id": 20,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11312",
+    "name": "種子島産婦人科医院",
+    "address": "鹿児島県西之表市西之表１６３１４番地７",
+    "prefecture_id": 46,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11313",
+    "name": "医療法人　黒川産婦人科医院",
+    "address": "岩手県盛岡市愛宕町２番５１号",
+    "prefecture_id": 3,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11314",
+    "name": "みうら産婦人科医院",
+    "address": "岩手県盛岡市上鹿妻田貝１１－１",
+    "prefecture_id": 3,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11315",
+    "name": "レディースクリニック山田産婦人科",
+    "address": "佐賀県鳥栖市蔵上",
+    "prefecture_id": 41,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11317",
+    "name": "つばきウイメンズクリニック",
+    "address": "愛媛県松山市北土居五丁目十一番七号",
+    "prefecture_id": 38,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11318",
+    "name": "医療法人社団美友会産科婦人科松本クリニック",
+    "address": "京都府京都市下京区西洞院通松原下ル永倉町５５８",
+    "prefecture_id": 26,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11319",
+    "name": "といたレディースクリニック",
+    "address": "石川県金沢市戸板４丁目３５番地",
+    "prefecture_id": 17,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11320",
+    "name": "中原クリニック",
+    "address": "愛知県瀬戸市山手町３２７",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11322",
+    "name": "下田産婦人科医院",
+    "address": "神奈川県茅ヶ崎市幸町１９－８",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11323",
+    "name": "かぬき岩端医院",
+    "address": "静岡県沼津市下香貫前原１４７９－３",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11324",
+    "name": "津永産婦人科",
+    "address": "山口県周南市川端町２−３０",
+    "prefecture_id": 35,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11325",
+    "name": "医療法人社団三侑会　渡辺産婦人科小児科",
+    "address": "兵庫県芦屋市船戸町６－２１",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11326",
+    "name": "医療法人産科婦人科ハピネスバースクリニック",
+    "address": "滋賀県草津市矢橋町２３３－３",
+    "prefecture_id": 25,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11327",
+    "name": "茂呂マタニティースクエア",
+    "address": "埼玉県草加市中央１－６－３",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11328",
+    "name": "楢原産婦人科",
+    "address": "大阪府高槻市春日町１ー２７",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11329",
+    "name": "（医）社団はしもと産婦人科医院",
+    "address": "山口県宇部市大字東須恵１９５９－１０",
+    "prefecture_id": 35,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11330",
+    "name": "医療法人社団慶風会　増田産婦人科",
+    "address": "東京都葛飾区東金町１－１３－５",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11331",
+    "name": "医療法人社団湯原産婦人科医院",
+    "address": "千葉県松戸市小金原５−２０−７",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11332",
+    "name": "マミーズクリニックちとせ",
+    "address": "北海道千歳市信濃２丁目１番１３号",
+    "prefecture_id": 1,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11333",
+    "name": "医療法人　島田医院",
+    "address": "埼玉県さいたま市中央区本町東１－１３－２３",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11334",
+    "name": "東京フェリシアレディースクリニック",
+    "address": "東京都葛飾区立石８－９－６",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11335",
+    "name": "小松崎産婦人科",
+    "address": "茨城県水戸市本町１－６－２０",
+    "prefecture_id": 8,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11337",
+    "name": "産婦人科はっとりクリニック",
+    "address": "愛知県一宮市木曽川町黒田字中針口北ノ切３７",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11338",
+    "name": "久保田レディースクリニック産婦人科・麻酔科",
+    "address": "佐賀県唐津市大石町２４４４ー１",
+    "prefecture_id": 41,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11339",
+    "name": "伊東レディースクリニック",
+    "address": "大分県大分市森６６０－１",
+    "prefecture_id": 44,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11340",
+    "name": "折野産婦人科",
+    "address": "大阪府枚方市楠葉朝日３丁目６番２８号",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11341",
+    "name": "ののいち産婦人科クリニック",
+    "address": "石川県野々市市本町２－１８－２２",
+    "prefecture_id": 17,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11342",
+    "name": "はた産婦人科医院",
+    "address": "宮崎県宮崎市和知川原１丁目１０７番地",
+    "prefecture_id": 45,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11343",
+    "name": "桑原産婦人科医院",
+    "address": "福岡県中間市中間３丁目５番５号",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11344",
+    "name": "医療法人山内産婦人科医院",
+    "address": "愛媛県宇和島市宮下甲２２３番地５",
+    "prefecture_id": 38,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11345",
+    "name": "ちが産婦人科医院",
+    "address": "熊本県菊池郡菊陽町原水２９５１番１号",
+    "prefecture_id": 43,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11346",
+    "name": "医療法人社団　八代愛育会　八代レディースクリニック",
+    "address": "熊本県八代市大手町１丁目７－２２",
+    "prefecture_id": 43,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11347",
+    "name": "医療法人回起会奥産婦人科",
+    "address": "兵庫県加古川市加古川町木村７００－１",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11348",
+    "name": "医療法人本田産婦人科クリニック",
+    "address": "福岡県北九州市戸畑区一枝２−１−１６",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11349",
+    "name": "医療法人社団朋佑会札幌産科婦人科",
+    "address": "北海道札幌市北区屯田６条２丁目１１番１号",
+    "prefecture_id": 1,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11350",
+    "name": "医療法人産科婦人科宮原クリニック",
+    "address": "福岡県久留米市国分町１１５９－２",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11351",
+    "name": "いその産婦人科",
+    "address": "長崎県南島原市西有家町須川１７９２番地",
+    "prefecture_id": 42,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11352",
+    "name": "カワカミウィメンズクリニック",
+    "address": "北海道札幌市西区八軒５条東１丁目６－１９",
+    "prefecture_id": 1,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11353",
+    "name": "医療法人社団愛育会クリニックママ",
+    "address": "岐阜県大垣市今宿３丁目３４－１",
+    "prefecture_id": 21,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11354",
+    "name": "宇佐レディースクリニック",
+    "address": "大分県宇佐市法鏡寺３３６番地の１",
+    "prefecture_id": 44,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11355",
+    "name": "医療法人社団たかき医院",
+    "address": "新潟県十日町市馬場丙１５５０番地１",
+    "prefecture_id": 15,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11356",
+    "name": "佐伯レディースクリニック",
+    "address": "富山県氷見市窪６６０",
+    "prefecture_id": 16,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11357",
+    "name": "霞澤産婦人科医院",
+    "address": "埼玉県東松山市松葉町１ー９ー８",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11358",
+    "name": "さやま産婦人科",
+    "address": "埼玉県狭山市南入曽３３５－１",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11359",
+    "name": "医療法人田村産婦人科医院",
+    "address": "京都府亀岡市安町野々神２８",
+    "prefecture_id": 26,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11361",
+    "name": "川島産婦人科クリニック",
+    "address": "大阪府大阪市北区天神橋５ー５ー２３",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11362",
+    "name": "医療法人社団　恵友会　久保みずきレディースクリニック菅原記念診療所",
+    "address": "兵庫県神戸市西区美賀多台３丁目１３番地の８",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11363",
+    "name": "医療法人社団Ｌｅｉａｌｏｈａ　中野産婦人科医院",
+    "address": "東京都小平市津田町１−４−８",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11364",
+    "name": "サンタクルス　ザ　タカラヅカ",
+    "address": "兵庫県宝塚市武庫川町６－２２",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11365",
+    "name": "やはば産婦人科",
+    "address": "岩手県紫波郡矢巾町医大通２－４－６",
+    "prefecture_id": 3,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11366",
+    "name": "一般財団法人　赤堀クリニック",
+    "address": "岡山県津山市椿高下３３",
+    "prefecture_id": 33,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11367",
+    "name": "医療法人社団喜咲会ローズマタニティクリニック",
+    "address": "埼玉県さいたま市南区辻７－８－１７",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11368",
+    "name": "みつお産婦人科",
+    "address": "鹿児島県霧島市隼人町見次一二九六番地三",
+    "prefecture_id": 46,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11369",
+    "name": "産科婦人科佐川クリニック",
+    "address": "石川県金沢市上荒屋１丁目３０８番地",
+    "prefecture_id": 17,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11370",
+    "name": "矢内原医院",
+    "address": "神奈川県鎌倉市大船２―１７－１８",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11371",
+    "name": "ゆのはら産婦人科医院",
+    "address": "熊本県熊本市中央区南熊５丁目９番３号",
+    "prefecture_id": 43,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11372",
+    "name": "島田産婦人科医院",
+    "address": "静岡県駿東郡清水町伏見３８－１",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11373",
+    "name": "医療法人池田レディースクリニック",
+    "address": "埼玉県本庄市小島南３－１－１２",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11374",
+    "name": "赤崎クリニック",
+    "address": "奈良県桜井市谷１１１",
+    "prefecture_id": 29,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11375",
+    "name": "齊藤産婦人科医院",
+    "address": "岩手県一関市中央町２丁目９－２０",
+    "prefecture_id": 3,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11376",
+    "name": "くすもと産婦人科",
+    "address": "鹿児島県日置市伊集院町郡１１９３－１",
+    "prefecture_id": 46,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11377",
+    "name": "医療法人小川クリニック",
+    "address": "神奈川県横浜市戸塚区舞岡町２９番地",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11378",
+    "name": "北熊本井上産婦人科医院",
+    "address": "熊本県熊本市北区鶴羽田１丁目１４番２７号",
+    "prefecture_id": 43,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11379",
+    "name": "石田レディースクリニック",
+    "address": "福岡県福津市有弥の里２－１０－１７",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11380",
+    "name": "オークスマタニティクリニック",
+    "address": "岡山県岡山市北区大安寺南町二丁目２番５号",
+    "prefecture_id": 33,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11381",
+    "name": "真田産婦人科麻酔科クリニック",
+    "address": "福岡県福岡市東区千早６丁目６番１６号",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11382",
+    "name": "医療法人慈慶会　八木産婦人科",
+    "address": "佐賀県武雄市北方町大字大﨑１１２１",
+    "prefecture_id": 41,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11383",
+    "name": "医療法人　西川医院",
+    "address": "大阪府大阪市阿倍野区天王寺町北２−１６−１０",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11384",
+    "name": "希望が丘クリニック",
+    "address": "滋賀県野洲市市三宅２３５４",
+    "prefecture_id": 25,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11385",
+    "name": "医療法人　富田産婦人科医院",
+    "address": "福岡県朝倉市甘木１９７９‐８",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11387",
+    "name": "小林レディースクリニック　",
+    "address": "福岡県筑後市大字水谷九九一の一",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11388",
+    "name": "医療法人社団ハーモニーレディースクリニック",
+    "address": "兵庫県神戸市西区学園西町５－２－５",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11389",
+    "name": "由良産婦人科・小児科医院",
+    "address": "京都府綾部市本町一丁目２０",
+    "prefecture_id": 26,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11390",
+    "name": "レディース＆マタニティクリニック　サンタクルス　ザ　シュクガワ",
+    "address": "兵庫県西宮市相生町８－１１",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11391",
+    "name": "加藤クリニック",
+    "address": "埼玉県さいたま市浦和区前地２－３－１１",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11392",
+    "name": "医療法人琢生会　神田マタニティクリニック",
+    "address": "大阪府吹田市江坂町三丁目三十一番地五号",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11393",
+    "name": "医療法人ガーデンヒルズウイメンズクリニック",
+    "address": "福岡県福岡市中央区小笹５丁目１５−２１",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11394",
+    "name": "医療法人社団　海里会　池羽レディースクリニック",
+    "address": "茨城県結城市結城１０６２２－１",
+    "prefecture_id": 8,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11395",
+    "name": "ゆめクリニック",
+    "address": "栃木県宇都宮市ゆいの杜３－１４－６",
+    "prefecture_id": 9,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11396",
+    "name": "東島レディースクリニック",
+    "address": "長崎県佐世保市大宮町１７－１３",
+    "prefecture_id": 42,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11397",
+    "name": "松信ウィメンズクリニック・こどもクリニック",
+    "address": "千葉県習志野市本大久保３－５－２７",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11398",
+    "name": "フクイ産婦人科クリニック",
+    "address": "群馬県伊勢崎市下植木町５５３－３",
+    "prefecture_id": 10,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11399",
+    "name": "医療法人ユーエムシー内田産婦人科医院",
+    "address": "福岡県行橋市西宮市五丁目一番十号",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11400",
+    "name": "医療法人　博報会　上野産婦人科",
+    "address": "愛知県名古屋市千種区上野１－１－１１",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11401",
+    "name": "金子産婦人科",
+    "address": "大阪府門真市大倉町６－１４",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11402",
+    "name": "医療法人中根産婦人科　レディースクリニックヴェルデ",
+    "address": "愛知県名古屋市緑区相川２－１２６",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11403",
+    "name": "医療法人社団野口産婦人科医院",
+    "address": "山口県下関市梶栗町３－７－８",
+    "prefecture_id": 35,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11404",
+    "name": "浅野産婦人科",
+    "address": "愛知県尾張旭市城前町四丁目１番地９",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11405",
+    "name": "医療法人社団　真中医院",
+    "address": "群馬県館林市本町３丁目４番５号",
+    "prefecture_id": 10,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11406",
+    "name": "医療法人尚志会山田産婦人科",
+    "address": "愛知県西尾市若松町３８番地",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11408",
+    "name": "医療法人社団薫誠会　葛西産婦人科",
+    "address": "東京都江戸川区東葛西６－８－６",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11409",
+    "name": "松下産婦人科医院",
+    "address": "静岡県菊川市加茂１９９０",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11410",
+    "name": "医療法人なんのレディースクリニック",
+    "address": "奈良県生駒郡斑鳩町興留５丁目１４－８",
+    "prefecture_id": 29,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11411",
+    "name": "上山レディースクリニック",
+    "address": "静岡県伊東市吉田５７３−３",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11412",
+    "name": "大野医院",
+    "address": "栃木県鹿沼市上田町１９１５－４",
+    "prefecture_id": 9,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11413",
+    "name": "花岡レディースクリニック",
+    "address": "長野県小諸市市町５－４－１６",
+    "prefecture_id": 20,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11414",
+    "name": "いとうレディースケアクリニック",
+    "address": "岐阜県本巣郡北方町北方３１９５",
+    "prefecture_id": 21,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11415",
+    "name": "セントファミリアクリニック",
+    "address": "愛知県知立市鳥居１丁目１８番地３",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11416",
+    "name": "医療法人　若葉会　松島産婦人科医院",
+    "address": "滋賀県大津市錦織３丁目６－２２",
+    "prefecture_id": 25,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11417",
+    "name": "産婦人科清稜クリニック",
+    "address": "静岡県駿東郡長泉町下長窪９８８ー１１",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11418",
+    "name": "医療法人内村産婦人科",
+    "address": "鹿児島県鹿屋市串良町岡崎２０７０",
+    "prefecture_id": 46,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11419",
+    "name": "医療法人社団浩明会　梶山クリニック",
+    "address": "山梨県甲府市徳行１丁目３番２０号",
+    "prefecture_id": 19,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11420",
+    "name": "医療法人社団　林産婦人科",
+    "address": "兵庫県神戸市須磨区行幸町４丁目２－７",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11421",
+    "name": "医療法人　大平産婦人科",
+    "address": "大阪府堺市南区桃山台４－２－１",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11422",
+    "name": "田那村産婦人科",
+    "address": "愛知県岡崎市康生通南二丁目２３番地５",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11423",
+    "name": "大塚産婦人科クリニック",
+    "address": "福岡県北九州市八幡西区千代ケ崎２−２−１２",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11424",
+    "name": "医療法人稲風会　鈴木医院",
+    "address": "大阪府茨木市駅前３－５－２１",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11425",
+    "name": "医療法人れんげ会　小川産婦人科",
+    "address": "大阪府大阪市平野区平野本町２－６－３２",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11426",
+    "name": "ティアラウィメンズクリニック",
+    "address": "静岡県掛川市杉谷南１−１９−５",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11427",
+    "name": "大野レディスクリニック",
+    "address": "愛知県岩倉市稲荷町高畑１０",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11428",
+    "name": "宮崎産婦人科",
+    "address": "三重県鈴鹿市平田二丁目１ー８",
+    "prefecture_id": 24,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11429",
+    "name": "医療法人川村産婦人科医院",
+    "address": "大阪府高槻市松が丘１－１－１",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11430",
+    "name": "医療法人翔南会　山崎産婦人科医院",
+    "address": "長崎県島原市湊町３５０",
+    "prefecture_id": 42,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11431",
+    "name": "産科・婦人科　ミナミクリニック",
+    "address": "愛知県小牧市小牧原４－３８－１",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11432",
+    "name": "医療法人　慈光会　岡本産婦人科",
+    "address": "京都府福知山市末広町３丁目１２番地",
+    "prefecture_id": 26,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11433",
+    "name": "ふくろいマタニティクリニック",
+    "address": "静岡県袋井市方丈６ー１０－２７",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11434",
+    "name": "加藤外科産婦人科・乳腺クリニック",
+    "address": "愛知県名古屋市瑞穂区田辺通５－８－２",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11435",
+    "name": "医療法人社団愛弘会みらいウィメンズクリニック",
+    "address": "千葉県印西市原４－２－２",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11436",
+    "name": "医療法人　福住産科婦人科クリニック",
+    "address": "北海道札幌市豊平区福住３条１丁目２－２４",
+    "prefecture_id": 1,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11439",
+    "name": "あいレディースクリニック",
+    "address": "岐阜県岐阜市菅生６－２－５",
+    "prefecture_id": 21,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11440",
+    "name": "山内産婦人科クリニック",
+    "address": "岡山県倉敷市三田１２６－１",
+    "prefecture_id": 33,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11441",
+    "name": "医療法人しもむら産婦人科",
+    "address": "長崎県長崎市古川町ハ番十一号",
+    "prefecture_id": 42,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11442",
+    "name": "ゆだて産婦人科",
+    "address": "千葉県富里市七栄６４６－１６",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11443",
+    "name": "えんどう桔梗マタニティクリニック",
+    "address": "北海道函館市桔梗５－７－１５",
+    "prefecture_id": 1,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11444",
+    "name": "医療法人　中曽産科婦人科医院",
+    "address": "鳥取県米子市西福原４－８－４１",
+    "prefecture_id": 31,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11446",
+    "name": "竹内レディースクリニック",
+    "address": "鹿児島県姶良市東餅田５０２－２",
+    "prefecture_id": 46,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11447",
+    "name": "ナオミレディースクリニック",
+    "address": "三重県松阪市深長町823",
+    "prefecture_id": 24,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11448",
+    "name": "彦名レディスライフクリニック",
+    "address": "鳥取県米子市彦名町２８５６－３",
+    "prefecture_id": 31,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11449",
+    "name": "医療法人みちおかレディースクリニック",
+    "address": "福岡県北九州市小倉南区徳力２丁目２２番２８号",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11450",
+    "name": "マミーズクリニックルナ",
+    "address": "福岡県那珂川市道善２－６９",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11451",
+    "name": "愛甲産婦人科医院",
+    "address": "熊本県人吉市蟹作町１１０８－８",
+    "prefecture_id": 43,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11452",
+    "name": "医療法人田中クリニック",
+    "address": "福岡県飯塚市本町１７−１２",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11453",
+    "name": "鷺沼産婦人科医院",
+    "address": "神奈川県川崎市宮前区鷺沼３－５－１７",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11454",
+    "name": "宮坂産婦人科クリニック",
+    "address": "埼玉県さいたま市緑区東浦和２ー７１ー２",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11455",
+    "name": "医療法人社団植野産婦人科医院",
+    "address": "茨城県水戸市五軒町２－３－７",
+    "prefecture_id": 8,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11456",
+    "name": "医療法人平治会　さくらレディースクリニック",
+    "address": "奈良県橿原市上品寺町５２８番地",
+    "prefecture_id": 29,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11457",
+    "name": "産婦人科いきめの杜クリニック",
+    "address": "宮崎県宮崎市柏原４０７－１",
+    "prefecture_id": 45,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11458",
+    "name": "医療法人悦省会　分娩館医院",
+    "address": "埼玉県春日部市備後西５‐４－２８",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11459",
+    "name": "Ｗｏｍｅｎ’ｓＣｌｉｎｉｃひらしま産婦人科",
+    "address": "埼玉県上尾市原市１４６４",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11460",
+    "name": "医療法人　田辺産婦人科",
+    "address": "山梨県中巨摩郡昭和町西条６４０",
+    "prefecture_id": 19,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11461",
+    "name": "医療法人　深川レディスクリニック",
+    "address": "福岡県久留米市田主丸町田主丸１番地２８",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11462",
+    "name": "有秋台医院",
+    "address": "千葉県市原市有秋台西１ー７",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11463",
+    "name": "医療法人小塚産婦人科",
+    "address": "三重県桑名市矢田４１９－１",
+    "prefecture_id": 24,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11464",
+    "name": "医療法人久英会　片山産婦人科",
+    "address": "京都府舞鶴市字倉谷４００番地１",
+    "prefecture_id": 26,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11465",
+    "name": "産科・婦人科クリニック　おおつか",
+    "address": "宮崎県宮崎市大塚町八所３５９７－１",
+    "prefecture_id": 45,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11466",
+    "name": "すみ産婦人科医院",
+    "address": "宮崎県都城市東町１４－９－１",
+    "prefecture_id": 45,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11467",
+    "name": "マムレディースクリニック",
+    "address": "長崎県諫早市永昌東町２０－２３",
+    "prefecture_id": 42,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11468",
+    "name": "松田母子クリニック",
+    "address": "埼玉県所沢市本郷１０８０－５",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11469",
+    "name": "産科婦人科　清水クリニック",
+    "address": "山梨県甲府市向町４５０－５",
+    "prefecture_id": 19,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11470",
+    "name": "医療法人　双藤会　産科・婦人科　藤東クリニック",
+    "address": "広島県安芸郡府中町茂陰１丁目１－１",
+    "prefecture_id": 34,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11471",
+    "name": "医療法人社団　江川レディースクリニック",
+    "address": "広島県廿日市市本町５－１８",
+    "prefecture_id": 34,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11472",
+    "name": "内野産婦人科小児科",
+    "address": "東京都国立市東１－８－６　国立メディカルセンター",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11473",
+    "name": "恵愛レディースクリニック",
+    "address": "徳島県徳島市佐古三番町４－６",
+    "prefecture_id": 36,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11474",
+    "name": "しんもと産婦人科",
+    "address": "福岡県行橋市行事７－７－２",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11475",
+    "name": "医療法人貴誕会　ＥＮＡレディースクリニック",
+    "address": "大阪府大阪市都島区都島北通り１－２２－１０",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11476",
+    "name": "たびらウイメンズクリニック",
+    "address": "鹿児島県鹿児島市西谷山１丁目１番３号",
+    "prefecture_id": 46,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11477",
+    "name": "医療法人美ら海ハシイ産婦人科",
+    "address": "沖縄県名護市為又1220番291",
+    "prefecture_id": 47,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11478",
+    "name": "前村医院",
+    "address": "東京都大田区大森中２の１９の１７",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11479",
+    "name": "医療法人大和医院　大和産婦人科",
+    "address": "大阪府大阪市港区磯路２－６－１",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11480",
+    "name": "中林産婦人科クリニック",
+    "address": "兵庫県姫路市白国１丁目３番３０号",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11482",
+    "name": "バークレーレディースクリニック",
+    "address": "沖縄県浦添市当山２－２－１１",
+    "prefecture_id": 47,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11483",
+    "name": "イルマーレレディースクリニック",
+    "address": "愛知県名古屋市天白区島田４－２９０４",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11484",
+    "name": "山田産婦人科",
+    "address": "愛知県名古屋市中村区稲葉地町７丁目５番地",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11485",
+    "name": "徳重ウイメンズケアクリニック",
+    "address": "愛知県名古屋市緑区徳重２ー１８１０",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11486",
+    "name": "レディスクリニックすごう",
+    "address": "青森県弘前市大字外崎５丁目７ー４",
+    "prefecture_id": 2,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11487",
+    "name": "ファミール産院きみつ",
+    "address": "千葉県君津市郡１ー５ー４",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11488",
+    "name": "医療法人社団ロイヤルハートクリニック",
+    "address": "新潟県新潟市中央区天神尾１丁目１７番５号",
+    "prefecture_id": 15,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11489",
+    "name": "医療法人繁桂会　中川産科婦人科医院",
+    "address": "広島県広島市中区本川町二丁目１番１６号",
+    "prefecture_id": 34,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11490",
+    "name": "医療法人平野エンゼルクリニック",
+    "address": "鹿児島県鹿児島市上荒田町３１－２１",
+    "prefecture_id": 46,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11491",
+    "name": "医療法人　岡南産婦人科医院",
+    "address": "岡山県岡山市南区平福２－６－４３",
+    "prefecture_id": 33,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11492",
+    "name": "稲毛バースクリニック",
+    "address": "千葉県千葉市稲毛区小仲台６丁目４－１５",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11493",
+    "name": "横西産婦人科",
+    "address": "長野県松本市島立２９９２－１",
+    "prefecture_id": 20,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11495",
+    "name": "医療法人社団南産婦人科",
+    "address": "三重県松阪市下村町１０４１",
+    "prefecture_id": 24,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11496",
+    "name": "医療法人慈久会　たかせ産婦人科",
+    "address": "大阪府豊中市上野東２－６－１５",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11497",
+    "name": "石原産婦人科",
+    "address": "岐阜県岐阜市芥見嵯峨２－１４５",
+    "prefecture_id": 21,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11498",
+    "name": "医療法人社団健生会大重産婦人科医院",
+    "address": "宮崎県延岡市春日町３丁目４－１",
+    "prefecture_id": 45,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11499",
+    "name": "医療法人なわて記念会　鈴木レディースクリニック",
+    "address": "三重県鈴鹿市平野町７７４０－１",
+    "prefecture_id": 24,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11500",
+    "name": "医療法人　川崎産婦人科医院",
+    "address": "広島県広島市南区旭３丁目１３－１６－１",
+    "prefecture_id": 34,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11501",
+    "name": "医療法人社団　しま産婦人科",
+    "address": "山口県宇部市島２丁目１－３",
+    "prefecture_id": 35,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11502",
+    "name": "菜の花マタニティクリニック",
+    "address": "長野県伊那市日影３８０－１",
+    "prefecture_id": 20,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11503",
+    "name": "佐々木悦子産科婦人科クリニック",
+    "address": "宮城県仙台市太白区鹿野本町１１－２１",
+    "prefecture_id": 4,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11504",
+    "name": "セイントマザークリニック",
+    "address": "宮城県仙台市青葉区支倉町１－３１",
+    "prefecture_id": 4,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11505",
+    "name": "医療法人慈心会　あさの葉レディースクリニック",
+    "address": "福岡県宗像市くりえいと２－３－４５",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11506",
+    "name": "四日市レディースクリニック",
+    "address": "三重県四日市市小生町字西川原８００番地",
+    "prefecture_id": 24,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11507",
+    "name": "医療法人米田産婦人科",
+    "address": "大阪府大阪市鶴見区諸口１－１３－１６",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11508",
+    "name": "医療法人社団均禮会　府中の森土屋産婦人科",
+    "address": "東京都府中市府中町３丁目１０番地９号",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11509",
+    "name": "砂町産婦人科",
+    "address": "東京都江東区南砂４－２－１３",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11510",
+    "name": "医療法人石塚レディースクリニック",
+    "address": "鹿児島県鹿児島市新屋敷町４ー１０",
+    "prefecture_id": 46,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11511",
+    "name": "医療法人雄峰会まのウィメンズクリニック",
+    "address": "愛知県春日井市松新町２−５",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11512",
+    "name": "医療法人　千音寺産婦人科",
+    "address": "愛知県名古屋市中川区千音寺四丁目2707番地",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11513",
+    "name": "稲毛とらのこ産婦人科",
+    "address": "千葉県千葉市稲毛区小仲台２－３－１５",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11514",
+    "name": "公益社団法人有隣厚生会共立産婦人科医院",
+    "address": "静岡県御殿場市二枚橋８－１",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11515",
+    "name": "セブンベルクリニック",
+    "address": "愛知県稲沢市小池４‐１２２",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11516",
+    "name": "医療法人社団三恵会育生医院",
+    "address": "千葉県茂原市八千代２－１２－１４",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11517",
+    "name": "ローズベルクリニック",
+    "address": "岐阜県可児市下恵土２９７５－１",
+    "prefecture_id": 21,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11518",
+    "name": "医療法人裕生会　丸山産婦人科医院",
+    "address": "長野県長野市大字鶴賀南千歳町９８２番地",
+    "prefecture_id": 20,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11519",
+    "name": "グリーンベルクリニック",
+    "address": "愛知県豊田市若林東町棚田１６０－１",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11520",
+    "name": "アルプスベルクリニック",
+    "address": "岐阜県高山市山田町３１０",
+    "prefecture_id": 21,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11521",
+    "name": "ロイヤルベルクリニック",
+    "address": "愛知県名古屋市緑区水広１－１７１５",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11522",
+    "name": "医療法人虹心会たなべクリニック産科婦人科",
+    "address": "佐賀県唐津市坊主町５５０－１",
+    "prefecture_id": 41,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11523",
+    "name": "医療法人福井レディースクリニック",
+    "address": "福岡県久留米市津福本町１６２０－１",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11524",
+    "name": "フォレストベルクリニック",
+    "address": "愛知県名古屋市守山区上志段味羽根前６００－２",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11525",
+    "name": "アンジェリッククリニック浦田",
+    "address": "大分県大分市花津留２丁目１０番２号",
+    "prefecture_id": 44,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11526",
+    "name": "パークベルクリニック",
+    "address": "愛知県豊橋市南松山町１５３",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11527",
+    "name": "キャッスルベルクリニック",
+    "address": "愛知県名古屋市西区天塚町２－７",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11528",
+    "name": "フェアリーベルクリニック",
+    "address": "愛知県岡崎市中島町鮫田１２",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11529",
+    "name": "オレンジベルクリニック",
+    "address": "愛知県蒲郡市神明町２３－２１",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11530",
+    "name": "中村産婦人科",
+    "address": "埼玉県比企郡小川町大字大塚１１７６－１",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11531",
+    "name": "ピーチベルクリニック",
+    "address": "愛知県安城市新田町小山１１７",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11532",
+    "name": "医療法人愛成会東野産婦人科医院",
+    "address": "福岡県福岡市中央区草香江２－２－１７",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11533",
+    "name": "医療法人社団岩崎会　岩崎医院",
+    "address": "群馬県太田市新井町２０６番地",
+    "prefecture_id": 10,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11534",
+    "name": "アイリスベルクリニック",
+    "address": "岐阜県羽島市竹鼻町丸の内４－６",
+    "prefecture_id": 21,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11535",
+    "name": "リバーベルクリニック",
+    "address": "愛知県豊川市本野ケ原２－２２",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11536",
+    "name": "アザレアベルクリニック",
+    "address": "静岡県掛川市上西郷２３９－１",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11537",
+    "name": "メイプルベルクリニック",
+    "address": "愛知県一宮市開明蒲原２１",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11538",
+    "name": "医療法人社団柏木記念会　ファミール産院ちば",
+    "address": "千葉県千葉市中央区白旗２－７－２",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11539",
+    "name": "フラワーベルクリニック",
+    "address": "大阪府堺市東区西野４６１－１",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11540",
+    "name": "グレイスベルクリニック",
+    "address": "愛知県名古屋市中区大須３－１６－２５",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11541",
+    "name": "ＫＡＷＡレディースクリニック",
+    "address": "大阪府堺市南区若松台３−２−３",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11542",
+    "name": "リリーベルクリニック",
+    "address": "千葉県成田市公津の杜３－４３－１",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11543",
+    "name": "社会医療法人天神会　産科・婦人科みやじまクリニック",
+    "address": "福岡県久留米市大善寺町夜明３９７－１",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11544",
+    "name": "医療法人社団清和会　はちすが産婦人科医院",
+    "address": "福岡県福岡市中央区清川３丁目２０－９",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11545",
+    "name": "医療法人金井産婦人科",
+    "address": "大阪府大阪市城東区今福西１－２－８",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11546",
+    "name": "醍醐渡辺クリニック",
+    "address": "京都府京都市伏見区醍醐高畑町３０－１５",
+    "prefecture_id": 26,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11547",
+    "name": "医療法人社団マザーキーファミール産院つだぬま",
+    "address": "千葉県習志野市奏の杜３－４－１７",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11548",
+    "name": "医療法人社団ママＢＢクリニック",
+    "address": "石川県金沢市木越町ト５番地１",
+    "prefecture_id": 17,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11549",
+    "name": "藤吉産婦人科",
+    "address": "大分県中津市上宮永２７０－１",
+    "prefecture_id": 44,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11550",
+    "name": "医療法人青葉レディースクリニック",
+    "address": "福岡県福岡市東区若宮５丁目１８－２１",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11551",
+    "name": "医療法人社団おおたかの森ウィメンズケアクリニック",
+    "address": "千葉県流山市おおたかの森南二丁目１５－１",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11552",
+    "name": "医療法人図書館通おかもとマタニティークリニック",
+    "address": "愛知県長久手市岩作長筬８－１",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11553",
+    "name": "おおたレディースクリニック",
+    "address": "神奈川県伊勢原市伊勢原２－２－１２",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11554",
+    "name": "ゆざわ産婦人科クリニック",
+    "address": "青森県弘前市品川町４８番地",
+    "prefecture_id": 2,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11555",
+    "name": "杉江産婦人科",
+    "address": "奈良県生駒市元町１－１１－３",
+    "prefecture_id": 29,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11556",
+    "name": "医療法人脇本産婦人科",
+    "address": "大阪府大阪市天王寺区空堀町１－１９",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11557",
+    "name": "医療法人社団　三世会　大高医院",
+    "address": "千葉県市川市真間３－１０－８",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11558",
+    "name": "苫米地レディースクリニック",
+    "address": "青森県八戸市沢里字下沢内３６－１",
+    "prefecture_id": 2,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11559",
+    "name": "大宮林医院",
+    "address": "埼玉県さいたま市大宮区大成町１−３３５−１",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11560",
+    "name": "医療法人　小石マタニティクリニック",
+    "address": "愛知県豊橋市つつじが丘二丁目７番地の１",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11561",
+    "name": "医療法人　敬仁会　遠藤医院　遠藤マタニティクリニック",
+    "address": "宮城県多賀城市町前２丁目２－８",
+    "prefecture_id": 4,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11562",
+    "name": "医療法人社団前友会前田産婦人科",
+    "address": "千葉県八千代市八千代台東１丁目６番１７号",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11563",
+    "name": "綱島ゆめみ産婦人科",
+    "address": "神奈川県横浜市港北区綱島西３－２－２３",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11564",
+    "name": "さわだレディスクリニック",
+    "address": "岡山県岡山市南区西市５８４－１",
+    "prefecture_id": 33,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11565",
+    "name": "医療法人きずな会さめじまボンディングクリニック",
+    "address": "埼玉県熊谷市太井１６８１",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11566",
+    "name": "医療法人清風会　岡村産科婦人科",
+    "address": "愛知県碧南市沢渡町２９番地",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11567",
+    "name": "吉江レディスクリニック",
+    "address": "富山県高岡市野村１２１３－１",
+    "prefecture_id": 16,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11568",
+    "name": "医療法人四葉会　永田産婦人科",
+    "address": "岐阜県各務原市那加西野町１９０",
+    "prefecture_id": 21,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11569",
+    "name": "会沢産婦人科医院",
+    "address": "神奈川県大和市中央林間９－７－２２",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11570",
+    "name": "医療法人社団親愛産婦人科",
+    "address": "兵庫県姫路市網干区垣内中町２６０番地",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11571",
+    "name": "医療法人　竹林ウィメンズクリニック",
+    "address": "滋賀県大津市大萱１丁目１番１号",
+    "prefecture_id": 25,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11572",
+    "name": "大隈レディースクリニック",
+    "address": "佐賀県杵島郡江北町山口１３６７－１",
+    "prefecture_id": 41,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11573",
+    "name": "医療法人社団はまなレディースクリニック",
+    "address": "兵庫県明石市大久保町大窪２６２０－３",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11574",
+    "name": "三宅医院",
+    "address": "岡山県岡山市南区大福３６９－８",
+    "prefecture_id": 33,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11575",
+    "name": "友田クリニック",
+    "address": "愛知県知多市新舞子字明知山３０番地の１",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11577",
+    "name": "吉澤レディースクリック",
+    "address": "石川県金沢市稚日野町北２９５ー１",
+    "prefecture_id": 17,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11578",
+    "name": "医療法人浅桐産婦人科",
+    "address": "岡山県倉敷市連島町鶴新田１２６６－１",
+    "prefecture_id": 33,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11579",
+    "name": "戸塚共立レディースクリニック",
+    "address": "神奈川県横浜市戸塚区戸塚町１５７－３",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11580",
+    "name": "依田産科婦人科クリニック",
+    "address": "山梨県甲府市城東２ー１６ー６",
+    "prefecture_id": 19,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11581",
+    "name": "堀永産婦人科医院",
+    "address": "大分県大分市府内町２－５－１３",
+    "prefecture_id": 44,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11582",
+    "name": "山梨市立産婦人科医院",
+    "address": "山梨県山梨市上神内川１７２",
+    "prefecture_id": 19,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11583",
+    "name": "医療法人よつばウィメンズクリニック",
+    "address": "香川県高松市円座町３７５－１",
+    "prefecture_id": 37,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11584",
+    "name": "令和レディースクリニック",
+    "address": "埼玉県日高市高富４６―７",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11585",
+    "name": "平田クリニック",
+    "address": "埼玉県熊谷市肥塚４－２０５",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11586",
+    "name": "友光会　友成医院",
+    "address": "大分県玖珠郡玖珠町大字塚脇１２８－２",
+    "prefecture_id": 44,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11587",
+    "name": "医療法人緑生会あびこクリニック",
+    "address": "千葉県我孫子市我孫子４－３－２５",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11588",
+    "name": "医療法人社団健正会　南流山レディスクリニック",
+    "address": "千葉県流山市南流山４－６－９",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11589",
+    "name": "丸山産婦人科",
+    "address": "神奈川県逗子市桜山１－８－５",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11590",
+    "name": "医療法人社団産科・婦人科みずとりクリニック",
+    "address": "兵庫県神戸市北区藤原台北町７丁目２番７号",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11591",
+    "name": "医療法人社団　仲町台レディースクリニック",
+    "address": "神奈川県横浜市都筑区仲町台３－７－２１",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11592",
+    "name": "あきこレディースクリニック",
+    "address": "兵庫県明石市上ノ丸３−１１−８",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11593",
+    "name": "医療法人白水レディースクリニック",
+    "address": "佐賀県鳥栖市本通町二丁目８８２−７",
+    "prefecture_id": 41,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11594",
+    "name": "古橋産婦人科",
+    "address": "神奈川県小田原市南町２－１－４３",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11595",
+    "name": "医療法人　木本会　鈴木産婦人科",
+    "address": "大阪府大阪市此花区春日出北２－６－８",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11596",
+    "name": "医療法人社団千達会たつきクリニック",
+    "address": "東京都新宿区西新宿七丁目十六番十四号ミクラ西新宿ビル２階",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11597",
+    "name": "髙田医院",
+    "address": "岐阜県安八郡神戸町神戸４６８",
+    "prefecture_id": 21,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11598",
+    "name": "豊島産婦人科",
+    "address": "東京都杉並区西荻南４－３－１９",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11600",
+    "name": "渡辺産科婦人科",
+    "address": "福島県いわき市常磐関船町二丁目７－１",
+    "prefecture_id": 7,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11601",
+    "name": "赤川クリニック",
+    "address": "東京都杉並区上荻一丁目二十四番六号",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11602",
+    "name": "医療法人社団こひつじ会横川レディースクリニック",
+    "address": "東京都足立区保木間１－２２－１５",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11603",
+    "name": "立石産婦人科医院",
+    "address": "長崎県諫早市栄町７番６号",
+    "prefecture_id": 42,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11604",
+    "name": "医療法人社団　正裕会　井上レディースクリニック",
+    "address": "東京都立川市富士見町１－２６－９",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11605",
+    "name": "医療法人社団　川越伊藤医院",
+    "address": "三重県三重郡川越町大字豊田２９９番地１",
+    "prefecture_id": 24,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11606",
+    "name": "てしがわらレディスクリニック",
+    "address": "愛知県一宮市大和町毛受浜田１８番地",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11607",
+    "name": "医療法人社団アイビスマキクリニック",
+    "address": "兵庫県明石市小久保２丁目１４－１０",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11608",
+    "name": "医療法人社団義恵会ファミール産院えどがわ",
+    "address": "東京都江戸川区一之江８－１５－３",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11609",
+    "name": "安井医院",
+    "address": "静岡県熱海市昭和町１５番１６号",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11610",
+    "name": "天使が舞いおりる家　助産院ゆい",
+    "address": "千葉県印旛郡栄町安食１−４−１０",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11611",
+    "name": "新富谷Ｓ・Ｓレディースクリニック",
+    "address": "宮城県富谷市成田９－１－２０",
+    "prefecture_id": 4,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11612",
+    "name": "寺田医院",
+    "address": "茨城県常総市菅生町１７１７",
+    "prefecture_id": 8,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11613",
+    "name": "医療法人社団 産幸会 飯島マザーズクリニック",
+    "address": "千葉県市原市姉崎２２２３",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11614",
+    "name": "やまだ産婦人科",
+    "address": "愛知県江南市高屋町八幡１１６",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11615",
+    "name": "うえだウィメンズクリニック",
+    "address": "滋賀県近江八幡市堀上町１９３－１",
+    "prefecture_id": 25,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11616",
+    "name": "医療法人 柏木産婦人科",
+    "address": "京都府京都市右京区太秦垂箕山町１３－３",
+    "prefecture_id": 26,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11618",
+    "name": "祖川産婦人科クリニック",
+    "address": "徳島県徳島市北田宮３－５－６５",
+    "prefecture_id": 36,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11619",
+    "name": "医療法人 社団 毛利クリニック",
+    "address": "宮城県柴田郡柴田町船岡西１－９－２８",
+    "prefecture_id": 4,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11620",
+    "name": "ゆいレディースクリニック",
+    "address": "福岡県糟屋郡粕屋町原町５－１２－１",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11621",
+    "name": "ウィメンズクリニック利府",
+    "address": "宮城県宮城郡利府町沢乙字寺下２２－１",
+    "prefecture_id": 4,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11622",
+    "name": "ちかざわLadies’クリニック",
+    "address": "栃木県宇都宮市城東１丁目２番５号",
+    "prefecture_id": 9,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11623",
+    "name": "斎川産婦人科",
+    "address": "群馬県高崎市岩押町３１－１０",
+    "prefecture_id": 10,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11624",
+    "name": "医療法人星陽会 いしもとレディスクリニック",
+    "address": "群馬県高崎市中泉町６０８－２",
+    "prefecture_id": 10,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11625",
+    "name": "医療法人社団煌星会 鎌ヶ谷バースクリニック",
+    "address": "千葉県鎌ケ谷市初富９２９－９",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11626",
+    "name": "スワンレディースクリニック",
+    "address": "東京都北区王子４－２７－２",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11628",
+    "name": "関谷レディースクリニック",
+    "address": "静岡県沼津市西椎路１４９－１",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11629",
+    "name": "吉村医院 あさひ産婦人科",
+    "address": "愛知県岡崎市柱町東荒子１４１－１",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11630",
+    "name": "医療法人 康仁会 岡医院",
+    "address": "栃木県佐野市久保町１１０－１",
+    "prefecture_id": 9,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11631",
+    "name": "医療法人社団 稔誠会 高橋レディースクリニック",
+    "address": "埼玉県三郷市采女１－２３２",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11632",
+    "name": "奥平産婦人科",
+    "address": "埼玉県狭山市下奥富４９０－３",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11633",
+    "name": "四季ウィメンズクリニック",
+    "address": "千葉県柏市篠籠田１１２４－１",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11634",
+    "name": "新家産婦人科医院",
+    "address": "東京都国分寺市光町１丁目３８番１１号",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11635",
+    "name": "かやま産科婦人科医院",
+    "address": "静岡県裾野市岩波１２４－２",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11636",
+    "name": "つかはらレディースクリニック",
+    "address": "愛知県一宮市浅野字居森野７１番地１",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11637",
+    "name": "レディースクリニックアンジュ",
+    "address": "愛知県日進市岩崎台１－１２０８",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11638",
+    "name": "広渡レディスクリニック",
+    "address": "愛知県知多郡阿久比町白沢天神前２７",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11639",
+    "name": "大石産婦人科医院",
+    "address": "三重県熊野市有馬町２０１",
+    "prefecture_id": 24,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11640",
+    "name": "医療法人社団 末包クリニック",
+    "address": "兵庫県尼崎市南武庫之荘１丁目１３－１０",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11641",
+    "name": "医療法人 稲祥会 稲田クリニック",
+    "address": "和歌山県和歌山市和田４６１",
+    "prefecture_id": 30,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11642",
+    "name": "医療法人 慈母会 池田レディスクリニック",
+    "address": "福岡県八女市本村５６－３",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11643",
+    "name": "竹内産婦人科クリニック",
+    "address": "福岡県福岡市早良区野芥７丁目１－３０",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11645",
+    "name": "こどもの国レディスクリニック",
+    "address": "神奈川県横浜市青葉区奈良１－１８－１０",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11646",
+    "name": "医療法人 産婦人科 鈴木クリニック",
+    "address": "福井県鯖江市東鯖江４丁目２番２３号",
+    "prefecture_id": 18,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11648",
+    "name": "片岡レディスクリニック",
+    "address": "熊本県八代市本町３丁目３ー３５",
+    "prefecture_id": 43,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11649",
+    "name": "医療法人社団 羽根田産婦人科クリニック",
+    "address": "山形県山形市寿町１９番１号",
+    "prefecture_id": 6,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11650",
+    "name": "医療法人 ＡＢＣクリニック 新妻産婦人科",
+    "address": "福島県福島市陣場町９－１８",
+    "prefecture_id": 7,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11651",
+    "name": "はぐくみ母子クリニック",
+    "address": "神奈川県川崎市中原区下小田中３－３３－５",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11652",
+    "name": "はぐくみ母子クリニック 新横浜",
+    "address": "神奈川県横浜市港北区大豆戸町１１８０－１",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11653",
+    "name": "医療法人 澤井産婦人科",
+    "address": "大阪府富田林市喜志町３－１－２２",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11654",
+    "name": "末光産婦人科",
+    "address": "広島県呉市本町３－４",
+    "prefecture_id": 34,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11655",
+    "name": "医療法人 サカタ産婦人科",
+    "address": "愛媛県西条市下島山甲１４５３",
+    "prefecture_id": 38,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11656",
+    "name": "伊集院産婦人科",
+    "address": "鹿児島県鹿児島市池之上町９－２７",
+    "prefecture_id": 46,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11657",
+    "name": "医療法人 広川レディスクリニック",
+    "address": "愛知県大府市一屋町４丁目８８番地",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11658",
+    "name": "片倉医院産科婦人科",
+    "address": "福島県白河市昭和町１",
+    "prefecture_id": 7,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11659",
+    "name": "藤本産婦人科小児科",
+    "address": "福岡県八女市本町５２７",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11660",
+    "name": "医療法人社団 凌雲会 根本産婦人科医院",
+    "address": "千葉県市川市行徳駅前２－２６－１６",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11661",
+    "name": "おおのレディースクニック",
+    "address": "岐阜県岐阜市光町１丁目４４",
+    "prefecture_id": 21,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11662",
+    "name": "新谷ウイメンズクリニック",
+    "address": "愛媛県新居浜市一宮町１－１２－５６",
+    "prefecture_id": 38,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11663",
+    "name": "中田ウィメンズ＆キッズクリニック",
+    "address": "栃木県宇都宮市西１－３－１１",
+    "prefecture_id": 9,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11664",
+    "name": "かしわざき産婦人科",
+    "address": "埼玉県さいたま市大宮区上小町６０４－４",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11665",
+    "name": "医療法人社団 そうクリニック",
+    "address": "千葉県四街道市大日７４１－３",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11666",
+    "name": "Sola clinic",
+    "address": "神奈川県横浜市都筑区北山田２－２－１",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11667",
+    "name": "レディースクリニックしげまつ",
+    "address": "長崎県大村市古町１－５１４",
+    "prefecture_id": 42,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11668",
+    "name": "医療法人雄峰会 まのレディースクリニック",
+    "address": "愛知県名古屋市港区七反野１丁目８０６－１",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11669",
+    "name": "医療法人雄峰会 真野産婦人科",
+    "address": "愛知県津島市大字津島字北新開１２８－１",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11670",
+    "name": "田代産婦人科医院",
+    "address": "熊本県熊本市中央区大江４丁目５－５",
+    "prefecture_id": 43,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11671",
+    "name": "医療法人社団 スピカレディースクリニック",
+    "address": "埼玉県加須市南篠崎２２５２",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11672",
+    "name": "川嶋レディースクリニック",
+    "address": "千葉県市川市妙典５－７－９",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11673",
+    "name": "野村ウィメンズクリニック",
+    "address": "長野県岡谷市中央町３－１－３６",
+    "prefecture_id": 20,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11674",
+    "name": "医療法人 城野産婦人科クリニック",
+    "address": "福岡県春日市一の谷２丁目８番地１",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11675",
+    "name": "曽根崎産婦人科医院",
+    "address": "大分県大分市二又町一丁目２番７号",
+    "prefecture_id": 44,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11676",
+    "name": "医療法人社団 小清水産婦人科クリニック",
+    "address": "神奈川県平塚市徳延６８３－１",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11677",
+    "name": "寺田産婦人科",
+    "address": "三重県伊勢市小木町１８５－１",
+    "prefecture_id": 24,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11678",
+    "name": "医療法人 幸の鳥医院",
+    "address": "福岡県北九州市小倉南区徳力新町１－２１－１６",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11679",
+    "name": "医療法人 ノブマタニティークリニック",
+    "address": "福島県いわき市中央台飯野４－１８－２",
+    "prefecture_id": 7,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11680",
+    "name": "アイ・レディースクリニック",
+    "address": "静岡県焼津市坂本４５７",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11681",
+    "name": "くにとみクリニック",
+    "address": "岡山県総社市門田７８－１",
+    "prefecture_id": 33,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11682",
+    "name": "桑原産科婦人科医院",
+    "address": "熊本県熊本市東区桜木２－２－６",
+    "prefecture_id": 43,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11683",
+    "name": "医療法人 明峰会 東山産婦人科・小児科",
+    "address": "大阪府高槻市辻子３丁目１０－３",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11684",
+    "name": "医療法人社団ワイズレディスクリニック",
+    "address": "埼玉県幸手市大字上高野１９７８番地",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11685",
+    "name": "産婦人科ナカムラクリニック",
+    "address": "兵庫県神戸市東灘区御影本町２－９－１",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11686",
+    "name": "嘉村産婦人科医院",
+    "address": "福岡県福岡市博多区西春町１－７－１４",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11687",
+    "name": "医療法人 寿恵会 船橋レディスクリニック",
+    "address": "茨城県古河市諸川６５７－３",
+    "prefecture_id": 8,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11689",
+    "name": "豊島団地産婦人科",
+    "address": "東京都北区豊島５－５－５－１０６",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11690",
+    "name": "池田功産婦人科医院",
+    "address": "福岡県福岡市西区野方１丁目２－２５",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11691",
+    "name": "はぎもと助産院",
+    "address": "長野県飯田市鼎下山８０４－１",
+    "prefecture_id": 20,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11692",
+    "name": "とも子助産院",
+    "address": "宮城県仙台市泉区野村字野村９５の６",
+    "prefecture_id": 4,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11694",
+    "name": "ふたば助産院豊川",
+    "address": "愛知県豊川市大堀町１１１ー１",
+    "prefecture_id": 23,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11695",
+    "name": "ちひろ助産院",
+    "address": "和歌山県田辺市朝日ヶ丘３－２０",
+    "prefecture_id": 30,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11696",
+    "name": "森重助産院",
+    "address": "神奈川県川崎市川崎区渡田４－３－１２",
+    "prefecture_id": 14,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11697",
+    "name": "九州バースセンター姥が懐",
+    "address": "福岡県遠賀郡芦屋町大字山鹿８５２−７７",
+    "prefecture_id": 40,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11698",
+    "name": "菜の花助産院",
+    "address": "福岡県飯塚市津原６６３－９",
+    "prefecture_id": 40,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11699",
+    "name": "よこさわ助産院",
+    "address": "静岡県磐田市草崎３３４－１",
+    "prefecture_id": 22,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11700",
+    "name": "倉敷マタニティサービスかねこ助産院",
+    "address": "岡山県倉敷市広江８－１８－１",
+    "prefecture_id": 33,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11701",
+    "name": "めぐみ助産院",
+    "address": "神奈川県横浜市鶴見区寺谷２－１５－１８",
+    "prefecture_id": 14,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11702",
+    "name": "山本助産院",
+    "address": "神奈川県横浜市金沢区六浦２‐１４‐１２",
+    "prefecture_id": 14,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11703",
+    "name": "星野助産所",
+    "address": "愛知県名古屋市守山区金屋１－１７－２",
+    "prefecture_id": 23,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11704",
+    "name": "一般社団法人　齋藤助産院",
+    "address": "神奈川県茅ヶ崎市芹沢　１００４番地１０",
+    "prefecture_id": 14,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11705",
+    "name": "森のおひさま助産院",
+    "address": "宮城県仙台市青葉区高野原４丁目１２ー１８",
+    "prefecture_id": 4,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11706",
+    "name": "いぶきの助産院",
+    "address": "静岡県静岡市駿河区丸子５ー１８ー２０",
+    "prefecture_id": 22,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11707",
+    "name": "プリマ助産院",
+    "address": "大阪府池田市八王寺１－７－３",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11708",
+    "name": "あさみや助産院",
+    "address": "愛知県一宮市萩原町朝宮字嫁振２０番地１",
+    "prefecture_id": 23,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11710",
+    "name": "生野助産所",
+    "address": "大分県大分市豊饒三丁目１１番５３号",
+    "prefecture_id": 44,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11711",
+    "name": "高石市立母子健康センター",
+    "address": "大阪府高石市羽衣４丁４番２６号",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11712",
+    "name": "ｍｕｓｕｂｉ助産院",
+    "address": "京都府向日市鶏冠井町楓畑３−１",
+    "prefecture_id": 26,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11713",
+    "name": "みか助産院",
+    "address": "愛知県知多郡東浦町緒川金十根３６番地２",
+    "prefecture_id": 23,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11714",
+    "name": "岡本助産院",
+    "address": "和歌山県和歌山市小雑賀２０７",
+    "prefecture_id": 30,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11715",
+    "name": "助産院　もりあね",
+    "address": "埼玉県所沢市下富　６１２−１０",
+    "prefecture_id": 11,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11716",
+    "name": "みやした助産院",
+    "address": "神奈川県横浜市南区三春台１２６",
+    "prefecture_id": 14,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11717",
+    "name": "八千代マタニティセンター武田助産院",
+    "address": "千葉県八千代市米本１４５０",
+    "prefecture_id": 12,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11718",
+    "name": "かもめ助産院",
+    "address": "神奈川県横須賀市ハイランド１－３８－３",
+    "prefecture_id": 14,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11719",
+    "name": "かなや助産所",
+    "address": "愛知県豊明市前後町仙人塚１７４７－２８",
+    "prefecture_id": 23,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11720",
+    "name": "ゆずりは助産院",
+    "address": "大阪府枚方市氷室台１−４４−３２",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11721",
+    "name": "おしか助産院",
+    "address": "静岡県静岡市駿河区小鹿１３６６－１１",
+    "prefecture_id": 22,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11722",
+    "name": "豊倉助産院",
+    "address": "神奈川県横浜市泉区緑園２－１９－２４",
+    "prefecture_id": 14,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11723",
+    "name": "たまのお助産院",
+    "address": "大阪府箕面市粟生間谷西７丁目４３－１０",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11724",
+    "name": "川渕助産院",
+    "address": "静岡県浜松市浜名区小松４９０",
+    "prefecture_id": 22,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11725",
+    "name": "かん助産所",
+    "address": "愛知県一宮市木曽川町玉ノ井字砂割７",
+    "prefecture_id": 23,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11726",
+    "name": "芽愛助産院",
+    "address": "奈良県天理市前栽町２７４－１",
+    "prefecture_id": 29,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11727",
+    "name": "一般社団法人　晴れの国お産所",
+    "address": "岡山県笠岡市新賀３２５０ー１",
+    "prefecture_id": 33,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11728",
+    "name": "一般社団法人北九州助産センターお産の家よつ葉",
+    "address": "福岡県北九州市八幡東区枝光本町８－１３",
+    "prefecture_id": 40,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11729",
+    "name": "しまざき助産院",
+    "address": "兵庫県川西市黒川字寺垣内２３２",
+    "prefecture_id": 28,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11730",
+    "name": "にじいろ助産院",
+    "address": "大阪府大阪市淀川区十三東４－３－４９",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11731",
+    "name": "岸本助産院",
+    "address": "大阪府交野市星田９ー１９ー７",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11732",
+    "name": "バースハーモニー美しが丘助産院",
+    "address": "神奈川県横浜市青葉区美しが丘西３－３－７",
+    "prefecture_id": 14,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11733",
+    "name": "森田助産院",
+    "address": "東京都福生市志茂８３",
+    "prefecture_id": 13,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11735",
+    "name": "一般社団法人矢島助産院",
+    "address": "東京都国分寺市東元町１－４０－７",
+    "prefecture_id": 13,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11736",
+    "name": "お茶畑助産院",
+    "address": "静岡県袋井市豊沢２１５８ー３",
+    "prefecture_id": 22,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11737",
+    "name": "碧助産院",
+    "address": "愛知県安城市堀内町前山８４",
+    "prefecture_id": 23,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11738",
+    "name": "ことり助産院",
+    "address": "栃木県鹿沼市上南摩町９２ー２５",
+    "prefecture_id": 9,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11739",
+    "name": "愛助産院",
+    "address": "埼玉県三郷市戸ヶ崎３－１７８－７",
+    "prefecture_id": 11,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11740",
+    "name": "マミー助産院",
+    "address": "愛媛県四国中央市土居町北野甲５８７ー３",
+    "prefecture_id": 38,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11741",
+    "name": "みどり助産院",
+    "address": "神奈川県横浜市緑区三保町２２４２",
+    "prefecture_id": 14,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11742",
+    "name": "助産院　エ・ク・ボ",
+    "address": "北海道札幌市西区発寒６条１０丁目１０－３",
+    "prefecture_id": 1,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11743",
+    "name": "出張さんばステーション朝霞たかせ助産院",
+    "address": "埼玉県朝霞市三原３－１７－２０",
+    "prefecture_id": 11,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11744",
+    "name": "心友助産院",
+    "address": "奈良県北葛城郡広陵町三吉２６０番３",
+    "prefecture_id": 29,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11745",
+    "name": "めぐみ助産院",
+    "address": "埼玉県新座市野火止６−１５−１０",
+    "prefecture_id": 11,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11746",
+    "name": "ひらり助産院",
+    "address": "大阪府吹田市西の庄町３ー２２",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11747",
+    "name": "橋本助産院",
+    "address": "大阪府寝屋川市堀溝北町１０－６",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11749",
+    "name": "ゆう助産院",
+    "address": "大阪府東大阪市小阪１丁目４番３７号",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11750",
+    "name": "ありじゅマタニティハウス",
+    "address": "北海道札幌市白石区菊水上町二条一丁目四十六－九十",
+    "prefecture_id": 1,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11751",
+    "name": "ほのか助産院",
+    "address": "宮崎県都城市乙房町１５８８－１",
+    "prefecture_id": 45,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11752",
+    "name": "一般社団法人たきざわ助産院産前産後の家",
+    "address": "福井県敦賀市三島町２丁目１４－１７",
+    "prefecture_id": 18,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11753",
+    "name": "一般社団沖縄県助産師会母子未来センター",
+    "address": "沖縄県沖縄市中央４－１５－１２",
+    "prefecture_id": 47,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11754",
+    "name": "ぷくぷく助産院",
+    "address": "神奈川県横須賀市坂本町５－２２",
+    "prefecture_id": 14,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11755",
+    "name": "きらら助産院",
+    "address": "兵庫県神戸市垂水区塩屋台１－８－３",
+    "prefecture_id": 28,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11756",
+    "name": "ＫＥＩ助産院",
+    "address": "広島県広島市中区東白島町１５ー８ー８０２",
+    "prefecture_id": 34,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11758",
+    "name": "わたなべ助産院",
+    "address": "大分県佐伯市大字長良汐月３６５－１",
+    "prefecture_id": 44,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11759",
+    "name": "渡辺助産院",
+    "address": "静岡県静岡市葵区上足洗１－４－１",
+    "prefecture_id": 22,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11760",
+    "name": "ウパウパハウス岡本助産院",
+    "address": "神奈川県川崎市中原区下小田中１－５－３１",
+    "prefecture_id": 14,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11761",
+    "name": "助産院マミータ",
+    "address": "福岡県福岡市南区大池２丁目１２ー３",
+    "prefecture_id": 40,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11762",
+    "name": "たから助産院",
+    "address": "広島県広島市安佐南区中須１の４４の２６の８",
+    "prefecture_id": 34,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11764",
+    "name": "桃太郎助産院",
+    "address": "静岡県伊豆市日向６７０－１",
+    "prefecture_id": 22,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11765",
+    "name": "助産院町のさんばさん",
+    "address": "福岡県北九州市八幡西区千代４丁目９番８号",
+    "prefecture_id": 40,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11766",
+    "name": "助産院あゆる",
+    "address": "北海道旭川市永山八条十五丁目一の二",
+    "prefecture_id": 1,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11767",
+    "name": "みぞえよしえハローベビー助産院",
+    "address": "青森県青森市蛍沢１ー２７ー１０",
+    "prefecture_id": 2,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11768",
+    "name": "つぼみ助産院",
+    "address": "広島県広島市安佐南区伴東",
+    "prefecture_id": 34,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11769",
+    "name": "ゆりかご助産院",
+    "address": "岐阜県各務原市蘇原大島町１丁目４９番地",
+    "prefecture_id": 21,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11770",
+    "name": "ｔｓｕｍｕｇｉ助産院",
+    "address": "大阪府枚方市招提元町３－５－６",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11772",
+    "name": "たんぽぽ助産院",
+    "address": "岡山県倉敷市中帯江２４－１１",
+    "prefecture_id": 33,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11773",
+    "name": "ぼっこ助産院",
+    "address": "香川県高松市春日町１１７６番地",
+    "prefecture_id": 37,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11774",
+    "name": "公益社団法人神奈川県助産師会立とわ助産院",
+    "address": "神奈川県横浜市鶴見区鶴見中央１－１０－２０",
+    "prefecture_id": 14,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11775",
+    "name": "助産所マタニティ・ハウスひまわり",
+    "address": "三重県鈴鹿市高塚町１０６６番地３１",
+    "prefecture_id": 24,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11776",
+    "name": "よしむら助産所",
+    "address": "滋賀県彦根市彦富町６０３−２８",
+    "prefecture_id": 25,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11777",
+    "name": "助産院　いのちの森",
+    "address": "石川県白山市藤木町２５５－２",
+    "prefecture_id": 17,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11778",
+    "name": "はとがや助産所",
+    "address": "埼玉県川口市坂下町４－１８－３",
+    "prefecture_id": 11,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11779",
+    "name": "あいっこ助産院",
+    "address": "大阪府大阪市住吉区墨江一丁目二番二十二号",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11780",
+    "name": "はるか助産院",
+    "address": "大阪府枚方市三矢町４番地６ー２号",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11781",
+    "name": "あゆみ助産院",
+    "address": "長野県松本市渚３－６－１５",
+    "prefecture_id": 20,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11782",
+    "name": "マタニティホームあいｓｕｎ",
+    "address": "岐阜県岐阜市東鶉２－１３－１",
+    "prefecture_id": 21,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11783",
+    "name": "ふたば助産院",
+    "address": "愛知県豊橋市杉山町字知原１２－１３７０",
+    "prefecture_id": 23,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11784",
+    "name": "バース・ハウス　なかにし助産院",
+    "address": "和歌山県御坊市湯川町小松原",
+    "prefecture_id": 30,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11785",
+    "name": "明生助産所みその",
+    "address": "長野県伊那市御園571‐7",
+    "prefecture_id": 20,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11786",
+    "name": "つむぎ助産所",
+    "address": "東京都練馬区石神井台２－２－１７",
+    "prefecture_id": 13,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11787",
+    "name": "ひな助産院",
+    "address": "東京都足立区加平３−１４−１２",
+    "prefecture_id": 13,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11789",
+    "name": "ひなたぼっこ助産院",
+    "address": "大阪府高槻市大冠町２－２３－３",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11790",
+    "name": "しらさぎふれあい助産院",
+    "address": "東京都中野区鷺宮３－３－６　シュプール１０１",
+    "prefecture_id": 13,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11791",
+    "name": "うぉーむ助産院",
+    "address": "兵庫県伊丹市北河原１－７－８",
+    "prefecture_id": 28,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11792",
+    "name": "鹿児島中央助産院",
+    "address": "鹿児島県鹿児島市伊敷６丁目１７－１８",
+    "prefecture_id": 46,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11794",
+    "name": "さとう助産院",
+    "address": "茨城県結城市結城１２０７８－１１",
+    "prefecture_id": 8,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11795",
+    "name": "共同助産所　お産子の家",
+    "address": "滋賀県東近江市八日市緑町１７－５",
+    "prefecture_id": 25,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11796",
+    "name": "松が丘助産院",
+    "address": "東京都中野区松が丘１－１０ー１３",
+    "prefecture_id": 13,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11797",
+    "name": "むとう助産院",
+    "address": "和歌山県和歌山市内原５８２－６",
+    "prefecture_id": 30,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11798",
+    "name": "さくらバース",
+    "address": "神奈川県川崎市中原区今井南町３０ー９",
+    "prefecture_id": 14,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11799",
+    "name": "菜桜助産所",
+    "address": "静岡県富士市宮島１０６２－８",
+    "prefecture_id": 22,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11800",
+    "name": "つるべ助産院",
+    "address": "北海道札幌市白石区北郷３条２丁目１３ー８",
+    "prefecture_id": 1,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11801",
+    "name": "牧岡マタニティハウス",
+    "address": "埼玉県越谷市大間野町１－３５－１２",
+    "prefecture_id": 11,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11802",
+    "name": "ひまわり助産院",
+    "address": "愛知県刈谷市池田町１－１－９",
+    "prefecture_id": 23,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11803",
+    "name": "ノア助産院",
+    "address": "静岡県静岡市清水区下野町２－１",
+    "prefecture_id": 22,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11804",
+    "name": "磯部助産院",
+    "address": "滋賀県蒲生郡竜王町大字山之上５２８７",
+    "prefecture_id": 25,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11805",
+    "name": "はちどり助産院",
+    "address": "愛知県豊田市豊栄町１－１３３－１",
+    "prefecture_id": 23,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11806",
+    "name": "さくら助産院",
+    "address": "兵庫県淡路市志筑新島６－９",
+    "prefecture_id": 28,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11807",
+    "name": "高林助産院",
+    "address": "静岡県浜松市浜名区新原４２１２番地の３",
+    "prefecture_id": 22,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11809",
+    "name": "石井助産院",
+    "address": "奈良県奈良市奈保町５－２１",
+    "prefecture_id": 29,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11810",
+    "name": "ここみ助産所",
+    "address": "東京都西東京市南町１－３－１３",
+    "prefecture_id": 13,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11811",
+    "name": "公益財団法人東京都助産師会館八千代助産院",
+    "address": "東京都文京区音羽１−１９−１８",
+    "prefecture_id": 13,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11812",
+    "name": "助産院ねむねむ",
+    "address": "千葉県南房総市海老敷４２２－１",
+    "prefecture_id": 12,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11813",
+    "name": "助産院エンジェルスマイルモモ",
+    "address": "三重県伊勢市佐八町２０２２－１",
+    "prefecture_id": 24,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11814",
+    "name": "出張さんばステーション日野春　松浦助産院",
+    "address": "山梨県北杜市長坂町日野９８",
+    "prefecture_id": 19,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11815",
+    "name": "野ノ花助産院",
+    "address": "長野県駒ヶ根市東伊那２１９５−２",
+    "prefecture_id": 20,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11816",
+    "name": "マミィ助産院",
+    "address": "鹿児島県鹿児島市中山町２５９８",
+    "prefecture_id": 46,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11817",
+    "name": "医療法人緑生会あびこ助産院",
+    "address": "千葉県我孫子市我孫子１８５４−１１",
+    "prefecture_id": 12,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11819",
+    "name": "くさの助産院",
+    "address": "静岡県静岡市葵区瀬名川３丁目１４番１３号",
+    "prefecture_id": 22,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11820",
+    "name": "出産と育児の相談室　母微笑助産院",
+    "address": "大阪府堺市北区新堀町２丁８１－８",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11821",
+    "name": "助産院　愛花",
+    "address": "長野県安曇野市豊科４５９５−４",
+    "prefecture_id": 20,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11822",
+    "name": "しぶや助産院",
+    "address": "福岡県遠賀郡岡垣町旭台３丁目１１番５号",
+    "prefecture_id": 40,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11823",
+    "name": "愛助産院",
+    "address": "愛知県春日井市下条町７７５－７",
+    "prefecture_id": 23,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11824",
+    "name": "さかもと助産所",
+    "address": "東京都東久留米市小山５丁目１番３５号",
+    "prefecture_id": 13,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11826",
+    "name": "助産院　アロマ・バース",
+    "address": "千葉県市原市能満１８５６ー２",
+    "prefecture_id": 12,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11827",
+    "name": "つむぎ助産院",
+    "address": "静岡県菊川市棚草五一六の八",
+    "prefecture_id": 22,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11828",
+    "name": "一般社団法人助産婦石村",
+    "address": "東京都江東区東陽３－２１－１１－１０１",
+    "prefecture_id": 13,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11829",
+    "name": "助産院こうのとり",
+    "address": "静岡県静岡市駿河区栗原２６－１４－５",
+    "prefecture_id": 22,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11830",
+    "name": "桜の森助産院",
+    "address": "福島県いわき市平字長橋町１－１",
+    "prefecture_id": 7,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11831",
+    "name": "助産院・産後ケアハウス　赤ちゃんのほっぺ",
+    "address": "山口県山口市大内長野４６３－１",
+    "prefecture_id": 35,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11832",
+    "name": "れいこ助産院",
+    "address": "広島県広島市南区宇品神田５丁目２６－９－１３０７",
+    "prefecture_id": 34,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11833",
+    "name": "助産所ほやほや",
+    "address": "長野県長野市北堀８４７ー１１",
+    "prefecture_id": 20,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11834",
+    "name": "エンジェルバース山方助産院",
+    "address": "神奈川県横浜市瀬谷区本郷１－６－２",
+    "prefecture_id": 14,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11836",
+    "name": "ゆたか助産院",
+    "address": "石川県加賀市大聖寺本町３９番地２号",
+    "prefecture_id": 17,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11837",
+    "name": "みき助産院",
+    "address": "京都府舞鶴市喜多８４９➖４",
+    "prefecture_id": 26,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11838",
+    "name": "悠育助産院",
+    "address": "京都府相楽郡精華町精華台４－２１－１４",
+    "prefecture_id": 26,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11840",
+    "name": "助産院むすびや",
+    "address": "沖縄県うるま市勝連南風原８３８の１の４０１",
+    "prefecture_id": 47,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11841",
+    "name": "なかの助産院",
+    "address": "東京都北区滝野川６ー６２ー１ー４０９",
+    "prefecture_id": 13,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11842",
+    "name": "助産所ままと赤ちゃんの家",
+    "address": "栃木県那須塩原市埼玉４５１－１",
+    "prefecture_id": 9,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11843",
+    "name": "助産院ここいやし",
+    "address": "鹿児島県肝属郡肝付町富山１２７４－７",
+    "prefecture_id": 46,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11844",
+    "name": "一般社団法人日本助産所会立　歩助産所",
+    "address": "山口県宇部市大字小串１３０番地８",
+    "prefecture_id": 35,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11845",
+    "name": "クバの葉助産院",
+    "address": "沖縄県宜野湾市宜野湾２－１４－２センチュリーハウスⅡ４０１号室",
+    "prefecture_id": 47,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11846",
+    "name": "つぐみ助産院",
+    "address": "京都府京都市北区西賀茂井ノ口町110－2",
+    "prefecture_id": 26,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11847",
+    "name": "医療法人社団愛弘会みらい助産院",
+    "address": "千葉県印西市原４－２－１",
+    "prefecture_id": 12,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11848",
+    "name": "有理助産院",
+    "address": "岡山県岡山市南区新福１－６－２２",
+    "prefecture_id": 33,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11849",
+    "name": "ははこっこ助産院",
+    "address": "宮城県大崎市古川大幡字原田１４－１",
+    "prefecture_id": 4,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11851",
+    "name": "出張助産師　堀江豊子",
+    "address": "岐阜県加茂郡川辺町比久見１２７８－３",
+    "prefecture_id": 21,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11852",
+    "name": "みちつき助産院",
+    "address": "新潟県新潟市西区五十嵐１の町６３７９－９５",
+    "prefecture_id": 15,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11853",
+    "name": "まき助産院",
+    "address": "静岡県静岡市葵区与一３丁目４番１６号",
+    "prefecture_id": 22,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11855",
+    "name": "あお助産院",
+    "address": "愛知県名古屋市千種区本山町１－１８－２",
+    "prefecture_id": 23,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11856",
+    "name": "つきのみち助産院",
+    "address": "茨城県那珂市菅谷３９５７－３六川住宅２",
+    "prefecture_id": 8,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11857",
+    "name": "ＨＩＮＡ助産院",
+    "address": "静岡県袋井市高尾町１３－１６",
+    "prefecture_id": 22,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11858",
+    "name": "ひまわり助産院",
+    "address": "千葉県匝瑳市野手１７１４６ー９３７",
+    "prefecture_id": 12,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11859",
+    "name": "樹の下助産院",
+    "address": "大阪府東大阪市若江北町２丁目８番２７号",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11860",
+    "name": "すこやか助産院",
+    "address": "愛知県北名古屋市鹿田廻間８３",
+    "prefecture_id": 23,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11861",
+    "name": "助産院フジサンバ",
+    "address": "山梨県富士吉田市上吉田東４ー１５ー３４",
+    "prefecture_id": 19,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11862",
+    "name": "一般社団法人ＺＩＫＯＭＯ　つくい助産院",
+    "address": "神奈川県相模原市緑区又野５３１－７",
+    "prefecture_id": 14,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11863",
+    "name": "ウアノア助産院",
+    "address": "兵庫県姫路市飾磨区上野田４ー１１１ー１",
+    "prefecture_id": 28,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11864",
+    "name": "あごら助産院",
+    "address": "埼玉県越谷市瓦曾根１－１１－１３",
+    "prefecture_id": 11,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11865",
+    "name": "あかつき助産院",
+    "address": "富山県富山市上赤江町２丁目３ー５",
+    "prefecture_id": 16,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11866",
+    "name": "ゆい助産院",
+    "address": "広島県広島市安佐北区可部８丁目６ー８",
+    "prefecture_id": 34,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11867",
+    "name": "うるは助産院",
+    "address": "静岡県三島市加茂川町２－１３",
+    "prefecture_id": 22,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11868",
+    "name": "ふね助産院",
+    "address": "静岡県静岡市清水区渋川３－２－７",
+    "prefecture_id": 22,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11869",
+    "name": "あかね助産院",
+    "address": "三重県多気郡多気町笠木６２０",
+    "prefecture_id": 24,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11870",
+    "name": "かつはら助産院",
+    "address": "三重県津市白山町藤８３８ー１",
+    "prefecture_id": 24,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11871",
+    "name": "助産院　ビー・エル・ビー　ホーム",
+    "address": "東京都東村山市久米川町１－３７－２２",
+    "prefecture_id": 13,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11872",
+    "name": "ひまわり助産院",
+    "address": "石川県金沢市泉野出町４丁目１３番２２号",
+    "prefecture_id": 17,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11873",
+    "name": "まちかど助産庵co*toiro (こといろ)",
+    "address": "三重県桑名市船馬町６４－２",
+    "prefecture_id": 24,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11874",
+    "name": "東大和助産院",
+    "address": "東京都東大和市新堀２―１４９６―２９",
+    "prefecture_id": 13,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11875",
+    "name": "助産院ウテキアニ",
+    "address": "長野県安曇野市穂高有明４０８２−１",
+    "prefecture_id": 20,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11876",
+    "name": "國本助産院",
+    "address": "兵庫県神戸市中央区山本通３－１５－２",
+    "prefecture_id": 28,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11877",
+    "name": "和助産院",
+    "address": "静岡県磐田市大久保７３３番地３７",
+    "prefecture_id": 22,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11878",
+    "name": "目白助産所",
+    "address": "東京都豊島区雑司が谷２－２４－１１",
+    "prefecture_id": 13,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11879",
+    "name": "にじいろ助産院",
+    "address": "福岡県福津市本木１２３０の４",
+    "prefecture_id": 40,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11880",
+    "name": "野の花助産所",
+    "address": "兵庫県神戸市西区玉津町今津６６７－２１",
+    "prefecture_id": 28,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11881",
+    "name": "かふう助産院",
+    "address": "大阪府高槻市天王町３１番９号",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11882",
+    "name": "おおまち助産院",
+    "address": "岡山県瀬戸内市邑久町福谷４０８６",
+    "prefecture_id": 33,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11883",
+    "name": "青柳助産院",
+    "address": "奈良県奈良市五条畑１丁目１７ー１０ー１",
+    "prefecture_id": 29,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11884",
+    "name": "おはな助産院",
+    "address": "静岡県御前崎市白羽６６２１－１０７０",
+    "prefecture_id": 22,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11885",
+    "name": "ふじの宮助産院",
+    "address": "静岡県富士宮市沼久保６２４－１",
+    "prefecture_id": 22,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11886",
+    "name": "いちご助産院",
+    "address": "鹿児島県日置市伊集院町猪鹿倉４８４－９",
+    "prefecture_id": 46,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11887",
+    "name": "助産院　陽",
+    "address": "熊本県阿蘇市一の宮町宮地６１５４－１０仙酔峡ハイツＥ－１",
+    "prefecture_id": 43,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11888",
+    "name": "くつろか助産院",
+    "address": "三重県津市久居東鷹跡町１８５－８",
+    "prefecture_id": 24,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11890",
+    "name": "おっぱいハウス池田助産院",
+    "address": "宮崎県日南市大字星倉４４１８番地",
+    "prefecture_id": 45,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11893",
+    "name": "助産院なお",
+    "address": "岐阜県高山市国府町宇津江２２４３ー１４",
+    "prefecture_id": 21,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11895",
+    "name": "深結助産院",
+    "address": "長野県岡谷市塚間町二丁目三番三号",
+    "prefecture_id": 20,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11896",
+    "name": "倉敷医療生活組合　さくらんぼ助産院",
+    "address": "岡山県倉敷市水島南春日町２－２８",
+    "prefecture_id": 33,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11897",
+    "name": "助産院ツルマタニティクリニック",
+    "address": "兵庫県西宮市市庭町６－１９",
+    "prefecture_id": 28,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11898",
+    "name": "みまた助産院",
+    "address": "宮崎県北諸県郡三股町新馬場２５ー３",
+    "prefecture_id": 45,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11899",
+    "name": "助産院ｐｅｅｋａｂｏｏ",
+    "address": "山梨県甲府市上阿原町９７１ー１",
+    "prefecture_id": 19,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11901",
+    "name": "ひだまり助産院",
+    "address": "岐阜県瑞穂市呂久１０４１",
+    "prefecture_id": 21,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11902",
+    "name": "さくら助産院",
+    "address": "埼玉県さいたま市北区日進町２丁目１０１２－１１",
+    "prefecture_id": 11,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11903",
+    "name": "たんぽぽ助産院",
+    "address": "東京都荒川区荒川１丁目３１−８",
+    "prefecture_id": 13,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11904",
+    "name": "春日助産院",
+    "address": "福岡県朝倉市長谷山１８３",
+    "prefecture_id": 40,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11905",
+    "name": "なぎ助産院",
+    "address": "和歌山県岩出市水栖２６４番地の２",
+    "prefecture_id": 30,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11906",
+    "name": "あん助産院",
+    "address": "大阪府枚方市藤阪元町３丁目６−２２",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11907",
+    "name": "助産院バースあおば",
+    "address": "神奈川県横浜市青葉区鴨志田５０９－１中谷都第３ビル１階",
+    "prefecture_id": 14,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11908",
+    "name": "助産院笑望",
+    "address": "福岡県田川郡福智町赤池２４３ー８",
+    "prefecture_id": 40,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11909",
+    "name": "うたな助産所",
+    "address": "滋賀県近江八幡市牧町８０８",
+    "prefecture_id": 25,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11910",
+    "name": "さくら助産院",
+    "address": "北海道札幌市東区北十六条東十四丁目一番十号",
+    "prefecture_id": 1,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11911",
+    "name": "あかり助産院",
+    "address": "大阪府高槻市南平台１丁目10-22",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11912",
+    "name": "毛利助産所",
+    "address": "兵庫県神戸市東灘区御影石町４丁目１３番３号",
+    "prefecture_id": 28,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11913",
+    "name": "瀧田助産院",
+    "address": "埼玉県越谷市花田２－１７－４",
+    "prefecture_id": 11,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11914",
+    "name": "守谷助産院",
+    "address": "茨城県守谷市松ケ丘５丁目２７‐１９",
+    "prefecture_id": 8,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11915",
+    "name": "麻の実助産所",
+    "address": "東京都練馬区中村南１－３５－１２",
+    "prefecture_id": 13,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11916",
+    "name": "一般社団法人　こうのとり助産院",
+    "address": "岐阜県美濃市２７１７番地６",
+    "prefecture_id": 21,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11917",
+    "name": "助産院母魂",
+    "address": "埼玉県春日部市不動院野１４８４－２８",
+    "prefecture_id": 11,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11918",
+    "name": "よしみ助産院",
+    "address": "長野県飯田市立石７１０",
+    "prefecture_id": 20,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11919",
+    "name": "宮岡助産所",
+    "address": "東京都昭島市美堀町３丁目１２－９",
+    "prefecture_id": 13,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11920",
+    "name": "さいたま助産院",
+    "address": "埼玉県さいたま市北区宮原町４－１３８－１１",
+    "prefecture_id": 11,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11921",
+    "name": "ぶどうの木助産院",
+    "address": "静岡県静岡市駿河区中村町１６の４",
+    "prefecture_id": 22,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11922",
+    "name": "やすらぎの森木村助産院",
+    "address": "京都府京都市伏見区日野畑出町５０",
+    "prefecture_id": 26,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11923",
+    "name": "助産院カンガルーホーム",
+    "address": "奈良県生駒郡平群町三里１３９－９",
+    "prefecture_id": 29,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11925",
+    "name": "松永助産院",
+    "address": "埼玉県川越市１丁目１８ー３",
+    "prefecture_id": 11,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11926",
+    "name": "きらり助産院",
+    "address": "栃木県那須塩原市四区町７２７番地２６１",
+    "prefecture_id": 9,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11927",
+    "name": "助産所ドゥーラえむあい",
+    "address": "長野県伊那市日影５３４－１",
+    "prefecture_id": 20,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11928",
+    "name": "さかえ助産院",
+    "address": "富山県砺波市大門５２３－２",
+    "prefecture_id": 16,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11929",
+    "name": "とべ助産院",
+    "address": "茨城県那珂郡東海村須和間１３１５－２",
+    "prefecture_id": 8,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11930",
+    "name": "としの助産院",
+    "address": "東京都町田市東玉川学園２ー２８ー５０",
+    "prefecture_id": 13,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11931",
+    "name": "どんぐり助産院",
+    "address": "石川県白山市荒屋町に９５－３",
+    "prefecture_id": 17,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11932",
+    "name": "まつだ助産院",
+    "address": "兵庫県加西市福住町７４９",
+    "prefecture_id": 28,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11933",
+    "name": "滝澤助産所",
+    "address": "群馬県吾妻郡嬬恋村鎌原５７５－１",
+    "prefecture_id": 10,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11934",
+    "name": "お産の家助産院",
+    "address": "愛知県岡崎市庄子田２丁目１番地１０",
+    "prefecture_id": 23,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11935",
+    "name": "ふじ助産院",
+    "address": "奈良県天理市天理市西長柄町３８８－２",
+    "prefecture_id": 29,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11936",
+    "name": "出張助産院　Ｌａ　Ｍａｈｉｎａ",
+    "address": "佐賀県佐賀市大和町尼寺２５７８－１－８０５",
+    "prefecture_id": 41,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11937",
+    "name": "暁～あかつき～助産院",
+    "address": "岐阜県各務原市蘇原東島町２ー５ー２",
+    "prefecture_id": 21,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "11938",
+    "name": "かとう助産院",
+    "address": "愛知県半田市向山町１丁目１１０",
+    "prefecture_id": 23,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11939",
+    "name": "motherゆり助産所",
+    "address": "大阪府大阪市生野区巽南３－１２－９",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11940",
+    "name": "稲田助産院",
+    "address": "神奈川県川崎市多摩区菅稲田堤３－４－１",
+    "prefecture_id": 14,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11941",
+    "name": "ほほえみハウス",
+    "address": "静岡県掛川市高御所１６５２",
+    "prefecture_id": 22,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11942",
+    "name": "一般社団法人 愛媛助産師会 まつやま助産院",
+    "address": "愛媛県松山市中一万町２－１",
+    "prefecture_id": 38,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11944",
+    "name": "とくおか助産院",
+    "address": "東京都日野市東平山２－１６－４",
+    "prefecture_id": 13,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11945",
+    "name": "助産院しんかい",
+    "address": "京都府木津川市木津川原田３－７",
+    "prefecture_id": 26,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11946",
+    "name": "まつば助産院",
+    "address": "長野県松本市波田５８３８－１７",
+    "prefecture_id": 20,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11947",
+    "name": "産屋（助産所）",
+    "address": "兵庫県芦屋市西山町１２－７",
+    "prefecture_id": 28,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11948",
+    "name": "プロジェクト・マム さくらの里助産院",
+    "address": "長崎県長崎市さくらの里１丁目１９－５０",
+    "prefecture_id": 42,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11949",
+    "name": "天白助産所",
+    "address": "愛知県名古屋市天白区海老山町２２１８",
+    "prefecture_id": 23,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11950",
+    "name": "こうのとり助産院",
+    "address": "栃木県大田原市中田原４９９－１３",
+    "prefecture_id": 9,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11951",
+    "name": "一般社団法人 子育てサポートハウス marimo助産院",
+    "address": "神奈川県相模原市南区文京２丁目７－２",
+    "prefecture_id": 14,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11952",
+    "name": "空助産院",
+    "address": "岐阜県羽島市下中町加賀野井４８３",
+    "prefecture_id": 21,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11954",
+    "name": "天子助産院",
+    "address": "大阪府大阪市住之江区粉浜２－１－１９",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11955",
+    "name": "津田助産院",
+    "address": "大阪府岸和田市下野町２－２－１",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "11966",
+    "name": "北海道立子ども総合医療・療育センター",
+    "address": "北海道札幌市手稲区金山１条１丁目２４０番６",
+    "prefecture_id": 1,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "11974",
+    "name": "医療法人仁悠会吉川病院",
+    "address": "大阪府堺市北区東三国ヶ丘町４－１－２５",
+    "prefecture_id": 27,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "11979",
+    "name": "あべクリニック産科婦人科",
+    "address": "宮城県石巻市大街道西２－１－８０",
+    "prefecture_id": 4,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11980",
+    "name": "医療法人社団豊和会豊岡産科婦人科医院",
+    "address": "北海道旭川市豊岡４条１丁目１－１０",
+    "prefecture_id": 1,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11981",
+    "name": "あきたレディースクリニック安田",
+    "address": "秋田県秋田市土崎港中央一丁目１７番１１号",
+    "prefecture_id": 5,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11982",
+    "name": "やかべ産婦人科医院",
+    "address": "山口県下関市秋根西町１丁目６番２５号",
+    "prefecture_id": 35,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11983",
+    "name": "聖マリアクリニック本院",
+    "address": "神奈川県横浜市戸塚区品濃町５０９－３",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11984",
+    "name": "医療法人社団三餘会　五井レディースクリニック",
+    "address": "千葉県市原市五井２２９０",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11985",
+    "name": "小竹産婦人科医院",
+    "address": "千葉県柏市南柏 ２－４－１９",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11986",
+    "name": "ゆりレディスクリニック",
+    "address": "岐阜県岐阜市前一色西町４番１",
+    "prefecture_id": 21,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11988",
+    "name": "とみおかレディースクリニック",
+    "address": "福岡県久留米市中央町８－３９",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11989",
+    "name": "医）ＭＡＬＣ松口レディースクリニック",
+    "address": "福岡県福岡市早良区干隈３－１４－１",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11990",
+    "name": "医療法人社団ながやレディースクリニック",
+    "address": "山口県山口市黒川475-1",
+    "prefecture_id": 35,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11991",
+    "name": "あんずクリニック産婦人科",
+    "address": "静岡県磐田市大久保８９６－３９",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11992",
+    "name": "打吹公園クリニック",
+    "address": "鳥取県倉吉市仲ノ町７７０",
+    "prefecture_id": 31,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11993",
+    "name": "岩田産婦人科医院",
+    "address": "埼玉県秩父市番場町１３－１",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11995",
+    "name": "村井産婦人科・小児歯科医院",
+    "address": "岩手県盛岡市向中野字道明５５番地",
+    "prefecture_id": 3,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11996",
+    "name": "医療法人ささや産婦人科",
+    "address": "福島県福島市笹谷字才ノ神17-1",
+    "prefecture_id": 7,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11997",
+    "name": "メーラ．レディスクリニック",
+    "address": "青森県弘前市東長町６０－２",
+    "prefecture_id": 2,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11998",
+    "name": "医療法人孝知会芦原産婦人科クリニック",
+    "address": "大阪府枚方市養父西町１５－１５",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "11999",
+    "name": "ベリエの丘クリニック",
+    "address": "東京都稲城市若葉台2-14-2",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12000",
+    "name": "おおしおウィメンズクリニック",
+    "address": "千葉県浦安市北栄 １－５－２３",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12001",
+    "name": "はやかわクリニック",
+    "address": "茨城県ひたちなか市津田１９５２－１",
+    "prefecture_id": 8,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12003",
+    "name": "みなみ野グリーンゲイブルズクリニック",
+    "address": "東京都八王子市大船町１００１",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12004",
+    "name": "医療法人 慶桜会 大塚産婦人科小児科医院",
+    "address": "埼玉県新座市片山１－１６－３",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12005",
+    "name": "斎藤産婦人科医院",
+    "address": "熊本県菊池市片角２９４－２",
+    "prefecture_id": 43,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12006",
+    "name": "新生産婦人科医院",
+    "address": "群馬県伊勢崎市茂呂町二丁目３５００番地４",
+    "prefecture_id": 10,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12007",
+    "name": "平間産婦人科医院",
+    "address": "茨城県筑西市甲９５－５",
+    "prefecture_id": 8,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12008",
+    "name": "医療法人 井上医院",
+    "address": "岡山県岡山市中区関２２",
+    "prefecture_id": 33,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12009",
+    "name": "ベルンの森クリニック",
+    "address": "東京都町田市小山ヶ丘4-3-1",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12010",
+    "name": "手山産婦人科",
+    "address": "山口県防府市栄町１丁目８番７号",
+    "prefecture_id": 35,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12012",
+    "name": "医療法人産育会厚川医院",
+    "address": "埼玉県川口市戸塚２－４－１０",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12013",
+    "name": "医療法人とちの木会栃木産科婦人科医院",
+    "address": "栃木県足利市錦町１４",
+    "prefecture_id": 9,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12014",
+    "name": "美和レディースクリニック",
+    "address": "神奈川県大和市南林間７－２０－３０",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12015",
+    "name": "医療法人BIGWELLおおいウィメンズクリニック",
+    "address": "神奈川県横浜市鶴見区馬場7-16-14",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12016",
+    "name": "医社）清雅会 ＳｈｉｍｉｚｕＭＣ",
+    "address": "東京都江戸川区平井６－２－３０",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12017",
+    "name": "医療法人藤優会藤井レディースクリニック",
+    "address": "群馬県太田市 東矢島町１１８４－１",
+    "prefecture_id": 10,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12018",
+    "name": "医療法人秋桜会おさきマタニティクリニック",
+    "address": "大阪府貝塚市堀２－１９－１５",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12019",
+    "name": "マザーズクリニック ＴＡＭＵＲＡ",
+    "address": "群馬県前橋市小屋原町５８４－１",
+    "prefecture_id": 10,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12021",
+    "name": "牧田産婦人科医院",
+    "address": "埼玉県新座市あたご３－３－１７",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12022",
+    "name": "医療法人 新田クリニック",
+    "address": "沖縄県那覇市前島1-14-3",
+    "prefecture_id": 47,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12023",
+    "name": "あおのウイメンズクリニック",
+    "address": "神奈川県横浜市戸塚区戸塚町４２１１番地",
+    "prefecture_id": 14,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "12024",
+    "name": "医療法人福仁会ウエナエ産婦人科",
+    "address": "大阪府大阪市西区九条南２－３２－７",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12025",
+    "name": "駒医院",
+    "address": "千葉県木更津市木更津 ３－２－２８",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12026",
+    "name": "羽村ひまわりクリニック",
+    "address": "東京都羽村市五ノ神351-30",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12027",
+    "name": "医療法人宝マタニティクリニック",
+    "address": "長崎県長崎市東町１７３２－１",
+    "prefecture_id": 42,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12028",
+    "name": "熊本バースクリニック",
+    "address": "熊本県熊本市南区八幡５－１０－２３",
+    "prefecture_id": 43,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12029",
+    "name": "医療法人いづみレディスクリニック",
+    "address": "福岡県久留米市新合川２－８－３３",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12030",
+    "name": "医社）陽南会くらもちレディースクリニック",
+    "address": "千葉県船橋市芝山 ３－１－８",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12031",
+    "name": "医療法人産婦人科細田クリニック",
+    "address": "京都府京都市右京区西京極南大入町８８番地",
+    "prefecture_id": 26,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12032",
+    "name": "医）宗像セントラルクリニック",
+    "address": "福岡県宗像市宮田２－１１－１０",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12034",
+    "name": "医療法人保倉産婦人科医院",
+    "address": "長野県中野市大字小田中２１０－２",
+    "prefecture_id": 20,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12035",
+    "name": "医療法人 曽我産婦人科",
+    "address": "京都府宇治市伊勢田町大谷６１－２２",
+    "prefecture_id": 26,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12036",
+    "name": "医療法人仁愛会川村産婦人科",
+    "address": "京都府京都市左京区下鴨高木町４０",
+    "prefecture_id": 26,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12037",
+    "name": "医療法人長野醫院長野産婦人科クリニック",
+    "address": "福岡県福岡市西区北原２－８－５",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12038",
+    "name": "たらみエンゼルレディースクリニック",
+    "address": "長崎県諫早市多良見町化屋８７９－４",
+    "prefecture_id": 42,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12039",
+    "name": "堀産婦人科",
+    "address": "兵庫県西宮市甲子園八番町２－１６",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12042",
+    "name": "医療法人渕レディスクリニック",
+    "address": "長崎県長崎市麹屋町２－１６",
+    "prefecture_id": 42,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12043",
+    "name": "玉石産婦人科",
+    "address": "三重県伊勢市御薗町長屋2049",
+    "prefecture_id": 24,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12044",
+    "name": "医療法人中野産婦人科",
+    "address": "奈良県奈良市四条大路１丁目３番５７号",
+    "prefecture_id": 29,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12045",
+    "name": "いまむらウィミンズクリニック",
+    "address": "長崎県長崎市大浦町１番２６号",
+    "prefecture_id": 42,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12046",
+    "name": "池田産科－ＹＯＵ－婦人科医院",
+    "address": "長崎県長崎市矢上町３１－６",
+    "prefecture_id": 42,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12048",
+    "name": "Ａｎｄ坂本女性クリニック",
+    "address": "熊本県玉名市高瀬３８",
+    "prefecture_id": 43,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12049",
+    "name": "医療法人川合産婦人科",
+    "address": "愛知県名古屋市西区坂井戸町１９１",
+    "prefecture_id": 23,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "12050",
+    "name": "境田医院",
+    "address": "鹿児島県出水市米ノ津町３５番２０号",
+    "prefecture_id": 46,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12051",
+    "name": "かわばたレディスクリニック",
+    "address": "大阪府大阪市淀川区十三東２－５－１５ アーリーアーク１階",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12053",
+    "name": "医療法人社団　芦屋・小野レディスクリニック",
+    "address": "兵庫県芦屋市清水町2-8",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12057",
+    "name": "医療法人植田産婦人科",
+    "address": "大阪府大阪市平野区平野宮町２－８－８",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12064",
+    "name": "河野レディースクリニック",
+    "address": "福岡県大牟田市正山町１４８－１",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12065",
+    "name": "吉田産婦人科医院",
+    "address": "東京都台東区池之端２－５－４４",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12066",
+    "name": "あいの里助産院",
+    "address": "北海道札幌市北区あいの里四条４－６－１２",
+    "prefecture_id": 1,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "12068",
+    "name": "ＮＰＯ法人お産子育て向上委員会若草助産院",
+    "address": "千葉県千葉市中央区矢作町４２３－２",
+    "prefecture_id": 12,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "12070",
+    "name": "マタニティハウスＳAＴO",
+    "address": "神奈川県横浜市青葉区田奈町７８－３８",
+    "prefecture_id": 14,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "12071",
+    "name": "一般社団法人ZIKOMOほくと助産院",
+    "address": "山梨県北杜市長坂町長坂下条１３２６－４",
+    "prefecture_id": 19,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "12074",
+    "name": "お産の家ささした助産所",
+    "address": "福井県越前市堀川町７－５",
+    "prefecture_id": 18,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "12082",
+    "name": "一般社団法人くるみ助産院",
+    "address": "兵庫県姫路市玉手４丁目７０番地１",
+    "prefecture_id": 28,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "12084",
+    "name": "春助産院",
+    "address": "佐賀県神埼郡吉野ヶ里町三津２１２０－３",
+    "prefecture_id": 41,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "12088",
+    "name": "秋山助産院",
+    "address": "兵庫県神戸市長田区水笠通５－２－２９",
+    "prefecture_id": 28,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "12089",
+    "name": "エム産婦人科外科クリニック",
+    "address": "愛知県長久手市宮脇９１７",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12090",
+    "name": "すずき産科婦人科クリニック",
+    "address": "新潟県新潟市西区小針７丁目１７番１４号",
+    "prefecture_id": 15,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12092",
+    "name": "ジュンレディースクリニック千里丘",
+    "address": "大阪府摂津市千里丘２－１５－１６",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12093",
+    "name": "ジュンレディースクリニック豊橋",
+    "address": "愛知県豊橋市北山町６１－３",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12094",
+    "name": "医療法人笠原レディースクリニック",
+    "address": "滋賀県東近江市小脇町２４０１ー６",
+    "prefecture_id": 25,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12095",
+    "name": "桂高森SSレディースクリニック",
+    "address": "宮城県仙台市泉区高森１－１－１９４",
+    "prefecture_id": 4,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12096",
+    "name": "広瀬産婦人科医院",
+    "address": "鹿児島県出水市昭和町１５ー２０",
+    "prefecture_id": 46,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12097",
+    "name": "秋葉産婦人科",
+    "address": "茨城県古河市東本町２－９－２",
+    "prefecture_id": 8,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12099",
+    "name": "椎名マタニティクリニック",
+    "address": "福岡県福岡市南区向新町１－６－２２",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12100",
+    "name": "林産婦人科五位堂医院",
+    "address": "奈良県香芝市真美ヶ丘１丁目１３番２７号",
+    "prefecture_id": 29,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12101",
+    "name": "おおはらマタニティクリニック",
+    "address": "愛知県岡崎市洞町字西浦８－１",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12102",
+    "name": "医療法人遠藤産婦人科",
+    "address": "徳島県名西郡石井町石井字石井５１３－１",
+    "prefecture_id": 36,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12105",
+    "name": "医療法人社団川北レイクサイドクリニック",
+    "address": "石川県小松市今江町に４１番地",
+    "prefecture_id": 17,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12107",
+    "name": "富士バースクリニック",
+    "address": "静岡県富士市原田２２５４－１",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12108",
+    "name": "医療法人社団　たなべ産婦人科",
+    "address": "兵庫県神戸市灘区森後町３－５－３０",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12109",
+    "name": "医療法人斎藤産婦人科医院",
+    "address": "岩手県北上市諏訪町二丁目６－３７",
+    "prefecture_id": 3,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12110",
+    "name": "てるて産科クリニック",
+    "address": "神奈川県相模原市中央区横山台１－４－１",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12112",
+    "name": "アクアベルクリニック",
+    "address": "神奈川県秦野市鈴張町３－２５",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12113",
+    "name": "頼助産院",
+    "address": "石川県河北郡内灘町鶴ケ丘１－２９６－２",
+    "prefecture_id": 17,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "12114",
+    "name": "医療法人輝　ジュンレディースクリニック安城",
+    "address": "愛知県安城市篠目町童子２０２番８",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12119",
+    "name": "森産婦人科医院",
+    "address": "香川県高松市瓦町二丁目3番地5",
+    "prefecture_id": 37,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12120",
+    "name": "田中産婦人科クリニック",
+    "address": "福岡県直方市大字頓野1027",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12122",
+    "name": "増子助産院",
+    "address": "埼玉県北足立郡伊奈町学園3-102-3　出張開業",
+    "prefecture_id": 11,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "12123",
+    "name": "占部産婦人科",
+    "address": "広島県東広島市西条町助実1172　占部産婦人科",
+    "prefecture_id": 34,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12125",
+    "name": "新津産科婦人科クリニック",
+    "address": "新潟県新潟市江南区横越中央７－１－７",
+    "prefecture_id": 15,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12126",
+    "name": "かしだ産婦人科クリニック",
+    "address": "山口県山口市宮島町11-2",
+    "prefecture_id": 35,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12128",
+    "name": "医療法人行正会　なかむら産婦人科",
+    "address": "鹿児島県伊佐市大口上町４６－１２",
+    "prefecture_id": 46,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12129",
+    "name": "医療法人社団森本産婦人科クリニック",
+    "address": "兵庫県神戸市垂水区舞多聞西5-1-7",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12131",
+    "name": "けい産婦人科クリニック",
+    "address": "神奈川県相模原市中央区田名1744-1",
+    "prefecture_id": 14,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12132",
+    "name": "育良クリニック",
+    "address": "東京都目黒区上目黒1-26-1中目黒アトラスタワー４階・５階",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12134",
+    "name": "あかりレディースクリニック",
+    "address": "愛知県岡崎市上地１丁目５番地８号",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12137",
+    "name": "医療法人　中岡レディスクリニック",
+    "address": "愛知県豊橋市東幸町字大山４３番地の２",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12138",
+    "name": "なぎ・和　助産院",
+    "address": "兵庫県神戸市垂水区美山台１丁目2-41",
+    "prefecture_id": 28,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "12140",
+    "name": "新潟レディースライフクリニック",
+    "address": "新潟県新潟市秋葉区新津5149-17",
+    "prefecture_id": 15,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12141",
+    "name": "つくばみらい遠藤レディースクリニック",
+    "address": "茨城県つくばみらい市富士見ヶ丘1-28-3",
+    "prefecture_id": 8,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12142",
+    "name": "ひらかわ産婦人科医院",
+    "address": "大分県大分市横塚2丁目４番５号",
+    "prefecture_id": 44,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12146",
+    "name": "医療法人谷口レディスクリニック",
+    "address": "岡山県総社市真壁213",
+    "prefecture_id": 33,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12147",
+    "name": "医療法人辰和会　佐藤産婦人科",
+    "address": "埼玉県越谷市新越谷1-34-4",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12148",
+    "name": "医療法人社団中部産婦人科医院",
+    "address": "京都府京都市伏見区向島二ノ丸町151-44",
+    "prefecture_id": 26,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12150",
+    "name": "中元寺産婦人科医院",
+    "address": "宮崎県延岡市永池町1-2-10",
+    "prefecture_id": 45,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12151",
+    "name": "えんぴつ公園マザーズクリニック",
+    "address": "千葉県市川市相之川３－１－１４",
+    "prefecture_id": 12,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12152",
+    "name": "中村レディースクリニック",
+    "address": "兵庫県神戸市西区持子３丁目60ー1",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12153",
+    "name": "緒方産婦人科クリニック",
+    "address": "兵庫県西宮市笠屋町７－１",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12154",
+    "name": "医療法人社団　札幌西レディースクリニック",
+    "address": "北海道札幌市西区西町北１１－１－５",
+    "prefecture_id": 1,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12155",
+    "name": "林産婦人科　登美ヶ丘",
+    "address": "奈良県生駒市鹿畑町５５－１",
+    "prefecture_id": 29,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12156",
+    "name": "医療法人王産婦人科",
+    "address": "鹿児島県鹿屋市寿４丁目6番44号",
+    "prefecture_id": 46,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12157",
+    "name": "医療法人社団小六メディカルクリニックおおこうち産科婦人科",
+    "address": "北海道札幌市中央区南2条西８丁目10",
+    "prefecture_id": 1,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12159",
+    "name": "いずみウィメンズクリニック",
+    "address": "和歌山県新宮市清水元1-6-33",
+    "prefecture_id": 30,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12160",
+    "name": "吹上マタニティクリニック",
+    "address": "愛知県名古屋市昭和区車田町1－40－1",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12162",
+    "name": "安達産婦人科クリニック",
+    "address": "静岡県三島市寿町2-26",
+    "prefecture_id": 22,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12163",
+    "name": "ロビンの空クリニック",
+    "address": "東京都立川市高松町一丁目300番1-100",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12164",
+    "name": "マザークリニックハピネス",
+    "address": "愛知県犬山市塔野地西1-4-6",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12165",
+    "name": "いなば助産院",
+    "address": "静岡県静岡市葵区瀬名川３丁目13－44",
+    "prefecture_id": 22,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "12166",
+    "name": "医療法人つばめ河野産婦人科医院",
+    "address": "熊本県人吉市上薩摩瀬町1408-1",
+    "prefecture_id": 43,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12167",
+    "name": "医療法人井上産婦人科クリニック",
+    "address": "大阪府大東市氷野1－8－26",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12168",
+    "name": "医療法人双葉会清水産婦人科",
+    "address": "滋賀県草津市野村3-18-5",
+    "prefecture_id": 25,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12169",
+    "name": "医療法人社団博愛産科婦人科",
+    "address": "兵庫県明石市二見町西二見450-5",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12170",
+    "name": "医療法人　橋場レディスクリニック",
+    "address": "滋賀県長浜市南高田町5-8",
+    "prefecture_id": 25,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12171",
+    "name": "まんげつ助産院",
+    "address": "石川県小松市佐美町亥176",
+    "prefecture_id": 17,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "12172",
+    "name": "医療法人社団いわたウィメンズクリニック",
+    "address": "兵庫県西脇市上比延町432-49",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12174",
+    "name": "水上レディースクリニック",
+    "address": "埼玉県草加市新栄2-27-8",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12175",
+    "name": "おおそこ助産院",
+    "address": "沖縄県石垣市八島町2-12-6",
+    "prefecture_id": 47,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "12176",
+    "name": "矢野産婦人科医院",
+    "address": "兵庫県加古川市西神吉町岸152-2",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12178",
+    "name": "医療法人　コスモスレディースクリニック",
+    "address": "岩手県一関市田村町5-56",
+    "prefecture_id": 3,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12179",
+    "name": "にこ助産院",
+    "address": "岐阜県各務原市川島渡町６１６番地２",
+    "prefecture_id": 21,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "12182",
+    "name": "医療法人寿圭会　寿レディースクリニック",
+    "address": "鹿児島県鹿屋市寿７丁目１－３５",
+    "prefecture_id": 46,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12183",
+    "name": "医療法人社団東光マタニティクリニック",
+    "address": "北海道旭川市東光１０条６丁目２ー１４",
+    "prefecture_id": 1,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12184",
+    "name": "医療法人社団マザー・キー　ファミール産院ありだ",
+    "address": "和歌山県有田市糸我町中番408-3",
+    "prefecture_id": 30,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12185",
+    "name": "助産院momoのいえ",
+    "address": "大阪府東大阪市源氏ヶ丘1-1",
+    "prefecture_id": 27,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "12186",
+    "name": "医療法人正木産婦人科",
+    "address": "大阪府八尾市山本町北1-2-22",
+    "prefecture_id": 27,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12189",
+    "name": "一般社団法人日本助産所会立　まつお助産所",
+    "address": "埼玉県狭山市入間川１丁目23-9-9",
+    "prefecture_id": 11,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "12190",
+    "name": "たかもり助産院",
+    "address": "兵庫県神戸市須磨区関守町3-2-27",
+    "prefecture_id": 28,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "12192",
+    "name": "わたの出張助産院",
+    "address": "大阪府大阪市中央区粉川町4-16-505",
+    "prefecture_id": 27,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "12193",
+    "name": "産婦人科瀬尾医院",
+    "address": "東京都大田区池上6-20-1",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12194",
+    "name": "医療法人愛育会　愛育ベスクリニック",
+    "address": "東京都町田市南成瀬7-14-1",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12195",
+    "name": "医療法人社団静産会吉祥寺バースクリニック",
+    "address": "東京都武蔵野市緑町1－3－24",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12196",
+    "name": "赤枝医院",
+    "address": "東京都多摩市関戸2-69-3",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12197",
+    "name": "待木医院",
+    "address": "東京都足立区西竹の塚2-13-17",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12198",
+    "name": "医療法人社団彩陽会 代官山バースクリニック",
+    "address": "東京都渋谷区代官山町15-3",
+    "prefecture_id": 13,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "12199",
+    "name": "医療法人社団敬創会　東京バースクリニック",
+    "address": "東京都品川区上大崎3丁目14番地19号",
+    "prefecture_id": 13,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12200",
+    "name": "ねね助産院",
+    "address": "福岡県糸島市二丈深江8丁目28-1",
+    "prefecture_id": 40,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "12201",
+    "name": "医療法人成蹊会成田レディスクリニック",
+    "address": "埼玉県蓮田市馬込2172-1",
+    "prefecture_id": 11,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12202",
+    "name": "まるの輪助産院",
+    "address": "静岡県藤枝市岡部町三輪905グリーンハイツ101号室",
+    "prefecture_id": 22,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "12203",
+    "name": "Ladies Clinic TOIRO",
+    "address": "愛知県愛知郡東郷町和合字前田105番地1",
+    "prefecture_id": 23,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12204",
+    "name": "つむぐクリニック",
+    "address": "福岡県福岡市七隈3丁目4-3",
+    "prefecture_id": 40,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12205",
+    "name": "美作みんなの助産院",
+    "address": "岡山県美作市楢原上８０８ー１０",
+    "prefecture_id": 33,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "12206",
+    "name": "木のぬくもり助産院",
+    "address": "岡山県加賀郡吉備中央町吉川4429-50",
+    "prefecture_id": 33,
+    "facility_type": 4
+  },
+  {
+    "facility_id": "12208",
+    "name": "医療法人琢生会　阪神バースクリニック",
+    "address": "兵庫県尼崎市小中島2丁目20-16",
+    "prefecture_id": 28,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12209",
+    "name": "八幡産科婦人科医院",
+    "address": "新潟県長岡市稲穂南3丁目766-27",
+    "prefecture_id": 15,
+    "facility_type": 2
+  },
+  {
+    "facility_id": "12210",
+    "name": "えびな産婦人科",
+    "address": "神奈川県海老名市1-26-1　ファーストリンクテラス1F2F",
+    "prefecture_id": 14,
+    "facility_type": 1
+  },
+  {
+    "facility_id": "12211",
+    "name": "助産院乃々",
+    "address": "北海道札幌市厚別区",
+    "prefecture_id": 1,
+    "facility_type": 5
+  },
+  {
+    "facility_id": "12213",
+    "name": "出張専門助産院あゆみ",
+    "address": "愛知県名古屋市北区",
+    "prefecture_id": 23,
+    "facility_type": 5
+  }
+]
