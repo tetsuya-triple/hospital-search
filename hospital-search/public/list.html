@@ -287,6 +287,20 @@
       </div>
     </div>
 
+    <!-- タイプフィルタ -->
+    <div class="ctrl-group">
+      <div class="pref-wrap" id="typeWrap">
+        <button class="pref-btn" id="typeBtn" onclick="toggleTypeDropdown(event)">タイプ ▼</button>
+        <div class="pref-dropdown" id="typeDropdown" style="width:260px">
+          <div class="pref-actions">
+            <button onclick="selectAllTypes()">全選択</button>
+            <button onclick="clearTypes()">クリア</button>
+          </div>
+          <div id="typeGrid" style="display:flex;flex-direction:column;gap:4px"></div>
+        </div>
+      </div>
+    </div>
+
     <!-- 右グループ：件数＋表示件数＋ページャ -->
     <div class="ctrl-group" style="margin-left:auto; gap:16px;">
       <div class="count-label" id="countLabel">読み込み中...</div>
@@ -451,10 +465,68 @@
       }
     }
 
+    // --- タイプフィルタ ---
+    let selectedTypes = new Set();
+    const TYPE_OPTIONS = [
+      { id: 1, label: '病院' },
+      { id: 2, label: '診療所' },
+      { id: 4, label: '助産所(入所)' },
+      { id: 5, label: '助産所(出張)' },
+    ];
+
+    function buildTypeGrid() {
+      document.getElementById('typeGrid').innerHTML = TYPE_OPTIONS.map(t =>
+        `<label class="pref-item"><input type="checkbox" value="${t.id}" onchange="onTypeChange(${t.id})"> ${t.label}</label>`
+      ).join('');
+    }
+
+    function toggleTypeDropdown(e) {
+      e.stopPropagation();
+      document.getElementById('typeDropdown').classList.toggle('open');
+    }
+
+    function onTypeChange(id) {
+      if (selectedTypes.has(id)) selectedTypes.delete(id);
+      else selectedTypes.add(id);
+      updateTypeBtn();
+      applyFilter();
+    }
+
+    function selectAllTypes() {
+      TYPE_OPTIONS.forEach(t => {
+        selectedTypes.add(t.id);
+        document.querySelector(`#typeGrid input[value="${t.id}"]`).checked = true;
+      });
+      updateTypeBtn();
+      applyFilter();
+    }
+
+    function clearTypes() {
+      selectedTypes.clear();
+      document.querySelectorAll('#typeGrid input').forEach(cb => cb.checked = false);
+      updateTypeBtn();
+      applyFilter();
+    }
+
+    function updateTypeBtn() {
+      const btn = document.getElementById('typeBtn');
+      if (selectedTypes.size === 0) {
+        btn.textContent = 'タイプ ▼';
+        btn.classList.remove('active');
+      } else {
+        const names = TYPE_OPTIONS.filter(t => selectedTypes.has(t.id)).map(t => t.label);
+        btn.textContent = names.join('・') + ' ▼';
+        btn.classList.add('active');
+      }
+    }
+
     // 外クリックで閉じる
     document.addEventListener('click', e => {
       if (!document.getElementById('prefWrap').contains(e.target)) {
         document.getElementById('prefDropdown').classList.remove('open');
+      }
+      if (!document.getElementById('typeWrap').contains(e.target)) {
+        document.getElementById('typeDropdown').classList.remove('open');
       }
     });
 
@@ -473,6 +545,8 @@
       filtered = allData.filter(f => {
         // 都道府県フィルタ
         if (selectedPrefs.size > 0 && !selectedPrefs.has(f.prefecture_id)) return false;
+        // タイプフィルタ
+        if (selectedTypes.size > 0 && !selectedTypes.has(f.facility_type)) return false;
         // テキストフィルタ
         if (q) {
           return (f.name||'').toLowerCase().includes(q) ||
@@ -564,6 +638,7 @@
 
     // --- 初期化 ---
     buildPrefGrid();
+    buildTypeGrid();
     document.getElementById('searchBox').addEventListener('input', applyFilter);
 
     Promise.all([
