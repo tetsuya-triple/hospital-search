@@ -405,11 +405,11 @@
       return `<span class="type-tip"><span class="badge badge-type badge-type-${t}">${info.label}</span><span class="tip-text">${info.tip}</span></span>`;
     }
 
-    // ナビイ数値の表示（データあり/未記載/未マッチの3パターン）
+    // ナビイ数値の表示（データあり/未記載/未取得の3パターン）
     function naviiVal(val, f) {
       if (val != null) return val.toLocaleString() + '件';
       if (f.navii_url) return '<span class="badge badge-na">未記載</span>';
-      return '—';
+      return '<span class="badge badge-no">未取得</span>';
     }
 
     // 分娩数文字列から下限・上限を取得
