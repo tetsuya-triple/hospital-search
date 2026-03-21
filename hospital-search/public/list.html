@@ -200,6 +200,7 @@
     .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
     .badge-yes { background: #d1fae5; color: #065f46; }
     .badge-no  { background: #f3f4f6; color: #9ca3af; }
+    .badge-na  { background: #fef3c7; color: #92400e; font-size: 10px; }
     .badge-type { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 10px; cursor: help; position: relative; }
     .badge-type-1 { background: #dbeafe; color: #1e40af; }
     .badge-type-2 { background: #fce7f3; color: #9d174d; }
@@ -404,6 +405,13 @@
       return `<span class="type-tip"><span class="badge badge-type badge-type-${t}">${info.label}</span><span class="tip-text">${info.tip}</span></span>`;
     }
 
+    // ナビイ数値の表示（データあり/未記載/未マッチの3パターン）
+    function naviiVal(val, f) {
+      if (val != null) return val.toLocaleString() + '件';
+      if (f.navii_url) return '<span class="badge badge-na">未記載</span>';
+      return '—';
+    }
+
     // 分娩数文字列から下限・上限を取得
     function parseRange(str) {
       if (!str || str === '—') return null;
@@ -606,7 +614,7 @@
           <td style="text-align:center">${typeBadge(f.facility_type)}</td>
           <td title="${esc(f.address)}">${esc(f.address||'—')}</td>
           <td style="text-align:right">${f._total_display_birth}</td>
-          <td style="text-align:right">${f.navii_total_deliveries != null ? f.navii_total_deliveries.toLocaleString()+'件' : '—'}</td>
+          <td style="text-align:right">${naviiVal(f.navii_total_deliveries, f)}</td>
           <td style="text-align:center">${f.google_maps_url ? `<a class="link-icon" href="${esc(f.google_maps_url)}" target="_blank" title="Googleマップ">🗺️</a>` : '—'}</td>
           <td style="text-align:center">${f.website ? `<a class="link-icon" href="${esc(f.website)}" target="_blank" title="公式サイト">🌐</a>` : '—'}</td>
           <td>${f.phone ? esc(f.phone) : '—'}</td>
@@ -617,9 +625,9 @@
           <td style="text-align:right">${f.midwives != null && f.midwives !== '' ? f.midwives+'名' : '—'}</td>
           <td>${esc(f.vaginal_deliveries||'—')}</td>
           <td>${esc(f.cesarean_deliveries||'—')}</td>
-          <td style="text-align:right">${f.navii_normal_deliveries != null ? f.navii_normal_deliveries.toLocaleString()+'件' : '—'}</td>
-          <td style="text-align:right">${f.navii_elective_cesarean != null ? f.navii_elective_cesarean.toLocaleString()+'件' : '—'}</td>
-          <td style="text-align:right">${f.navii_emergency_cesarean != null ? f.navii_emergency_cesarean.toLocaleString()+'件' : '—'}</td>
+          <td style="text-align:right">${naviiVal(f.navii_normal_deliveries, f)}</td>
+          <td style="text-align:right">${naviiVal(f.navii_elective_cesarean, f)}</td>
+          <td style="text-align:right">${naviiVal(f.navii_emergency_cesarean, f)}</td>
           <td style="text-align:right">${f.cost_total_avg ? fmt(f.cost_total_avg)+'円' : '—'}</td>
           <td style="text-align:right">${f.cost_total_median ? fmt(f.cost_total_median)+'円' : '—'}</td>
           <td style="text-align:right">${f.cost_delivery_avg ? fmt(f.cost_delivery_avg)+'円' : '—'}</td>
