@@ -244,17 +244,17 @@
       }
       /* 右グループ（件数・表示件数・ページャ）を折り返して幅フル */
       .ctrl-group[style] { margin-left: 0 !important; width: 100%; flex-wrap: wrap; gap: 8px; }
-      /* スマホ時に非表示にする列：小児科医師数・助産師数・経腟分娩・帝王切開（出産なび）・ナビイ3列・分娩費用平均・分娩費用中央値・助産師外来 */
-      th:nth-child(12), td:nth-child(12),
+      /* スマホ時に非表示にする列：小児科医師数(13)・助産師数(14)・経腟分娩(15)・帝王切開(16)・ナビイ3列(17,18,19)・分娩費用平均(22)・分娩費用中央値(23)・助産師外来(26) */
       th:nth-child(13), td:nth-child(13),
       th:nth-child(14), td:nth-child(14),
       th:nth-child(15), td:nth-child(15),
       th:nth-child(16), td:nth-child(16),
       th:nth-child(17), td:nth-child(17),
       th:nth-child(18), td:nth-child(18),
-      th:nth-child(21), td:nth-child(21),
+      th:nth-child(19), td:nth-child(19),
       th:nth-child(22), td:nth-child(22),
-      th:nth-child(25), td:nth-child(25) { display: none; }
+      th:nth-child(23), td:nth-child(23),
+      th:nth-child(26), td:nth-child(26) { display: none; }
     }
   </style>
 </head>
@@ -333,7 +333,8 @@
           <th onclick="sortBy('name')">病院名</th>
           <th onclick="sortBy('facility_type')">タイプ</th>
           <th onclick="sortBy('address')">住所</th>
-          <th onclick="sortBy('_total_deliveries')">年間分娩数合計</th>
+          <th onclick="sortBy('_total_deliveries_birth')">年間分娩数合計<br><small>（出産なび）</small></th>
+          <th onclick="sortBy('navii_total_deliveries')">年間分娩数合計<br><small>（ナビイ）</small></th>
           <th class="no-sort">マップ</th>
           <th class="no-sort">公式サイト</th>
           <th onclick="sortBy('phone')">電話番号</th>
@@ -411,14 +412,8 @@
       return { lo: parseInt(m[1]), hi: m[2] ? parseInt(m[2]) : parseInt(m[1]) };
     }
 
-    // 経腟＋帝王切開の合計範囲を計算（ナビイデータ優先）
-    function totalDeliveries(f) {
-      // ナビイデータがあればそちらを優先
-      if (f.navii_data_available && f.navii_total_deliveries != null) {
-        const val = f.navii_total_deliveries;
-        return { display: val.toLocaleString() + '件', value: val };
-      }
-      // フォールバック: 出産なびの範囲データ
+    // 経腟＋帝王切開の合計範囲を計算（出産なびデータ）
+    function totalDeliveriesBirth(f) {
       const v = parseRange(f.vaginal_deliveries);
       const c = parseRange(f.cesarean_deliveries);
       if (!v && !c) return { display: '—', value: 0 };
@@ -576,15 +571,16 @@
       if (sortKey === key) sortDir *= -1;
       else { sortKey = key; sortDir = 1; }
       filtered.sort((a, b) => {
-        let av = key === '_total_deliveries' ? a._total_deliveries : a[key];
-        let bv = key === '_total_deliveries' ? b._total_deliveries : b[key];
+        let av = key === '_total_deliveries_birth' ? a._total_deliveries_birth : a[key];
+        let bv = key === '_total_deliveries_birth' ? b._total_deliveries_birth : b[key];
         av = av ?? '';
         bv = bv ?? '';
         if (typeof av === 'number' && typeof bv === 'number') return (av - bv) * sortDir;
         return String(av).localeCompare(String(bv), 'ja') * sortDir;
       });
       // ヘッダーアイコン更新
-      const COLS = ['_babystory','name','facility_type','address','_total_deliveries',null,null,'phone',
+      const COLS = ['_babystory','name','facility_type','address','_total_deliveries_birth','navii_total_deliveries',
+        null,null,'phone',
         'maternity_beds','nicu_beds','obstetricians','pediatricians','midwives',
         'vaginal_deliveries','cesarean_deliveries',
         'navii_normal_deliveries','navii_elective_cesarean','navii_emergency_cesarean',
@@ -604,13 +600,13 @@
       const rows  = filtered.slice(start, end);
 
       document.getElementById('tableBody').innerHTML = rows.map(f => {
-        const td = f._total_display;
         return `<tr>
           <td style="text-align:center">${f._babystory ? '<span class="badge badge-yes">導入済</span>' : '—'}</td>
           <td title="${esc(f.name)}">${esc(f.name)}</td>
           <td style="text-align:center">${typeBadge(f.facility_type)}</td>
           <td title="${esc(f.address)}">${esc(f.address||'—')}</td>
-          <td style="text-align:right">${td}</td>
+          <td style="text-align:right">${f._total_display_birth}</td>
+          <td style="text-align:right">${f.navii_total_deliveries != null ? f.navii_total_deliveries.toLocaleString()+'件' : '—'}</td>
           <td style="text-align:center">${f.google_maps_url ? `<a class="link-icon" href="${esc(f.google_maps_url)}" target="_blank" title="Googleマップ">🗺️</a>` : '—'}</td>
           <td style="text-align:center">${f.website ? `<a class="link-icon" href="${esc(f.website)}" target="_blank" title="公式サイト">🌐</a>` : '—'}</td>
           <td>${f.phone ? esc(f.phone) : '—'}</td>
@@ -664,10 +660,10 @@
     ]).then(([data, babystoryUrls]) => {
         const bsSet = new Set(babystoryUrls);
         allData = data.map(f => {
-          const td = totalDeliveries(f);
-          f._total_deliveries = td.value;
-          f._total_display    = td.display;
-          f._babystory        = bsSet.has(f.url);
+          const td = totalDeliveriesBirth(f);
+          f._total_deliveries_birth = td.value;
+          f._total_display_birth    = td.display;
+          f._babystory              = bsSet.has(f.url);
           return f;
         });
         filtered = [...allData];
