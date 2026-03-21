@@ -5621,8 +5621,8 @@
     "emergency_cesarean": null,
     "total_deliveries": null,
     "has_obstetric_section": false,
-    "error": "tab_not_found",
-    "scraped_at": "2026-03-19T05:24:55.436Z"
+    "error": null,
+    "scraped_at": "2026-03-21T14:20:10.993Z"
   },
   {
     "facility_id": "10247",
@@ -7731,13 +7731,13 @@
     "prefCd": "47",
     "kikanKbn": "1",
     "kikanCd": "f0001",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_NETWORK_IO_SUSPENDED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=f0001&kikanKbn=1&prefCd=47\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=f0001&kikanKbn=1&prefCd=47\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T05:50:56.640Z"
+    "normal_deliveries": 145,
+    "elective_cesarean": 52,
+    "emergency_cesarean": 68,
+    "total_deliveries": 265,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:20:20.930Z"
   },
   {
     "facility_id": "10557",
@@ -7746,13 +7746,13 @@
     "prefCd": "23",
     "kikanKbn": "1",
     "kikanCd": "1230400030",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1230400030&kikanKbn=1&prefCd=23\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:04:28.171Z"
+    "normal_deliveries": 172,
+    "elective_cesarean": 205,
+    "emergency_cesarean": 141,
+    "total_deliveries": 518,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:20:29.991Z"
   },
   {
     "facility_id": "10558",
@@ -7761,13 +7761,13 @@
     "prefCd": "15",
     "kikanKbn": "1",
     "kikanCd": "BYNGX00013",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=BYNGX00013&kikanKbn=1&prefCd=15\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=BYNGX00013&kikanKbn=1&prefCd=15\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:04:33.373Z"
+    "normal_deliveries": 158,
+    "elective_cesarean": 18,
+    "emergency_cesarean": 11,
+    "total_deliveries": 187,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:20:40.082Z"
   },
   {
     "facility_id": "10559",
@@ -7776,13 +7776,13 @@
     "prefCd": "21",
     "kikanKbn": "1",
     "kikanCd": "1561000033",
-    "normal_deliveries": null,
+    "normal_deliveries": 24,
     "elective_cesarean": null,
     "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1561000033&kikanKbn=1&prefCd=21\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1561000033&kikanKbn=1&prefCd=21\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:04:38.426Z"
+    "total_deliveries": 24,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:20:49.294Z"
   },
   {
     "facility_id": "10560",
@@ -7791,13 +7791,13 @@
     "prefCd": "03",
     "kikanKbn": "1",
     "kikanCd": "03100094",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=03100094&kikanKbn=1&prefCd=03\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=03100094&kikanKbn=1&prefCd=03\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:04:43.452Z"
+    "normal_deliveries": 308,
+    "elective_cesarean": 73,
+    "emergency_cesarean": 38,
+    "total_deliveries": 419,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:20:58.120Z"
   },
   {
     "facility_id": "10561",
@@ -7806,13 +7806,13 @@
     "prefCd": "01",
     "kikanKbn": "1",
     "kikanCd": "1010004320",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1010004320&kikanKbn=1&prefCd=01\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1010004320&kikanKbn=1&prefCd=01\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:04:48.480Z"
+    "normal_deliveries": 526,
+    "elective_cesarean": 105,
+    "emergency_cesarean": 67,
+    "total_deliveries": 698,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:21:07.202Z"
   },
   {
     "facility_id": "10562",
@@ -7821,13 +7821,13 @@
     "prefCd": "06",
     "kikanKbn": "1",
     "kikanCd": "106510043",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=106510043&kikanKbn=1&prefCd=06\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=106510043&kikanKbn=1&prefCd=06\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:04:53.507Z"
+    "normal_deliveries": 134,
+    "elective_cesarean": 22,
+    "emergency_cesarean": 13,
+    "total_deliveries": 169,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:21:16.760Z"
   },
   {
     "facility_id": "10563",
@@ -7836,13 +7836,13 @@
     "prefCd": "19",
     "kikanKbn": "1",
     "kikanCd": "1190000017",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1190000017&kikanKbn=1&prefCd=19\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1190000017&kikanKbn=1&prefCd=19\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:04:58.533Z"
+    "normal_deliveries": 0,
+    "elective_cesarean": 0,
+    "emergency_cesarean": 0,
+    "total_deliveries": 0,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:21:27.236Z"
   },
   {
     "facility_id": "10564",
@@ -7851,13 +7851,13 @@
     "prefCd": "12",
     "kikanKbn": "1",
     "kikanCd": "1200019100",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1200019100&kikanKbn=1&prefCd=12\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1200019100&kikanKbn=1&prefCd=12\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:05:03.571Z"
+    "normal_deliveries": 0,
+    "elective_cesarean": 105,
+    "emergency_cesarean": 94,
+    "total_deliveries": 199,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:21:38.006Z"
   },
   {
     "facility_id": "10565",
@@ -7866,13 +7866,13 @@
     "prefCd": "26",
     "kikanKbn": "1",
     "kikanCd": "2610000173",
-    "normal_deliveries": null,
+    "normal_deliveries": 126,
     "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=2610000173&kikanKbn=1&prefCd=26\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=2610000173&kikanKbn=1&prefCd=26\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:05:08.600Z"
+    "emergency_cesarean": 16,
+    "total_deliveries": 142,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:21:47.316Z"
   },
   {
     "facility_id": "10566",
@@ -7881,13 +7881,13 @@
     "prefCd": "46",
     "kikanKbn": "1",
     "kikanCd": "10013",
-    "normal_deliveries": null,
+    "normal_deliveries": 29,
     "elective_cesarean": null,
     "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=10013&kikanKbn=1&prefCd=46\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=10013&kikanKbn=1&prefCd=46\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:05:13.640Z"
+    "total_deliveries": 29,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:21:56.184Z"
   },
   {
     "facility_id": "10567",
@@ -7896,13 +7896,13 @@
     "prefCd": "27",
     "kikanKbn": "1",
     "kikanCd": "1270004090",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1270004090&kikanKbn=1&prefCd=27\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1270004090&kikanKbn=1&prefCd=27\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:10:22.183Z"
+    "normal_deliveries": 94,
+    "elective_cesarean": 131,
+    "emergency_cesarean": 51,
+    "total_deliveries": 276,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:22:04.955Z"
   },
   {
     "facility_id": "10568",
@@ -7911,13 +7911,13 @@
     "prefCd": "42",
     "kikanKbn": "1",
     "kikanCd": "hoh0024",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=hoh0024&kikanKbn=1&prefCd=42\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=hoh0024&kikanKbn=1&prefCd=42\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:10:27.305Z"
+    "normal_deliveries": 352,
+    "elective_cesarean": 81,
+    "emergency_cesarean": 108,
+    "total_deliveries": 541,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:22:13.913Z"
   },
   {
     "facility_id": "10569",
@@ -7926,13 +7926,13 @@
     "prefCd": "27",
     "kikanKbn": "1",
     "kikanCd": "1270004240",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1270004240&kikanKbn=1&prefCd=27\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1270004240&kikanKbn=1&prefCd=27\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:10:32.339Z"
+    "normal_deliveries": 0,
+    "elective_cesarean": 18,
+    "emergency_cesarean": 17,
+    "total_deliveries": 35,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:22:23.093Z"
   },
   {
     "facility_id": "10570",
@@ -7941,13 +7941,13 @@
     "prefCd": "34",
     "kikanKbn": "1",
     "kikanCd": "1340013400",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1340013400&kikanKbn=1&prefCd=34\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1340013400&kikanKbn=1&prefCd=34\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:10:37.377Z"
+    "normal_deliveries": 0,
+    "elective_cesarean": 54,
+    "emergency_cesarean": 68,
+    "total_deliveries": 122,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:22:33.256Z"
   },
   {
     "facility_id": "10571",
@@ -7956,13 +7956,13 @@
     "prefCd": "13",
     "kikanKbn": "1",
     "kikanCd": "1132400120",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1132400120&kikanKbn=1&prefCd=13\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1132400120&kikanKbn=1&prefCd=13\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:10:42.418Z"
+    "normal_deliveries": 334,
+    "elective_cesarean": 41,
+    "emergency_cesarean": 55,
+    "total_deliveries": 430,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:22:42.446Z"
   },
   {
     "facility_id": "10572",
@@ -7971,13 +7971,13 @@
     "prefCd": "15",
     "kikanKbn": "1",
     "kikanCd": "BYMRX00002",
-    "normal_deliveries": null,
+    "normal_deliveries": 49,
     "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=BYMRX00002&kikanKbn=1&prefCd=15\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=BYMRX00002&kikanKbn=1&prefCd=15\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:10:47.438Z"
+    "emergency_cesarean": 11,
+    "total_deliveries": 60,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:22:50.939Z"
   },
   {
     "facility_id": "10573",
@@ -7986,13 +7986,13 @@
     "prefCd": "05",
     "kikanKbn": "1",
     "kikanCd": "1050800030",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1050800030&kikanKbn=1&prefCd=05\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1050800030&kikanKbn=1&prefCd=05\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:10:52.463Z"
+    "normal_deliveries": 93,
+    "elective_cesarean": 22,
+    "emergency_cesarean": 11,
+    "total_deliveries": 126,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:22:59.389Z"
   },
   {
     "facility_id": "10574",
@@ -8006,8 +8006,8 @@
     "emergency_cesarean": null,
     "total_deliveries": null,
     "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1450106520&kikanKbn=1&prefCd=45\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1450106520&kikanKbn=1&prefCd=45\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:10:57.488Z"
+    "error": null,
+    "scraped_at": "2026-03-21T14:23:05.206Z"
   },
   {
     "facility_id": "10575",
@@ -8016,13 +8016,13 @@
     "prefCd": "43",
     "kikanKbn": "1",
     "kikanCd": "143320289",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=143320289&kikanKbn=1&prefCd=43\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=143320289&kikanKbn=1&prefCd=43\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:11:02.523Z"
+    "normal_deliveries": 1274,
+    "elective_cesarean": 153,
+    "emergency_cesarean": 94,
+    "total_deliveries": 1521,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:23:12.769Z"
   },
   {
     "facility_id": "10576",
@@ -8031,13 +8031,13 @@
     "prefCd": "10",
     "kikanKbn": "1",
     "kikanCd": "1100000106",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1100000106&kikanKbn=1&prefCd=10\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1100000106&kikanKbn=1&prefCd=10\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:11:07.546Z"
+    "normal_deliveries": 106,
+    "elective_cesarean": 36,
+    "emergency_cesarean": 47,
+    "total_deliveries": 189,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:23:22.290Z"
   },
   {
     "facility_id": "10577",
@@ -8046,13 +8046,13 @@
     "prefCd": "28",
     "kikanKbn": "1",
     "kikanCd": "1280003050",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1280003050&kikanKbn=1&prefCd=28\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1280003050&kikanKbn=1&prefCd=28\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:18:31.316Z"
+    "normal_deliveries": 139,
+    "elective_cesarean": 34,
+    "emergency_cesarean": 10,
+    "total_deliveries": 183,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:23:30.927Z"
   },
   {
     "facility_id": "10578",
@@ -8061,13 +8061,13 @@
     "prefCd": "27",
     "kikanKbn": "1",
     "kikanCd": "1270000680",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1270000680&kikanKbn=1&prefCd=27\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1270000680&kikanKbn=1&prefCd=27\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:18:36.359Z"
+    "normal_deliveries": 0,
+    "elective_cesarean": 32,
+    "emergency_cesarean": 20,
+    "total_deliveries": 52,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:23:41.019Z"
   },
   {
     "facility_id": "10579",
@@ -8076,13 +8076,13 @@
     "prefCd": "23",
     "kikanKbn": "1",
     "kikanCd": "1232000010",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1232000010&kikanKbn=1&prefCd=23\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1232000010&kikanKbn=1&prefCd=23\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:18:41.383Z"
+    "normal_deliveries": 121,
+    "elective_cesarean": 21,
+    "emergency_cesarean": 10,
+    "total_deliveries": 152,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:23:52.165Z"
   },
   {
     "facility_id": "10580",
@@ -8091,13 +8091,13 @@
     "prefCd": "03",
     "kikanKbn": "1",
     "kikanCd": "03100053",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=03100053&kikanKbn=1&prefCd=03\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=03100053&kikanKbn=1&prefCd=03\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:18:46.501Z"
+    "normal_deliveries": 389,
+    "elective_cesarean": 166,
+    "emergency_cesarean": 110,
+    "total_deliveries": 665,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:24:00.921Z"
   },
   {
     "facility_id": "10581",
@@ -8106,13 +8106,13 @@
     "prefCd": "28",
     "kikanKbn": "1",
     "kikanCd": "1280000650",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1280000650&kikanKbn=1&prefCd=28\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1280000650&kikanKbn=1&prefCd=28\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:18:51.545Z"
+    "normal_deliveries": 220,
+    "elective_cesarean": 39,
+    "emergency_cesarean": 27,
+    "total_deliveries": 286,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:24:10.559Z"
   },
   {
     "facility_id": "10582",
@@ -8126,8 +8126,8 @@
     "emergency_cesarean": null,
     "total_deliveries": null,
     "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5110001&kikanKbn=1&prefCd=17\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=5110001&kikanKbn=1&prefCd=17\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:18:56.563Z"
+    "error": null,
+    "scraped_at": "2026-03-21T14:24:19.218Z"
   },
   {
     "facility_id": "10583",
@@ -8136,13 +8136,13 @@
     "prefCd": "14",
     "kikanKbn": "1",
     "kikanCd": "1403890000",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1403890000&kikanKbn=1&prefCd=14\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1403890000&kikanKbn=1&prefCd=14\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:19:01.597Z"
+    "normal_deliveries": 0,
+    "elective_cesarean": 16,
+    "emergency_cesarean": 20,
+    "total_deliveries": 36,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:24:29.698Z"
   },
   {
     "facility_id": "10584",
@@ -8151,13 +8151,13 @@
     "prefCd": "27",
     "kikanKbn": "1",
     "kikanCd": "1270002830",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1270002830&kikanKbn=1&prefCd=27\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1270002830&kikanKbn=1&prefCd=27\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:19:06.625Z"
+    "normal_deliveries": 526,
+    "elective_cesarean": 208,
+    "emergency_cesarean": 211,
+    "total_deliveries": 945,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:24:40.339Z"
   },
   {
     "facility_id": "10585",
@@ -8166,13 +8166,13 @@
     "prefCd": "22",
     "kikanKbn": "1",
     "kikanCd": "1226001240",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1226001240&kikanKbn=1&prefCd=22\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1226001240&kikanKbn=1&prefCd=22\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:19:11.646Z"
+    "normal_deliveries": 141,
+    "elective_cesarean": 21,
+    "emergency_cesarean": 25,
+    "total_deliveries": 187,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:24:50.521Z"
   },
   {
     "facility_id": "10586",
@@ -8181,13 +8181,13 @@
     "prefCd": "36",
     "kikanKbn": "1",
     "kikanCd": "1365100970",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1365100970&kikanKbn=1&prefCd=36\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1365100970&kikanKbn=1&prefCd=36\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:19:16.665Z"
+    "normal_deliveries": 0,
+    "elective_cesarean": 68,
+    "emergency_cesarean": 97,
+    "total_deliveries": 165,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:25:03.436Z"
   },
   {
     "facility_id": "10587",
@@ -8196,13 +8196,13 @@
     "prefCd": "01",
     "kikanKbn": "1",
     "kikanCd": "1010002620",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
+    "normal_deliveries": 88,
+    "elective_cesarean": 21,
     "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1010002620&kikanKbn=1&prefCd=01\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1010002620&kikanKbn=1&prefCd=01\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:24:58.348Z"
+    "total_deliveries": 109,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:25:14.504Z"
   },
   {
     "facility_id": "10588",
@@ -8211,13 +8211,13 @@
     "prefCd": "23",
     "kikanKbn": "1",
     "kikanCd": "1232200140",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1232200140&kikanKbn=1&prefCd=23\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1232200140&kikanKbn=1&prefCd=23\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:25:03.741Z"
+    "normal_deliveries": 0,
+    "elective_cesarean": 312,
+    "emergency_cesarean": 51,
+    "total_deliveries": 363,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:25:26.161Z"
   },
   {
     "facility_id": "10589",
@@ -8226,13 +8226,13 @@
     "prefCd": "27",
     "kikanKbn": "1",
     "kikanCd": "1270006880",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1270006880&kikanKbn=1&prefCd=27\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1270006880&kikanKbn=1&prefCd=27\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:25:08.933Z"
+    "normal_deliveries": 0,
+    "elective_cesarean": 38,
+    "emergency_cesarean": 42,
+    "total_deliveries": 80,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:25:34.879Z"
   },
   {
     "facility_id": "10590",
@@ -8241,13 +8241,13 @@
     "prefCd": "34",
     "kikanKbn": "1",
     "kikanCd": "1340006040",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1340006040&kikanKbn=1&prefCd=34\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1340006040&kikanKbn=1&prefCd=34\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:25:13.964Z"
+    "normal_deliveries": 401,
+    "elective_cesarean": 191,
+    "emergency_cesarean": 200,
+    "total_deliveries": 792,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:25:44.707Z"
   },
   {
     "facility_id": "10591",
@@ -8751,13 +8751,13 @@
     "prefCd": "01",
     "kikanKbn": "1",
     "kikanCd": "1010002610",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "tab_not_found",
-    "scraped_at": "2026-03-19T06:32:54.707Z"
+    "normal_deliveries": 241,
+    "elective_cesarean": 89,
+    "emergency_cesarean": 84,
+    "total_deliveries": 414,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:25:54.728Z"
   },
   {
     "facility_id": "10631",
@@ -9831,13 +9831,13 @@
     "prefCd": "14",
     "kikanKbn": "1",
     "kikanCd": "1426526500",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1426526500&kikanKbn=1&prefCd=14\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1426526500&kikanKbn=1&prefCd=14\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:55:19.900Z"
+    "normal_deliveries": 853,
+    "elective_cesarean": 153,
+    "emergency_cesarean": 152,
+    "total_deliveries": 1158,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:26:04.240Z"
   },
   {
     "facility_id": "10712",
@@ -9846,13 +9846,13 @@
     "prefCd": "40",
     "kikanKbn": "1",
     "kikanCd": "1400001500",
-    "normal_deliveries": null,
+    "normal_deliveries": 0,
     "elective_cesarean": null,
     "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1400001500&kikanKbn=1&prefCd=40\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1400001500&kikanKbn=1&prefCd=40\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:55:25.063Z"
+    "total_deliveries": 0,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:26:14.189Z"
   },
   {
     "facility_id": "10713",
@@ -9861,13 +9861,13 @@
     "prefCd": "14",
     "kikanKbn": "1",
     "kikanCd": "1408642500",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1408642500&kikanKbn=1&prefCd=14\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1408642500&kikanKbn=1&prefCd=14\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:55:30.088Z"
+    "normal_deliveries": 208,
+    "elective_cesarean": 46,
+    "emergency_cesarean": 45,
+    "total_deliveries": 299,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:26:23.363Z"
   },
   {
     "facility_id": "10714",
@@ -9876,13 +9876,13 @@
     "prefCd": "26",
     "kikanKbn": "1",
     "kikanCd": "2610000046",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=2610000046&kikanKbn=1&prefCd=26\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=2610000046&kikanKbn=1&prefCd=26\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:55:35.111Z"
+    "normal_deliveries": 21,
+    "elective_cesarean": 234,
+    "emergency_cesarean": 220,
+    "total_deliveries": 475,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:26:33.851Z"
   },
   {
     "facility_id": "10715",
@@ -9891,13 +9891,13 @@
     "prefCd": "01",
     "kikanKbn": "1",
     "kikanCd": "1010000010",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1010000010&kikanKbn=1&prefCd=01\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1010000010&kikanKbn=1&prefCd=01\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:55:40.131Z"
+    "normal_deliveries": 267,
+    "elective_cesarean": 82,
+    "emergency_cesarean": 81,
+    "total_deliveries": 430,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:26:42.913Z"
   },
   {
     "facility_id": "10716",
@@ -9906,13 +9906,13 @@
     "prefCd": "24",
     "kikanKbn": "1",
     "kikanCd": "1240000550",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1240000550&kikanKbn=1&prefCd=24\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1240000550&kikanKbn=1&prefCd=24\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:55:45.155Z"
+    "normal_deliveries": 217,
+    "elective_cesarean": 119,
+    "emergency_cesarean": 134,
+    "total_deliveries": 470,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:26:52.470Z"
   },
   {
     "facility_id": "10717",
@@ -9921,13 +9921,13 @@
     "prefCd": "27",
     "kikanKbn": "1",
     "kikanCd": "1270000040",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1270000040&kikanKbn=1&prefCd=27\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1270000040&kikanKbn=1&prefCd=27\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:55:50.185Z"
+    "normal_deliveries": 70,
+    "elective_cesarean": 86,
+    "emergency_cesarean": 86,
+    "total_deliveries": 242,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:27:02.083Z"
   },
   {
     "facility_id": "10718",
@@ -9936,13 +9936,13 @@
     "prefCd": "14",
     "kikanKbn": "1",
     "kikanCd": "1402310500",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
+    "normal_deliveries": 121,
+    "elective_cesarean": 21,
     "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1402310500&kikanKbn=1&prefCd=14\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1402310500&kikanKbn=1&prefCd=14\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:55:55.234Z"
+    "total_deliveries": 142,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:27:10.426Z"
   },
   {
     "facility_id": "10719",
@@ -9951,13 +9951,13 @@
     "prefCd": "22",
     "kikanKbn": "1",
     "kikanCd": "1227302380",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1227302380&kikanKbn=1&prefCd=22\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1227302380&kikanKbn=1&prefCd=22\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:56:00.282Z"
+    "normal_deliveries": 161,
+    "elective_cesarean": 71,
+    "emergency_cesarean": 48,
+    "total_deliveries": 280,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:27:20.081Z"
   },
   {
     "facility_id": "10721",
@@ -9966,13 +9966,13 @@
     "prefCd": "42",
     "kikanKbn": "1",
     "kikanCd": "htu0004",
-    "normal_deliveries": null,
+    "normal_deliveries": 60,
     "elective_cesarean": null,
     "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=htu0004&kikanKbn=1&prefCd=42\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=htu0004&kikanKbn=1&prefCd=42\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:56:05.311Z"
+    "total_deliveries": 60,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:27:28.398Z"
   },
   {
     "facility_id": "10722",
@@ -9981,13 +9981,13 @@
     "prefCd": "25",
     "kikanKbn": "1",
     "kikanCd": "1250000040",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1250000040&kikanKbn=1&prefCd=25\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1250000040&kikanKbn=1&prefCd=25\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:56:10.352Z"
+    "normal_deliveries": 95,
+    "elective_cesarean": 41,
+    "emergency_cesarean": 21,
+    "total_deliveries": 157,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:27:38.998Z"
   },
   {
     "facility_id": "10723",
@@ -9996,13 +9996,13 @@
     "prefCd": "23",
     "kikanKbn": "1",
     "kikanCd": "1232200170",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1232200170&kikanKbn=1&prefCd=23\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1232200170&kikanKbn=1&prefCd=23\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:56:15.387Z"
+    "normal_deliveries": 107,
+    "elective_cesarean": 64,
+    "emergency_cesarean": 10,
+    "total_deliveries": 181,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:27:47.129Z"
   },
   {
     "facility_id": "10724",
@@ -10016,8 +10016,8 @@
     "emergency_cesarean": null,
     "total_deliveries": null,
     "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1132200160&kikanKbn=1&prefCd=13\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1132200160&kikanKbn=1&prefCd=13\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:56:20.415Z"
+    "error": null,
+    "scraped_at": "2026-03-21T14:27:56.095Z"
   },
   {
     "facility_id": "10725",
@@ -10031,8 +10031,8 @@
     "emergency_cesarean": null,
     "total_deliveries": null,
     "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1131600170&kikanKbn=1&prefCd=13\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1131600170&kikanKbn=1&prefCd=13\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:56:25.448Z"
+    "error": null,
+    "scraped_at": "2026-03-21T14:28:04.858Z"
   },
   {
     "facility_id": "10727",
@@ -10041,13 +10041,13 @@
     "prefCd": "12",
     "kikanKbn": "1",
     "kikanCd": "1203313800",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1203313800&kikanKbn=1&prefCd=12\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1203313800&kikanKbn=1&prefCd=12\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:56:30.482Z"
+    "normal_deliveries": 669,
+    "elective_cesarean": 98,
+    "emergency_cesarean": 55,
+    "total_deliveries": 822,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:28:14.651Z"
   },
   {
     "facility_id": "10728",
@@ -10056,13 +10056,13 @@
     "prefCd": "01",
     "kikanKbn": "1",
     "kikanCd": "1010004800",
-    "normal_deliveries": null,
+    "normal_deliveries": 60,
     "elective_cesarean": null,
     "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1010004800&kikanKbn=1&prefCd=01\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1010004800&kikanKbn=1&prefCd=01\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:56:35.513Z"
+    "total_deliveries": 60,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:28:24.174Z"
   },
   {
     "facility_id": "10729",
@@ -10071,13 +10071,13 @@
     "prefCd": "02",
     "kikanKbn": "1",
     "kikanCd": "0210000118",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=0210000118&kikanKbn=1&prefCd=02\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=0210000118&kikanKbn=1&prefCd=02\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:56:40.534Z"
+    "normal_deliveries": 187,
+    "elective_cesarean": 42,
+    "emergency_cesarean": 12,
+    "total_deliveries": 241,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:28:33.986Z"
   },
   {
     "facility_id": "10730",
@@ -10086,13 +10086,13 @@
     "prefCd": "06",
     "kikanKbn": "1",
     "kikanCd": "106510157",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=106510157&kikanKbn=1&prefCd=06\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=106510157&kikanKbn=1&prefCd=06\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:56:45.559Z"
+    "normal_deliveries": 180,
+    "elective_cesarean": 78,
+    "emergency_cesarean": 76,
+    "total_deliveries": 334,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:28:43.022Z"
   },
   {
     "facility_id": "10731",
@@ -10101,13 +10101,13 @@
     "prefCd": "12",
     "kikanKbn": "1",
     "kikanCd": "1204532200",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1204532200&kikanKbn=1&prefCd=12\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1204532200&kikanKbn=1&prefCd=12\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:56:50.582Z"
+    "normal_deliveries": 174,
+    "elective_cesarean": 29,
+    "emergency_cesarean": 40,
+    "total_deliveries": 243,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:28:52.455Z"
   },
   {
     "facility_id": "10732",
@@ -10121,8 +10121,8 @@
     "emergency_cesarean": null,
     "total_deliveries": null,
     "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=2610000147&kikanKbn=1&prefCd=26\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=2610000147&kikanKbn=1&prefCd=26\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:56:55.610Z"
+    "error": null,
+    "scraped_at": "2026-03-21T14:29:00.916Z"
   },
   {
     "facility_id": "10733",
@@ -10131,13 +10131,13 @@
     "prefCd": "01",
     "kikanKbn": "1",
     "kikanCd": "1010005960",
-    "normal_deliveries": null,
+    "normal_deliveries": 20,
     "elective_cesarean": null,
     "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1010005960&kikanKbn=1&prefCd=01\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1010005960&kikanKbn=1&prefCd=01\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:57:00.651Z"
+    "total_deliveries": 20,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:29:09.850Z"
   },
   {
     "facility_id": "10734",
@@ -10146,13 +10146,13 @@
     "prefCd": "13",
     "kikanKbn": "1",
     "kikanCd": "1131800710",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1131800710&kikanKbn=1&prefCd=13\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1131800710&kikanKbn=1&prefCd=13\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:57:05.678Z"
+    "normal_deliveries": 0,
+    "elective_cesarean": 145,
+    "emergency_cesarean": 107,
+    "total_deliveries": 252,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:29:21.679Z"
   },
   {
     "facility_id": "10735",
@@ -10161,13 +10161,13 @@
     "prefCd": "36",
     "kikanKbn": "1",
     "kikanCd": "1365801280",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1365801280&kikanKbn=1&prefCd=36\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1365801280&kikanKbn=1&prefCd=36\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:57:10.714Z"
+    "normal_deliveries": 148,
+    "elective_cesarean": 34,
+    "emergency_cesarean": 33,
+    "total_deliveries": 215,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:29:29.872Z"
   },
   {
     "facility_id": "10736",
@@ -10176,13 +10176,13 @@
     "prefCd": "32",
     "kikanKbn": "1",
     "kikanCd": "1325701980",
-    "normal_deliveries": null,
-    "elective_cesarean": null,
-    "emergency_cesarean": null,
-    "total_deliveries": null,
-    "has_obstetric_section": false,
-    "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1325701980&kikanKbn=1&prefCd=32\nCall log:\n\u001b[2m  - navigating to \"https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2430/initialize?kikanCd=1325701980&kikanKbn=1&prefCd=32\", waiting until \"networkidle\"\u001b[22m\n",
-    "scraped_at": "2026-03-19T06:57:15.749Z"
+    "normal_deliveries": 220,
+    "elective_cesarean": 68,
+    "emergency_cesarean": 61,
+    "total_deliveries": 349,
+    "has_obstetric_section": true,
+    "error": null,
+    "scraped_at": "2026-03-21T14:29:39.631Z"
   },
   {
     "facility_id": "10738",
@@ -11966,8 +11966,8 @@
     "emergency_cesarean": null,
     "total_deliveries": null,
     "has_obstetric_section": false,
-    "error": "tab_not_found",
-    "scraped_at": "2026-03-19T07:21:25.779Z"
+    "error": null,
+    "scraped_at": "2026-03-21T14:29:45.528Z"
   },
   {
     "facility_id": "10865",
@@ -12281,8 +12281,8 @@
     "emergency_cesarean": null,
     "total_deliveries": null,
     "has_obstetric_section": false,
-    "error": "tab_not_found",
-    "scraped_at": "2026-03-19T07:25:18.624Z"
+    "error": null,
+    "scraped_at": "2026-03-21T14:29:51.678Z"
   },
   {
     "facility_id": "11407",
