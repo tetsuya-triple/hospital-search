@@ -32,7 +32,8 @@
     "navii_emergency_cesarean": 21,
     "navii_total_deliveries": 596,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2340214510&prefCd=34&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/26"
   },
   {
     "id": "10502",
@@ -67,7 +68,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": null,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1133600190&prefCd=13&kikanKbn=1",
-    "navii_data_available": false
+    "navii_data_available": false,
+    "navii_last_updated": "2025/11/7"
   },
   {
     "id": "10173",
@@ -102,7 +104,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": null,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1133000790&prefCd=13&kikanKbn=1",
-    "navii_data_available": false
+    "navii_data_available": false,
+    "navii_last_updated": "2026/3/11"
   },
   {
     "id": "11360",
@@ -137,7 +140,8 @@
     "navii_emergency_cesarean": 132,
     "navii_total_deliveries": 1633,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1100232800&prefCd=11&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/17"
   },
   {
     "id": "12181",
@@ -172,7 +176,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 320,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=235313638&prefCd=35&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/1/14"
   },
   {
     "id": "12216",
@@ -277,7 +282,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": null,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1133100560&prefCd=13&kikanKbn=1",
-    "navii_data_available": false
+    "navii_data_available": false,
+    "navii_last_updated": "2025/12/23"
   },
   {
     "id": "12214",
@@ -837,7 +843,8 @@
     "navii_emergency_cesarean": 16,
     "navii_total_deliveries": 275,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1414815300&prefCd=14&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/2"
   },
   {
     "id": "10002",
@@ -872,7 +879,8 @@
     "navii_emergency_cesarean": 99,
     "navii_total_deliveries": 860,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1137600970&prefCd=13&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/17"
   },
   {
     "id": "10003",
@@ -942,7 +950,8 @@
     "navii_emergency_cesarean": 85,
     "navii_total_deliveries": 1180,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1402301600&prefCd=14&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/2"
   },
   {
     "id": "10006",
@@ -977,7 +986,8 @@
     "navii_emergency_cesarean": 80,
     "navii_total_deliveries": 132,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1340030540&prefCd=34&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/3"
   },
   {
     "id": "10007",
@@ -1012,7 +1022,8 @@
     "navii_emergency_cesarean": 10,
     "navii_total_deliveries": 105,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1330001070&prefCd=33&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/10"
   },
   {
     "id": "10008",
@@ -1047,7 +1058,8 @@
     "navii_emergency_cesarean": 39,
     "navii_total_deliveries": 382,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1404474900&prefCd=14&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/2"
   },
   {
     "id": "10009",
@@ -1082,7 +1094,8 @@
     "navii_emergency_cesarean": 44,
     "navii_total_deliveries": 633,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1340055400&prefCd=34&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/6"
   },
   {
     "id": "10010",
@@ -1117,7 +1130,8 @@
     "navii_emergency_cesarean": 54,
     "navii_total_deliveries": 239,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1340034030&prefCd=34&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/6"
   },
   {
     "id": "10011",
@@ -1152,7 +1166,8 @@
     "navii_emergency_cesarean": 60,
     "navii_total_deliveries": 155,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1206706700&prefCd=12&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/18"
   },
   {
     "id": "10012",
@@ -1187,7 +1202,8 @@
     "navii_emergency_cesarean": 42,
     "navii_total_deliveries": 1084,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1100025200&prefCd=11&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/2"
   },
   {
     "id": "10013",
@@ -1222,7 +1238,8 @@
     "navii_emergency_cesarean": 11,
     "navii_total_deliveries": 98,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1180000370&prefCd=18&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/19"
   },
   {
     "id": "10014",
@@ -1257,7 +1274,8 @@
     "navii_emergency_cesarean": 129,
     "navii_total_deliveries": 1104,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1206701600&prefCd=12&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/18"
   },
   {
     "id": "10015",
@@ -1292,7 +1310,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": null,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=10026&prefCd=46&kikanKbn=1",
-    "navii_data_available": false
+    "navii_data_available": false,
+    "navii_last_updated": "2024/4/1"
   },
   {
     "id": "10016",
@@ -1327,7 +1346,8 @@
     "navii_emergency_cesarean": 166,
     "navii_total_deliveries": 886,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1103880200&prefCd=11&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/2/14"
   },
   {
     "id": "10017",
@@ -1362,7 +1382,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": null,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1240000240&prefCd=24&kikanKbn=1",
-    "navii_data_available": false
+    "navii_data_available": false,
+    "navii_last_updated": "2025/12/1"
   },
   {
     "id": "10018",
@@ -1397,7 +1418,8 @@
     "navii_emergency_cesarean": 79,
     "navii_total_deliveries": 845,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1204938700&prefCd=12&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/10/25"
   },
   {
     "id": "10020",
@@ -1432,7 +1454,8 @@
     "navii_emergency_cesarean": 64,
     "navii_total_deliveries": 1618,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1280000230&prefCd=28&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/13"
   },
   {
     "id": "10021",
@@ -1467,7 +1490,8 @@
     "navii_emergency_cesarean": 82,
     "navii_total_deliveries": 195,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1341000111&prefCd=21&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/4"
   },
   {
     "id": "10022",
@@ -1502,7 +1526,8 @@
     "navii_emergency_cesarean": 164,
     "navii_total_deliveries": 642,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1200586000&prefCd=12&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/18"
   },
   {
     "id": "10023",
@@ -1537,7 +1562,8 @@
     "navii_emergency_cesarean": 148,
     "navii_total_deliveries": 1369,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1139700000&prefCd=13&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/3"
   },
   {
     "id": "10024",
@@ -1572,7 +1598,8 @@
     "navii_emergency_cesarean": 12,
     "navii_total_deliveries": 316,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=3111000161&prefCd=31&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/1/28"
   },
   {
     "id": "10025",
@@ -1607,7 +1634,8 @@
     "navii_emergency_cesarean": 60,
     "navii_total_deliveries": 246,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=hsa0009&prefCd=42&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/2/28"
   },
   {
     "id": "10026",
@@ -1642,7 +1670,8 @@
     "navii_emergency_cesarean": 33,
     "navii_total_deliveries": 276,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=106540127&prefCd=06&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/1"
   },
   {
     "id": "10027",
@@ -1677,7 +1706,8 @@
     "navii_emergency_cesarean": 196,
     "navii_total_deliveries": 1015,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1408288800&prefCd=14&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/3"
   },
   {
     "id": "10028",
@@ -1712,7 +1742,8 @@
     "navii_emergency_cesarean": 33,
     "navii_total_deliveries": 689,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1223303800&prefCd=22&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/1"
   },
   {
     "id": "10029",
@@ -1747,7 +1778,8 @@
     "navii_emergency_cesarean": 79,
     "navii_total_deliveries": 595,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1270005820&prefCd=27&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/4"
   },
   {
     "id": "10030",
@@ -1782,7 +1814,8 @@
     "navii_emergency_cesarean": 1,
     "navii_total_deliveries": 177,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1270006640&prefCd=27&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/5"
   },
   {
     "id": "10031",
@@ -1817,7 +1850,8 @@
     "navii_emergency_cesarean": 18,
     "navii_total_deliveries": 127,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1231200100&prefCd=23&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/11"
   },
   {
     "id": "10032",
@@ -1852,7 +1886,8 @@
     "navii_emergency_cesarean": 21,
     "navii_total_deliveries": 325,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2610000116&prefCd=26&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/4/1"
   },
   {
     "id": "10033",
@@ -12947,7 +12982,8 @@
     "navii_emergency_cesarean": 14,
     "navii_total_deliveries": 156,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1050500140&prefCd=05&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/9"
   },
   {
     "id": "10358",
@@ -12982,7 +13018,8 @@
     "navii_emergency_cesarean": 43,
     "navii_total_deliveries": 398,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1010003840&prefCd=01&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2024/4/1"
   },
   {
     "id": "10359",
@@ -13017,7 +13054,8 @@
     "navii_emergency_cesarean": 67,
     "navii_total_deliveries": 150,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1355700560&prefCd=35&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/2/28"
   },
   {
     "id": "10360",
@@ -13122,7 +13160,8 @@
     "navii_emergency_cesarean": 21,
     "navii_total_deliveries": 255,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1190000005&prefCd=19&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/2/28"
   },
   {
     "id": "10363",
@@ -13157,7 +13196,8 @@
     "navii_emergency_cesarean": 190,
     "navii_total_deliveries": 1126,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1133700250&prefCd=13&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/2/27"
   },
   {
     "id": "10364",
@@ -13192,7 +13232,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": null,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1280000860&prefCd=28&kikanKbn=1",
-    "navii_data_available": false
+    "navii_data_available": false,
+    "navii_last_updated": "2025/1/29"
   },
   {
     "id": "10365",
@@ -13227,7 +13268,8 @@
     "navii_emergency_cesarean": 141,
     "navii_total_deliveries": 869,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=900005&prefCd=04&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/4/7"
   },
   {
     "id": "10366",
@@ -13262,7 +13304,8 @@
     "navii_emergency_cesarean": 48,
     "navii_total_deliveries": 305,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1270006780&prefCd=27&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/6"
   },
   {
     "id": "10367",
@@ -13297,7 +13340,8 @@
     "navii_emergency_cesarean": 47,
     "navii_total_deliveries": 586,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1249000012&prefCd=24&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/11/19"
   },
   {
     "id": "10368",
@@ -13332,7 +13376,8 @@
     "navii_emergency_cesarean": 171,
     "navii_total_deliveries": 1453,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1132000230&prefCd=13&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/6/17"
   },
   {
     "id": "10369",
@@ -13367,7 +13412,8 @@
     "navii_emergency_cesarean": 13,
     "navii_total_deliveries": 187,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=143630012&prefCd=43&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/4/1"
   },
   {
     "id": "10370",
@@ -13402,7 +13448,8 @@
     "navii_emergency_cesarean": 12,
     "navii_total_deliveries": 142,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1400004210&prefCd=40&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/12/24"
   },
   {
     "id": "10371",
@@ -13437,7 +13484,8 @@
     "navii_emergency_cesarean": 102,
     "navii_total_deliveries": 1178,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1270001860&prefCd=27&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/12/4"
   },
   {
     "id": "10372",
@@ -13472,7 +13520,8 @@
     "navii_emergency_cesarean": 36,
     "navii_total_deliveries": 202,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1270006230&prefCd=27&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/6"
   },
   {
     "id": "10373",
@@ -13507,7 +13556,8 @@
     "navii_emergency_cesarean": 14,
     "navii_total_deliveries": 242,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1010005390&prefCd=01&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/19"
   },
   {
     "id": "10374",
@@ -13542,7 +13592,8 @@
     "navii_emergency_cesarean": 35,
     "navii_total_deliveries": 177,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1402003300&prefCd=14&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/3"
   },
   {
     "id": "10375",
@@ -13612,7 +13663,8 @@
     "navii_emergency_cesarean": 23,
     "navii_total_deliveries": 271,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1135202110&prefCd=13&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/2/26"
   },
   {
     "id": "10377",
@@ -13647,7 +13699,8 @@
     "navii_emergency_cesarean": 62,
     "navii_total_deliveries": 233,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1450300100&prefCd=45&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/4/1"
   },
   {
     "id": "10378",
@@ -13682,7 +13735,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": null,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1395101730&prefCd=39&kikanKbn=1",
-    "navii_data_available": false
+    "navii_data_available": false,
+    "navii_last_updated": "2026/2/9"
   },
   {
     "id": "10379",
@@ -13717,7 +13771,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": null,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1132700240&prefCd=13&kikanKbn=1",
-    "navii_data_available": false
+    "navii_data_available": false,
+    "navii_last_updated": "2025/6/26"
   },
   {
     "id": "10380",
@@ -13752,7 +13807,8 @@
     "navii_emergency_cesarean": 75,
     "navii_total_deliveries": 557,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1400009100&prefCd=14&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/3"
   },
   {
     "id": "10381",
@@ -13787,7 +13843,8 @@
     "navii_emergency_cesarean": 18,
     "navii_total_deliveries": 167,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2610000012&prefCd=26&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/10/20"
   },
   {
     "id": "10382",
@@ -13822,7 +13879,8 @@
     "navii_emergency_cesarean": 1,
     "navii_total_deliveries": 133,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1010005990&prefCd=01&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/6"
   },
   {
     "id": "10383",
@@ -13857,7 +13915,8 @@
     "navii_emergency_cesarean": 43,
     "navii_total_deliveries": 238,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1137304890&prefCd=13&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/18"
   },
   {
     "id": "10384",
@@ -13892,7 +13951,8 @@
     "navii_emergency_cesarean": 20,
     "navii_total_deliveries": 93,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1270003100&prefCd=27&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/6"
   },
   {
     "id": "10385",
@@ -13927,7 +13987,8 @@
     "navii_emergency_cesarean": 116,
     "navii_total_deliveries": 512,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1230700110&prefCd=23&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2024/4/1"
   },
   {
     "id": "10386",
@@ -13962,7 +14023,8 @@
     "navii_emergency_cesarean": 1,
     "navii_total_deliveries": 72,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1240000040&prefCd=24&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/19"
   },
   {
     "id": "10387",
@@ -13997,7 +14059,8 @@
     "navii_emergency_cesarean": 59,
     "navii_total_deliveries": 113,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1405511200&prefCd=14&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/6"
   },
   {
     "id": "10388",
@@ -25372,7 +25435,8 @@
     "navii_emergency_cesarean": 48,
     "navii_total_deliveries": 280,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1227302380&prefCd=22&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/12"
   },
   {
     "id": "10720",
@@ -25442,7 +25506,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 60,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=htu0004&prefCd=42&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/10"
   },
   {
     "id": "10722",
@@ -25477,7 +25542,8 @@
     "navii_emergency_cesarean": 21,
     "navii_total_deliveries": 157,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1250000040&prefCd=25&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/4"
   },
   {
     "id": "10723",
@@ -25512,7 +25578,8 @@
     "navii_emergency_cesarean": 10,
     "navii_total_deliveries": 181,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1232200170&prefCd=23&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/17"
   },
   {
     "id": "10724",
@@ -25547,7 +25614,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": null,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1132200160&prefCd=13&kikanKbn=1",
-    "navii_data_available": false
+    "navii_data_available": false,
+    "navii_last_updated": "2025/6/20"
   },
   {
     "id": "10725",
@@ -25582,7 +25650,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": null,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1131600170&prefCd=13&kikanKbn=1",
-    "navii_data_available": false
+    "navii_data_available": false,
+    "navii_last_updated": "2025/8/16"
   },
   {
     "id": "10727",
@@ -25617,7 +25686,8 @@
     "navii_emergency_cesarean": 55,
     "navii_total_deliveries": 822,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1203313800&prefCd=12&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/18"
   },
   {
     "id": "10728",
@@ -25652,7 +25722,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 60,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1010004800&prefCd=01&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/27"
   },
   {
     "id": "10729",
@@ -25687,7 +25758,8 @@
     "navii_emergency_cesarean": 12,
     "navii_total_deliveries": 241,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=0210000118&prefCd=02&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/3"
   },
   {
     "id": "10730",
@@ -25722,7 +25794,8 @@
     "navii_emergency_cesarean": 76,
     "navii_total_deliveries": 334,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=106510157&prefCd=06&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/1"
   },
   {
     "id": "10731",
@@ -25757,7 +25830,8 @@
     "navii_emergency_cesarean": 40,
     "navii_total_deliveries": 243,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1204532200&prefCd=12&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/18"
   },
   {
     "id": "10732",
@@ -25792,7 +25866,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": null,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2610000147&prefCd=26&kikanKbn=1",
-    "navii_data_available": false
+    "navii_data_available": false,
+    "navii_last_updated": "2025/4/1"
   },
   {
     "id": "10733",
@@ -25827,7 +25902,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 20,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1010005960&prefCd=01&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/6"
   },
   {
     "id": "10734",
@@ -25862,7 +25938,8 @@
     "navii_emergency_cesarean": 107,
     "navii_total_deliveries": 252,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1131800710&prefCd=13&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/5/29"
   },
   {
     "id": "10735",
@@ -25897,7 +25974,8 @@
     "navii_emergency_cesarean": 33,
     "navii_total_deliveries": 215,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1365801280&prefCd=36&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/9/3"
   },
   {
     "id": "10736",
@@ -25932,7 +26010,8 @@
     "navii_emergency_cesarean": 61,
     "navii_total_deliveries": 349,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1325701980&prefCd=32&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/5/1"
   },
   {
     "id": "10738",
@@ -25967,7 +26046,8 @@
     "navii_emergency_cesarean": 75,
     "navii_total_deliveries": 228,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1100000022&prefCd=10&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2024/4/1"
   },
   {
     "id": "10739",
@@ -26002,7 +26082,8 @@
     "navii_emergency_cesarean": 15,
     "navii_total_deliveries": 35,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1270006220&prefCd=27&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/1/22"
   },
   {
     "id": "10740",
@@ -26037,7 +26118,8 @@
     "navii_emergency_cesarean": 27,
     "navii_total_deliveries": 458,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1205100180&prefCd=20&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/6/24"
   },
   {
     "id": "10741",
@@ -26072,7 +26154,8 @@
     "navii_emergency_cesarean": 17,
     "navii_total_deliveries": 48,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1365100840&prefCd=36&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/16"
   },
   {
     "id": "10742",
@@ -26107,7 +26190,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": null,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2610000155&prefCd=26&kikanKbn=1",
-    "navii_data_available": false
+    "navii_data_available": false,
+    "navii_last_updated": "2025/9/20"
   },
   {
     "id": "10743",
@@ -26142,7 +26226,8 @@
     "navii_emergency_cesarean": 18,
     "navii_total_deliveries": 156,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1280000010&prefCd=28&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/31"
   },
   {
     "id": "10744",
@@ -26177,7 +26262,8 @@
     "navii_emergency_cesarean": 64,
     "navii_total_deliveries": 212,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1450105220&prefCd=45&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/12"
   },
   {
     "id": "10745",
@@ -26212,7 +26298,8 @@
     "navii_emergency_cesarean": 38,
     "navii_total_deliveries": 515,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1270006560&prefCd=27&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/9/22"
   },
   {
     "id": "10746",
@@ -26247,7 +26334,8 @@
     "navii_emergency_cesarean": 98,
     "navii_total_deliveries": 365,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1132301100&prefCd=13&kikanKbn=1",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/8/4"
   },
   {
     "id": "10747",
@@ -38077,7 +38165,8 @@
     "navii_emergency_cesarean": 26,
     "navii_total_deliveries": 216,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2280036370&prefCd=28&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/6"
   },
   {
     "id": "11102",
@@ -38112,7 +38201,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 11,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2220202970&prefCd=22&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/27"
   },
   {
     "id": "11103",
@@ -38147,7 +38237,8 @@
     "navii_emergency_cesarean": 54,
     "navii_total_deliveries": 459,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=22629&prefCd=46&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/12/4"
   },
   {
     "id": "11104",
@@ -38182,7 +38273,8 @@
     "navii_emergency_cesarean": 11,
     "navii_total_deliveries": 520,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1642001590&prefCd=21&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/1/16"
   },
   {
     "id": "11105",
@@ -38217,7 +38309,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 233,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=coh0035&prefCd=42&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/2/21"
   },
   {
     "id": "11106",
@@ -38252,7 +38345,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": null,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=206520832&prefCd=06&kikanKbn=2",
-    "navii_data_available": false
+    "navii_data_available": false,
+    "navii_last_updated": "2026/3/17"
   },
   {
     "id": "11107",
@@ -38287,7 +38381,8 @@
     "navii_emergency_cesarean": 13,
     "navii_total_deliveries": 37,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2240005500&prefCd=24&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/20"
   },
   {
     "id": "11108",
@@ -38322,7 +38417,8 @@
     "navii_emergency_cesarean": 58,
     "navii_total_deliveries": 643,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1201544000&prefCd=12&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/18"
   },
   {
     "id": "11109",
@@ -38357,7 +38453,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 119,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2400003180&prefCd=40&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/11/11"
   },
   {
     "id": "11110",
@@ -38392,7 +38489,8 @@
     "navii_emergency_cesarean": 49,
     "navii_total_deliveries": 647,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2134200046&prefCd=13&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/7/22"
   },
   {
     "id": "11111",
@@ -38427,7 +38525,8 @@
     "navii_emergency_cesarean": 17,
     "navii_total_deliveries": 37,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=0220000684&prefCd=02&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/3"
   },
   {
     "id": "11112",
@@ -38462,7 +38561,8 @@
     "navii_emergency_cesarean": 13,
     "navii_total_deliveries": 450,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2033500000&prefCd=44&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/1/30"
   },
   {
     "id": "11113",
@@ -38497,7 +38597,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 28,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2270149890&prefCd=27&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/1/26"
   },
   {
     "id": "11114",
@@ -38532,7 +38633,8 @@
     "navii_emergency_cesarean": 22,
     "navii_total_deliveries": 385,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2134818540&prefCd=13&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/2/12"
   },
   {
     "id": "11115",
@@ -38567,7 +38669,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 152,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1104174900&prefCd=11&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/4"
   },
   {
     "id": "11116",
@@ -38602,7 +38705,8 @@
     "navii_emergency_cesarean": 64,
     "navii_total_deliveries": 677,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2270037870&prefCd=27&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/9"
   },
   {
     "id": "11117",
@@ -38637,7 +38741,8 @@
     "navii_emergency_cesarean": 10,
     "navii_total_deliveries": 152,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1204103300&prefCd=12&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/18"
   },
   {
     "id": "11118",
@@ -38742,7 +38847,8 @@
     "navii_emergency_cesarean": 14,
     "navii_total_deliveries": 315,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2220145370&prefCd=22&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/28"
   },
   {
     "id": "11121",
@@ -38777,7 +38883,8 @@
     "navii_emergency_cesarean": 27,
     "navii_total_deliveries": 355,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2137100143&prefCd=13&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/6/18"
   },
   {
     "id": "11122",
@@ -38812,7 +38919,8 @@
     "navii_emergency_cesarean": 16,
     "navii_total_deliveries": 55,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=208511087&prefCd=08&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/18"
   },
   {
     "id": "11123",
@@ -38847,7 +38955,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 283,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2340445750&prefCd=34&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/1/7"
   },
   {
     "id": "11124",
@@ -38882,7 +38991,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 187,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2087600000&prefCd=29&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/2"
   },
   {
     "id": "11125",
@@ -38917,7 +39027,8 @@
     "navii_emergency_cesarean": 13,
     "navii_total_deliveries": 87,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2370504340&prefCd=37&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/12"
   },
   {
     "id": "11126",
@@ -38952,7 +39063,8 @@
     "navii_emergency_cesarean": 36,
     "navii_total_deliveries": 642,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1100180100&prefCd=11&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/9"
   },
   {
     "id": "11127",
@@ -38987,7 +39099,8 @@
     "navii_emergency_cesarean": 22,
     "navii_total_deliveries": 143,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2270083390&prefCd=27&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/2"
   },
   {
     "id": "11128",
@@ -39022,7 +39135,8 @@
     "navii_emergency_cesarean": 0,
     "navii_total_deliveries": 454,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2231301210&prefCd=23&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/6/11"
   },
   {
     "id": "11129",
@@ -39057,7 +39171,8 @@
     "navii_emergency_cesarean": 78,
     "navii_total_deliveries": 128,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2132700045&prefCd=13&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/1/13"
   },
   {
     "id": "11130",
@@ -39092,7 +39207,8 @@
     "navii_emergency_cesarean": 84,
     "navii_total_deliveries": 438,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2400068280&prefCd=40&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/25"
   },
   {
     "id": "11131",
@@ -39127,7 +39243,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 142,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2230900430&prefCd=23&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/2/3"
   },
   {
     "id": "11132",
@@ -39197,7 +39314,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 174,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=coh0132&prefCd=42&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/2/28"
   },
   {
     "id": "11134",
@@ -39232,7 +39350,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 145,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2018700000&prefCd=29&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/16"
   },
   {
     "id": "11135",
@@ -39267,7 +39386,8 @@
     "navii_emergency_cesarean": 11,
     "navii_total_deliveries": 22,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1422720700&prefCd=14&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/16"
   },
   {
     "id": "11136",
@@ -39302,7 +39422,8 @@
     "navii_emergency_cesarean": 24,
     "navii_total_deliveries": 282,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2181006050&prefCd=18&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/2/27"
   },
   {
     "id": "11137",
@@ -39337,7 +39458,8 @@
     "navii_emergency_cesarean": 43,
     "navii_total_deliveries": 509,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2270108930&prefCd=27&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/2/10"
   },
   {
     "id": "11138",
@@ -39372,7 +39494,8 @@
     "navii_emergency_cesarean": 19,
     "navii_total_deliveries": 369,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=802152&prefCd=04&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/14"
   },
   {
     "id": "11139",
@@ -39407,7 +39530,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 276,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2225820210&prefCd=22&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/20"
   },
   {
     "id": "11140",
@@ -39442,7 +39566,8 @@
     "navii_emergency_cesarean": 44,
     "navii_total_deliveries": 787,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2400020390&prefCd=40&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/27"
   },
   {
     "id": "11141",
@@ -39512,7 +39637,8 @@
     "navii_emergency_cesarean": 16,
     "navii_total_deliveries": 577,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2223350830&prefCd=22&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/24"
   },
   {
     "id": "11143",
@@ -39547,7 +39673,8 @@
     "navii_emergency_cesarean": 10,
     "navii_total_deliveries": 277,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2280016190&prefCd=28&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/12"
   },
   {
     "id": "11145",
@@ -39582,7 +39709,8 @@
     "navii_emergency_cesarean": 57,
     "navii_total_deliveries": 551,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=5120063&prefCd=17&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/31"
   },
   {
     "id": "11146",
@@ -39652,7 +39780,8 @@
     "navii_emergency_cesarean": 34,
     "navii_total_deliveries": 295,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2395104930&prefCd=39&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2024/10/25"
   },
   {
     "id": "11148",
@@ -39687,7 +39816,8 @@
     "navii_emergency_cesarean": 12,
     "navii_total_deliveries": 94,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2230902170&prefCd=23&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/1/23"
   },
   {
     "id": "11149",
@@ -39757,7 +39887,8 @@
     "navii_emergency_cesarean": 11,
     "navii_total_deliveries": 107,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2400015490&prefCd=40&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/1/28"
   },
   {
     "id": "11152",
@@ -39792,7 +39923,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 208,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2386508770&prefCd=38&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/6"
   },
   {
     "id": "11153",
@@ -39827,7 +39959,8 @@
     "navii_emergency_cesarean": 34,
     "navii_total_deliveries": 445,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1401322300&prefCd=14&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/5"
   },
   {
     "id": "11154",
@@ -39862,7 +39995,8 @@
     "navii_emergency_cesarean": 16,
     "navii_total_deliveries": 471,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1592001556&prefCd=21&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/1/15"
   },
   {
     "id": "11155",
@@ -39897,7 +40031,8 @@
     "navii_emergency_cesarean": 29,
     "navii_total_deliveries": 164,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1427135400&prefCd=14&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/4/2"
   },
   {
     "id": "11156",
@@ -39932,7 +40067,8 @@
     "navii_emergency_cesarean": 41,
     "navii_total_deliveries": 824,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=243660041&prefCd=43&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2024/4/1"
   },
   {
     "id": "11157",
@@ -39967,7 +40103,8 @@
     "navii_emergency_cesarean": 53,
     "navii_total_deliveries": 404,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2220102230&prefCd=22&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/1"
   },
   {
     "id": "11158",
@@ -40002,7 +40139,8 @@
     "navii_emergency_cesarean": 31,
     "navii_total_deliveries": 357,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=SIJTX00066&prefCd=15&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/2/25"
   },
   {
     "id": "11159",
@@ -40037,7 +40175,8 @@
     "navii_emergency_cesarean": 20,
     "navii_total_deliveries": 61,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=0220000259&prefCd=02&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/16"
   },
   {
     "id": "11161",
@@ -40072,7 +40211,8 @@
     "navii_emergency_cesarean": 30,
     "navii_total_deliveries": 585,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2400003560&prefCd=40&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/17"
   },
   {
     "id": "11163",
@@ -40107,7 +40247,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 194,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2386306240&prefCd=38&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/25"
   },
   {
     "id": "11164",
@@ -51027,7 +51168,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 232,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2270034240&prefCd=27&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/10"
   },
   {
     "id": "11497",
@@ -51062,7 +51204,8 @@
     "navii_emergency_cesarean": 12,
     "navii_total_deliveries": 411,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1342001576&prefCd=21&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/16"
   },
   {
     "id": "11498",
@@ -51097,7 +51240,8 @@
     "navii_emergency_cesarean": 14,
     "navii_total_deliveries": 189,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2450302970&prefCd=45&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/23"
   },
   {
     "id": "11499",
@@ -51132,7 +51276,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 267,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2240001430&prefCd=24&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/11/18"
   },
   {
     "id": "11500",
@@ -51202,7 +51347,8 @@
     "navii_emergency_cesarean": 15,
     "navii_total_deliveries": 321,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2355843350&prefCd=35&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/2/20"
   },
   {
     "id": "11502",
@@ -51237,7 +51383,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 344,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2205625000&prefCd=20&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/6/9"
   },
   {
     "id": "11503",
@@ -51272,7 +51419,8 @@
     "navii_emergency_cesarean": 31,
     "navii_total_deliveries": 229,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=801288&prefCd=04&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/14"
   },
   {
     "id": "11504",
@@ -51307,7 +51455,8 @@
     "navii_emergency_cesarean": 12,
     "navii_total_deliveries": 333,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=705107&prefCd=04&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/10"
   },
   {
     "id": "11505",
@@ -51342,7 +51491,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 364,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2400004300&prefCd=40&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/18"
   },
   {
     "id": "11506",
@@ -51377,7 +51527,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": null,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2242240025&prefCd=24&kikanKbn=2",
-    "navii_data_available": false
+    "navii_data_available": false,
+    "navii_last_updated": "2026/2/5"
   },
   {
     "id": "11507",
@@ -51412,7 +51563,8 @@
     "navii_emergency_cesarean": 27,
     "navii_total_deliveries": 311,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2270012170&prefCd=27&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/9"
   },
   {
     "id": "11508",
@@ -51447,7 +51599,8 @@
     "navii_emergency_cesarean": 34,
     "navii_total_deliveries": 409,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2137112529&prefCd=13&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/1/15"
   },
   {
     "id": "11509",
@@ -51482,7 +51635,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 513,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2136800011&prefCd=13&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/1/24"
   },
   {
     "id": "11510",
@@ -51517,7 +51671,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 48,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=20165&prefCd=46&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/19"
   },
   {
     "id": "11511",
@@ -51552,7 +51707,8 @@
     "navii_emergency_cesarean": 19,
     "navii_total_deliveries": 241,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2230502460&prefCd=23&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2024/4/1"
   },
   {
     "id": "11512",
@@ -51587,7 +51743,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 182,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2232308870&prefCd=23&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/2/27"
   },
   {
     "id": "11513",
@@ -51622,7 +51779,8 @@
     "navii_emergency_cesarean": 29,
     "navii_total_deliveries": 732,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1224180600&prefCd=12&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/6"
   },
   {
     "id": "11514",
@@ -51657,7 +51815,8 @@
     "navii_emergency_cesarean": 30,
     "navii_total_deliveries": 222,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2225710210&prefCd=22&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/17"
   },
   {
     "id": "11515",
@@ -51692,7 +51851,8 @@
     "navii_emergency_cesarean": 34,
     "navii_total_deliveries": 632,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2230200510&prefCd=23&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/24"
   },
   {
     "id": "11516",
@@ -51727,7 +51887,8 @@
     "navii_emergency_cesarean": 14,
     "navii_total_deliveries": 211,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1203739700&prefCd=12&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/29"
   },
   {
     "id": "11517",
@@ -51762,7 +51923,8 @@
     "navii_emergency_cesarean": 36,
     "navii_total_deliveries": 741,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1652006911&prefCd=21&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/1/20"
   },
   {
     "id": "11518",
@@ -51797,7 +51959,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 97,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2206603890&prefCd=20&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/2/21"
   },
   {
     "id": "11519",
@@ -51832,7 +51995,8 @@
     "navii_emergency_cesarean": 35,
     "navii_total_deliveries": 479,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2232802200&prefCd=23&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/27"
   },
   {
     "id": "11520",
@@ -51867,7 +52031,8 @@
     "navii_emergency_cesarean": 45,
     "navii_total_deliveries": 383,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1662007491&prefCd=21&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/1/20"
   },
   {
     "id": "11521",
@@ -51902,7 +52067,8 @@
     "navii_emergency_cesarean": 64,
     "navii_total_deliveries": 681,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2232504880&prefCd=23&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/17"
   },
   {
     "id": "11522",
@@ -51937,7 +52103,8 @@
     "navii_emergency_cesarean": 33,
     "navii_total_deliveries": 67,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2415505480&prefCd=41&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/10/31"
   },
   {
     "id": "11523",
@@ -51972,7 +52139,8 @@
     "navii_emergency_cesarean": 13,
     "navii_total_deliveries": 383,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2400016250&prefCd=40&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/7/29"
   },
   {
     "id": "11524",
@@ -52007,7 +52175,8 @@
     "navii_emergency_cesarean": 59,
     "navii_total_deliveries": 645,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2232406460&prefCd=23&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/1/5"
   },
   {
     "id": "11525",
@@ -52042,7 +52211,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 302,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1017800000&prefCd=44&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2024/4/1"
   },
   {
     "id": "11526",
@@ -52077,7 +52247,8 @@
     "navii_emergency_cesarean": 76,
     "navii_total_deliveries": 430,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2232602940&prefCd=23&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/18"
   },
   {
     "id": "11527",
@@ -52112,7 +52283,8 @@
     "navii_emergency_cesarean": 38,
     "navii_total_deliveries": 810,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2232306570&prefCd=23&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/12/24"
   },
   {
     "id": "11528",
@@ -52147,7 +52319,8 @@
     "navii_emergency_cesarean": 39,
     "navii_total_deliveries": 583,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2232702970&prefCd=23&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/5/29"
   },
   {
     "id": "11529",
@@ -52182,7 +52355,8 @@
     "navii_emergency_cesarean": 15,
     "navii_total_deliveries": 243,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2232000720&prefCd=23&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/4/1"
   },
   {
     "id": "11530",
@@ -52217,7 +52391,8 @@
     "navii_emergency_cesarean": 21,
     "navii_total_deliveries": 305,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1102095400&prefCd=11&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/10"
   },
   {
     "id": "11531",
@@ -52252,7 +52427,8 @@
     "navii_emergency_cesarean": 16,
     "navii_total_deliveries": 362,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2231402330&prefCd=23&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/1/5"
   },
   {
     "id": "11532",
@@ -52287,7 +52463,8 @@
     "navii_emergency_cesarean": 69,
     "navii_total_deliveries": 1289,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2400008250&prefCd=40&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/12/3"
   },
   {
     "id": "11533",
@@ -52322,7 +52499,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 189,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2100001364&prefCd=10&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/3"
   },
   {
     "id": "11534",
@@ -52357,7 +52535,8 @@
     "navii_emergency_cesarean": 34,
     "navii_total_deliveries": 333,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1632000298&prefCd=21&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/1/20"
   },
   {
     "id": "11535",
@@ -52392,7 +52571,8 @@
     "navii_emergency_cesarean": 53,
     "navii_total_deliveries": 481,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2231902820&prefCd=23&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/4/1"
   },
   {
     "id": "11536",
@@ -52427,7 +52607,8 @@
     "navii_emergency_cesarean": null,
     "navii_total_deliveries": 171,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2227302420&prefCd=22&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/26"
   },
   {
     "id": "11537",
@@ -52462,7 +52643,8 @@
     "navii_emergency_cesarean": 48,
     "navii_total_deliveries": 323,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2230101070&prefCd=23&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/4/1"
   },
   {
     "id": "11538",
@@ -52497,7 +52679,8 @@
     "navii_emergency_cesarean": 22,
     "navii_total_deliveries": 843,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1205562000&prefCd=12&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2024/4/1"
   },
   {
     "id": "11539",
@@ -52532,7 +52715,8 @@
     "navii_emergency_cesarean": 18,
     "navii_total_deliveries": 497,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2270082400&prefCd=27&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/2/3"
   },
   {
     "id": "11540",
@@ -52567,7 +52751,8 @@
     "navii_emergency_cesarean": 32,
     "navii_total_deliveries": 268,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2232405650&prefCd=23&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/4/1"
   },
   {
     "id": "11541",
@@ -52602,7 +52787,8 @@
     "navii_emergency_cesarean": 52,
     "navii_total_deliveries": 989,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2270122430&prefCd=27&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/19"
   },
   {
     "id": "11542",
@@ -52637,7 +52823,8 @@
     "navii_emergency_cesarean": 53,
     "navii_total_deliveries": 460,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1202763400&prefCd=12&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/3/18"
   },
   {
     "id": "11543",
@@ -52672,7 +52859,8 @@
     "navii_emergency_cesarean": 11,
     "navii_total_deliveries": 269,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2400039700&prefCd=40&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/1/25"
   },
   {
     "id": "11544",
@@ -52707,7 +52895,8 @@
     "navii_emergency_cesarean": 52,
     "navii_total_deliveries": 594,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2400009570&prefCd=40&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2026/1/25"
   },
   {
     "id": "11545",
@@ -52742,7 +52931,8 @@
     "navii_emergency_cesarean": 10,
     "navii_total_deliveries": 462,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2270009470&prefCd=27&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/3/6"
   },
   {
     "id": "11546",
@@ -52777,7 +52967,8 @@
     "navii_emergency_cesarean": 77,
     "navii_total_deliveries": 719,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=2620000217&prefCd=26&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/9/20"
   },
   {
     "id": "11547",
@@ -52812,7 +53003,8 @@
     "navii_emergency_cesarean": 41,
     "navii_total_deliveries": 718,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=1228460200&prefCd=12&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/11/18"
   },
   {
     "id": "11548",
@@ -52847,7 +53039,8 @@
     "navii_emergency_cesarean": 40,
     "navii_total_deliveries": 307,
     "navii_url": "https://www.iryou.teikyouseido.mhlw.go.jp/znk-web/juminkanja/S2300/initialize?kikanCd=5120055&prefCd=17&kikanKbn=2",
-    "navii_data_available": true
+    "navii_data_available": true,
+    "navii_last_updated": "2025/2/17"
   },
   {
     "id": "11549",

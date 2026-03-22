@@ -290,6 +290,7 @@ app.get('/api/facilities', (req, res) => {
     navii_total_deliveries: f.navii_total_deliveries,
     navii_url: f.navii_url,
     navii_data_available: f.navii_data_available,
+    navii_last_updated: f.navii_last_updated,
   })));
 });
 

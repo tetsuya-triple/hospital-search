@@ -245,17 +245,17 @@
       }
       /* 右グループ（件数・表示件数・ページャ）を折り返して幅フル */
       .ctrl-group[style] { margin-left: 0 !important; width: 100%; flex-wrap: wrap; gap: 8px; }
-      /* スマホ時に非表示にする列：小児科医師数(13)・助産師数(14)・経腟分娩(15)・帝王切開(16)・ナビイ3列(17,18,19)・分娩費用平均(22)・分娩費用中央値(23)・助産師外来(26) */
-      th:nth-child(13), td:nth-child(13),
+      /* スマホ時に非表示にする列：小児科医師数(14)・助産師数(15)・経腟分娩(16)・帝王切開(17)・ナビイ3列(18,19,20)・分娩費用平均(23)・分娩費用中央値(24)・助産師外来(27) */
       th:nth-child(14), td:nth-child(14),
       th:nth-child(15), td:nth-child(15),
       th:nth-child(16), td:nth-child(16),
       th:nth-child(17), td:nth-child(17),
       th:nth-child(18), td:nth-child(18),
       th:nth-child(19), td:nth-child(19),
-      th:nth-child(22), td:nth-child(22),
+      th:nth-child(20), td:nth-child(20),
       th:nth-child(23), td:nth-child(23),
-      th:nth-child(26), td:nth-child(26) { display: none; }
+      th:nth-child(24), td:nth-child(24),
+      th:nth-child(27), td:nth-child(27) { display: none; }
     }
   </style>
 </head>
@@ -336,6 +336,7 @@
           <th onclick="sortBy('address')">住所</th>
           <th onclick="sortBy('_total_deliveries_birth')">年間分娩数合計<br><small>（出産なび）</small></th>
           <th onclick="sortBy('navii_total_deliveries')">年間分娩数合計<br><small>（ナビイ）</small></th>
+          <th onclick="sortBy('navii_last_updated')">ナビイ<br><small>更新日</small></th>
           <th class="no-sort">マップ</th>
           <th class="no-sort">公式サイト</th>
           <th onclick="sortBy('phone')">電話番号</th>
@@ -587,7 +588,7 @@
         return String(av).localeCompare(String(bv), 'ja') * sortDir;
       });
       // ヘッダーアイコン更新
-      const COLS = ['_babystory','name','facility_type','address','_total_deliveries_birth','navii_total_deliveries',
+      const COLS = ['_babystory','name','facility_type','address','_total_deliveries_birth','navii_total_deliveries','navii_last_updated',
         null,null,'phone',
         'maternity_beds','nicu_beds','obstetricians','pediatricians','midwives',
         'vaginal_deliveries','cesarean_deliveries',
@@ -615,6 +616,7 @@
           <td title="${esc(f.address)}">${esc(f.address||'—')}</td>
           <td style="text-align:right">${f._total_display_birth}</td>
           <td style="text-align:right">${naviiVal(f.navii_total_deliveries, f)}</td>
+          <td style="text-align:center">${f.navii_last_updated ? esc(f.navii_last_updated) : '—'}</td>
           <td style="text-align:center">${f.google_maps_url ? `<a class="link-icon" href="${esc(f.google_maps_url)}" target="_blank" title="Googleマップ">🗺️</a>` : '—'}</td>
           <td style="text-align:center">${f.website ? `<a class="link-icon" href="${esc(f.website)}" target="_blank" title="公式サイト">🌐</a>` : '—'}</td>
           <td>${f.phone ? esc(f.phone) : '—'}</td>
